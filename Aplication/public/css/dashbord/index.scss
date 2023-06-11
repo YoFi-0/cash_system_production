@@ -1,0 +1,22 @@
+@import "./logs";
+@import "./server_config";
+@import "./input_holder";
+@import "./filtter_pupp";
+@import "./no_server";
+
+.logs {
+    @extend %logs;
+}
+.no_bot{
+    @extend %no_bot;
+}
+
+.server_config{
+    @extend %server_config;
+}
+.input_holder{
+    @extend %input_holder;
+}
+.filtter_pupp{
+    @extend %filtter_pupp;
+}

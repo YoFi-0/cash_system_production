@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>donation</title>
+  <link rel="stylesheet" href="/css/donstion.css">
+  <link rel="stylesheet" href="/css/all.css">
+  <link rel="stylesheet" href="/css/all.min.css">
+</head>
+
+<body>
+
+
+
+
+
+  <!-- Replace "test" with your own sandbox Business account app client ID -->
+  <script
+    src="https://www.paypal.com/sdk/js?client-id=<%=client_id%>&currency=USD&merchant-id=<%=our_email%>,<%=store_email%>"></script>
+
+
+
+
+    <!-- /images/ -->
+  <!-- Set up a container element for the button -->
+  
+  <div class="paypal">
+
+    <div class="contint">
+      <img src=<%=avatar_url%>>
+      <h1><%=target_name%></h1>
+      <input id="donationValue" type="number" placeholder="amount">
+      <div class="values">
+        <button>5$</button>
+        <button>10$</button>
+        <button>20$</button>
+        <button>50$</button>
+        <button>100$</button>
+        <button>200$</button>
+      </div>
+      <div class="paypalButton">
+        <div id="paypal-button-container"></div>
+      </div>
+    </div>
+  </div>
+  <!-- Replace "test" with your own sandbox Business account app client ID -->
+
+
+
+
+
+
+
+
+
+
+  <script>
+
+    const amount = document.querySelector("#donationValue")
+    const buttns = document.querySelectorAll(".values button")
+    buttns.forEach(elm => {
+      elm.onclick = () => {
+        amount.value = elm.textContent.replace("$", "")
+      }
+    })
+    paypal.Buttons({
+      // Order is created on the server and the order id is returned
+      createOrder() {
+        return fetch("/don/create_oreder/<%=don_type%>", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          // use the "body" param to optionally pass additional order information
+          // like product skus and quantities
+          body: JSON.stringify({
+            amount: amount.value || 1
+          }),
+        })
+          .then(async (response) => {
+            return response.json()
+          })
+          .then((order) => {
+            if(order.err){
+                window.location = "/don/api_err"
+                return
+            }
+            
+            return order.id
+          });
+      },
+      // Finalize the transaction on the server after payer approval
+      onApprove(data) {
+        return fetch("/don/check_out?path=<%=don_type%>&avatar_url=<%=avatar_url%>&target_name=<%=target_name%>", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            orderID: data.orderID
+          })
+        })
+          .then((response) => response.json())
+          .then(async (orderData) => {
+            if(orderData.err){
+                window.location = "/don/api_err"
+                return
+            }
+            document.querySelector(".paypal").style.display = "none"
+            window.location = "/don/done?id=<%=redirect%>"
+          });
+      }
+    }).render('#paypal-button-container');
+  </script>
+</body>
+
+</html>

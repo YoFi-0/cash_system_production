@@ -1,0 +1,19 @@
+%filtter_pupp{
+    transition: 0.3s;
+    position: fixed;
+    opacity: 0;
+    display: none;
+    left:0;
+    top: 0;
+    z-index: 8;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #00000072;
+    .mid{
+        width: max(28vw, 28rem);
+        height: 50vh;
+    }
+}

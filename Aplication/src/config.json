@@ -1,0 +1,15 @@
+[
+    {
+        "index":1,
+        "isrRequire":true,
+        "inputType":"select",
+        "content":"Arabic",
+        "options":[
+            "English",
+            "Arabic"
+        ],
+        "inputTitle":"Bot Language",
+        "from":0,
+        "default":""
+    }
+]

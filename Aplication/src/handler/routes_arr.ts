@@ -1,0 +1,69 @@
+import { error_path } from "../routes/pages/error_page"
+
+export type RoutesType = {
+    path:string
+    routeName:string
+    type: "Page" | "Api"
+}
+export const allRoutes:RoutesType[] =  [
+    {
+        path:"index",
+        routeName:"/",
+        type:"Page",
+    },
+    {
+        path:"v1/dashbord/all_dashbords",
+        routeName:"/v1/dashbord/all",
+        type:"Api",
+    },
+    {
+        path:"v1/dashbord/search_dashbord",
+        routeName:"/v1/dashbord/search",
+        type:"Api",
+    },
+    {
+        path:"v1/dashbord/server_dashbord",
+        routeName:"/v1/dashbord/server",
+        type:"Api",
+    },
+    {
+        path:"v1/dashbord/user_dashbord",
+        routeName:"/v1/dashbord/user",
+        type:"Api",
+    },
+    {
+        path:"discord_OAuth2",
+        routeName:"/discord",
+        type:"Page"
+    },
+    {
+        path:"customers/paypal",
+        routeName:"/invoice",
+        type:"Page"
+    },
+    {
+        path:"dashbord/server_dashbord",
+        routeName:"/dashbord/server",
+        type:"Page"
+    },
+    {
+        path:"dashbord/search_dashbord",
+        routeName:"/dashbord/search",
+        type:"Page"
+    },
+    {
+        path:"dashbord/user_dashbord",
+        routeName:"/dashbord/user",
+        type:"Page"
+    },
+    {
+        path:"donations",
+        routeName:"/don",
+        type:"Page"
+    },
+    {
+        path:"error_page",
+        routeName:error_path,
+        type:"Page"
+    },
+]

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Done !</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+        padding: clamp(2vw, 10vw, .3em);
+        overflow: hidden;
+        background: #E9E9ED;
+
+    }
+
+    .successfully {
+        position: absolute;
+        background: linear-gradient(105.41deg, rgb(255, 255, 255) 7.83%, rgba(205, 220, 246, 0.77) 93.81%);
+        border-radius: clamp(1vw, 50vw, .4em);
+        padding: clamp(1vw, 10vw, .3em);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    canvas {
+        top: 0;
+        width: 120%;
+        height: 150vh;
+    }
+
+    @media (max-width:100px) {
+        canvas {
+            display: none;
+            width: 0;
+        }
+    }
+
+    img {
+        height: clamp(8vw, 10vw, 2.5em);
+        width: clamp(8vw, 10vw, 2.5em);
+        border-radius: clamp(50vw, 10vw, 50em);
+        position: absolute;
+        top: 3%;
+        left: 3%;
+        background: linear-gradient(-120deg, rgb(255, 255, 255) 7.83%, rgba(0, 0, 0, 0.466) 93.81%);
+        padding: clamp(.3vw, 5vw, .2em);
+    }
+
+    h1 {
+        font-size: clamp(2vw, 6vw, .5em);
+        padding: clamp(2vw, 10vw, .5em);
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    p {
+        font-size: clamp(1vw, 6vw, .5em);
+    }
+
+    span {
+        color: #d173ff;
+    }
+    .home{
+        text-decoration: none;
+        background: #d173ff;
+        color: #FFF;
+        padding: 10px 20px;
+        margin-top: 50px;
+        border-radius: 30px;
+        transition: 0.3s;
+    }
+    .home:hover{
+        background: #09f567;
+    }
+</style>
+
+<body>
+    <img src="/images/logo.svg" alt="">
+
+    <div class="successfully">
+        <h1>Sorry</h1>
+        <p>user <span class="server_name">
+                <%=username%>
+            </span> has been banned</p>
+            <a class="home" href="/dashbord/user">Dashbord</a>
+    </div>
+</body>
+
+</html>

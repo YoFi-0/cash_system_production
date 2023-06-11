@@ -1,0 +1,6 @@
+logs/*
+ram/*
+backup.zip
+Aplication/public/node_modules
+migration/node_modules
+Aplication/node_modules
