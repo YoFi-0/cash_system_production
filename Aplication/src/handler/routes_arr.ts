@@ -12,6 +12,11 @@ export const allRoutes:RoutesType[] =  [
         type:"Page",
     },
     {
+        path:"policy",
+        routeName:"/papers",
+        type:"Page",
+    },
+    {
         path:"v1/dashbord/all_dashbords",
         routeName:"/v1/dashbord/all",
         type:"Api",
