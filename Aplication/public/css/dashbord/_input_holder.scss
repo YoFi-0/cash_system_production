@@ -1,27 +1,38 @@
-%input_holder{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+%input_holder {
     width: 100%;
     height: 100%;
-    background: #242424;
+    // Background updated to Master Pattern
+    background-color: rgb(242, 246, 255);
     padding: max(0.5vw, 0.3rem);
     position: relative;
     transition: 0.3s;
-    .error_msg{
+    font-family: 'Poppins', sans-serif; // Font applied
+
+    .error_msg {
         transition: 0.3s;
         position: absolute;
-        background: #0000008e;
-        backdrop-filter: blure(10px);
+        // Updated to a glassmorphism overlay style
+        background: rgba(255, 255, 255, 0.65);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
         left: 50%;
         top: 50%;
         translate: -50% -50%;
-        border-radius: max(0.5vw, 0.5rem);
-        padding: max(1vw, 1rem);
+        border-radius: 31px; // Pattern radius
+        padding: max(2rem, 2vw);
         display: flex;
         flex-direction: column;
-        .loadong{
+        box-shadow: 0px 20px 40px #CEDBEF; // Added shadow
+        z-index: 10;
+
+        .loadong {
             width: max(10vw, 10rem);
             height: max(10vw, 10rem);
             border-style: dashed none dashed none;
-            border-color: #FFF;
+            // Spinner color changed to Theme Purple to be visible
+            border-color: #7243C6; 
             border-width: max(0.1vw, 0.1rem);
             border-radius: max(5vw, 5rem);
             display: flex;
@@ -29,7 +40,8 @@
             position: relative;
             align-items: center;
             animation: loding infinite 2s linear;
-            &::before{
+
+            &::before {
                 content: "";
                 display: block;
                 position: absolute;
@@ -38,13 +50,14 @@
                 width: 40%;
                 height: 80%;
                 border-style: dashed none dashed none;
-                border-color: #FFF;
+                border-color: #9B11AD; // Secondary Theme Color
                 border-width: max(0.2vw, 0.2rem);
                 border-radius: max(5vw, 5rem);
                 translate: -50% -50%;
-                animation: lodingTow infinite 1s linear; 
+                animation: lodingTow infinite 1s linear;
             }
-            &::after{
+
+            &::after {
                 content: "";
                 display: block;
                 position: absolute;
@@ -53,31 +66,47 @@
                 width: 40%;
                 height: 0%;
                 border-style: dashed dashed dashed dashed;
-                border-color: #FFF;
+                border-color: #7243C6;
                 border-width: max(0.1vw, 0.1rem);
                 border-radius: 50%;
                 translate: -50% -50%;
                 animation: loding infinite 2s linear;
             }
         }
-        h1{
-            color: #FFF;
+
+        h1 {
+            // Master Style Gradient Text
+            background: linear-gradient(89.99deg, #7243C6 59.61%, #9B11AD 94.57%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
             margin-bottom: max(1.5vw, 1.5rem);
+            text-align: center;
         }
-        button{
-            background: #22CAB4;
-            color: #FFF;
+
+        button {
+            // Master Style Button
+            color: #000;
             font-size: max(1vw, 1rem);
             padding: max(0.5vw, 0.5rem) max(1vw, 1rem);
             outline: none;
             border: none;
             cursor: pointer;
-            border-radius: max(0.5vw, 0.5rem);
+            background: linear-gradient(97.39deg, #FFF 7.18%, #CDDCF6 92.15%);
+            box-shadow: 0px 20px 40px #CEDBEF, inset 3px 3px 10px rgba(255, 255, 255, 0.72);
+            border-radius: max(1vw, 1em);
+            transition: .3s;
+            
+            &:hover {
+                outline: #ffffff solid max(0.1vw, 0.1rem);
+            }
         }
     }
-    .linyer{
+
+    .linyer {
         padding: max(1vw, 0.8rem) max(3vw, 2rem);
-        background: linear-gradient(0, #46598B, #00000000);
+        // Master Style Container Gradient
+        background: linear-gradient(105.41deg, rgba(255, 255, 255, 0.36) 7.83%, rgba(205, 220, 246, 0.36) 93.81%);
         display: flex;
         position: relative;
         height: 100%;
@@ -87,122 +116,173 @@
         overflow-y: scroll;
         overflow-x: hidden;
         padding-top: max(4vw, 4rem);
-        .from_to_input{
+        border-radius: 31px; // Added to match container style
+
+        .from_to_input {
             display: flex;
             justify-content: space-around;
-            .one_of_tow{
+            width: 100%; // Ensure width consistency
+
+            .one_of_tow {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                label{
+
+                label {
                     padding: 0;
+                    color: #000; // Text is black now
                 }
-                input[type=date]{
+
+                input[type=date] {
                     font-size: max(1vw, 1rem);
                     padding: max(0.3vw, 0.3rem) max(0.7vw, 0.7rem);
                 }
             }
         }
-        input, textarea, select, button{
+
+        // General Input Styles from Pattern
+        input, textarea, select {
             outline: none;
             border: none;
             font-size: max(0.9vw, 0.8rem);
-            background: #242424;
-            color: #FFF;
-            border: solid max(0.12vw, 0.12rem) #FFF;
+            background: white; // Pattern Input BG
+            color: rgb(2, 2, 2); // Pattern Input Text
+            border-radius: max(0.5vw, 0.5em);
+            padding: max(0.5vw, 0.5em) max(1vw, 1em);
+            margin-bottom: max(1vw, 1em);
             resize: none;
+            transition: 0.3s;
+
+            &::placeholder {
+                font-weight: 500;
+                color: rgb(0, 0, 0);
+            }
+            
+            &:focus {
+                 padding: max(0.5vw, 0.5em) max(1vw, 1em); // Keep consistency
+            }
         }
-        h1{
-            color: #FFF;
+        
+        // Buttons inside the form
+        button, input[type=submit] {
+            cursor: pointer;
+            color: #000;
+            font-size: max(1vw, 1rem);
+            padding: max(0.5vw, 0.5rem) max(1vw, 1rem);
+            border: none;
+            // Master Style Button
+            background: linear-gradient(97.39deg, #FFF 7.18%, #CDDCF6 92.15%);
+            box-shadow: 0px 20px 40px #CEDBEF, inset 3px 3px 10px rgba(255, 255, 255, 0.72);
+            border-radius: max(1vw, 1em);
+            transition: .3s;
+             &:hover {
+                outline: #ffffff solid max(0.1vw, 0.1rem);
+            }
+        }
+
+        h1 {
+            // Master Style Gradient Text
+            font-weight: 700;
+            background: linear-gradient(89.99deg, #7243C6 59.61%, #9B11AD 94.57%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            
             font-size: max(1.5vw, 1.5rem);
             position: absolute;
             padding: max(0.5vw, 0.5rem) max(1.5vw, 1.5rem);
             top: 0;
             left: 0;
         }
-        input[type=submit], button{
-            background: #22CAB4;
-            cursor: pointer;
-            color: #FFF;
-            font-size: max(1vw, 1rem);
-            padding:  max(0.5vw, 0.5rem) max(1vw, 1rem);
-            border: none;
-            border-radius: max(0.5vw, 0.5rem);
-        }
-        
-        
-        .input_lable, .multy_input{
+
+        .input_lable, .multy_input {
             width: 100%;
             display: flex;
             flex-direction: column;
-            margin-bottom: max(1vw,1rem);
-            
+            margin-bottom: max(1vw, 1rem);
+
             label {
-                color: #FFF;
+                color: #000; // Label color to black
                 font-size: max(1vw, 1rem);
                 display: block;
                 margin-bottom: max(0.5vw, 0.5rem);
                 padding-left: max(0.8vw, 0.8rem);
                 text-transform: capitalize;
+                font-weight: 500;
             }
 
-            select{
+            select {
                 width: fit-content;
-                padding: max(0.3vw, 0.3rem);
+                padding: max(0.3vw, 0.3rem) max(1vw, 1rem);
             }
-            input[type=text], input[type=number], textarea, input[type=email], input[type=file]{
-                padding: max(0.3vw, 0.3rem) 0;
+
+            input[type=text], input[type=number], textarea, input[type=email], input[type=file] {
                 width: 100%;
-                padding-left: max(0.5vw, 0.5rem);
+                // Padding is handled by general input rule above
                 border-radius: max(0.5vw, 0.5rem);
             }
+
             textarea {
                 height: max(10vw, 10rem);
             }
+
             .image_input {
                 display: flex;
                 padding-left: max(1vw, 1rem);
                 justify-content: space-between;
                 width: 100%;
                 align-items: center;
-                .label_image{
+
+                .label_image {
                     cursor: pointer;
                     font-size: max(1vw, 1rem);
-                    background: #22CAB4;
-                    padding:  max(0.5vw, 0.5rem) max(1vw, 1rem);
+                    // Button Style applied to label acting as button
+                    color: #000;
+                    padding: max(0.5vw, 0.5rem) max(1vw, 1rem);
+                    background: linear-gradient(97.39deg, #FFF 7.18%, #CDDCF6 92.15%);
+                    box-shadow: 0px 20px 40px #CEDBEF, inset 3px 3px 10px rgba(255, 255, 255, 0.72);
+                    border-radius: max(1vw, 1em);
                 }
-                img{
+
+                img {
                     display: block;
                     width: max(5vw, 5rem);
                     height: max(5vw, 5rem);
-                    border: solid max(0.15vw, 0.15rem) #FFF;
+                    border: solid max(0.15vw, 0.15rem) #000; // Black border to frame image
                     border-radius: max(0.5vw, 0.5rem);
+                    background: linear-gradient(169deg, #8b5dce, #656565); // Placeholder bg
+                    padding: 2px;
                 }
             }
         }
     }
-    .multy_input{
+
+    .multy_input {
         align-items: start;
         gap: max(0.5vw, 0.5rem);
-        .buttons{
+
+        .buttons {
             display: flex;
-            gap: max(1vw,1rem);
+            gap: max(1vw, 1rem);
         }
     }
-
 }
 
+// Keyframes kept the same
 @keyframes loding {
-    from{
+    from {
         rotate: 0;
-    } to {
+    }
+    to {
         rotate: 360deg;
     }
 }
+
 @keyframes lodingTow {
-    from{
+    from {
         rotate: 360deg;
-    } to {
+    }
+    to {
         rotate: 0;
     }
 }

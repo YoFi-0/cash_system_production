@@ -1,15 +1,21 @@
-.search_page{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.search_page {
     display: flex;
     flex-direction: column;
     align-items: center;
-    .servers{
+    font-family: 'Poppins', sans-serif; // Pattern Font
+
+    .servers {
         @extend %servers;
     }
-    .filter{
-        @extend %filter
+
+    .filter {
+        @extend %filter;
     }
 }
-%servers{
+
+%servers {
     width: 100%;
     position: relative;
     padding-top: max(2vw, 2rem);
@@ -18,136 +24,205 @@
     flex-wrap: wrap;
     padding-bottom: max(3vw, 3rem);
     gap: max(1vw, 1rem);
-    .singel_server{
+
+    .singel_server {
         width: max(20vw, 20rem);
         padding: max(1vw, 1rem);
-        background: #262A38;
-        color: #FFF;
+        
+        // --- MASTER STYLE CARD ---
+        background: linear-gradient(105.41deg, rgba(255, 255, 255, 0.9) 7.83%, rgba(205, 220, 246, 0.9) 93.81%);
+        box-shadow: 0px 10px 30px #CEDBEF; // Soft shadow
+        border: 1px solid rgba(255, 255, 255, 0.8);
+        color: #000; // Text Black
+        
+        // Keeping the original unique radius logic
         border-top-left-radius: max(1vw, 1rem);
         border-bottom-right-radius: max(1vw, 1rem);
-        .title{
+        border-top-right-radius: max(0.2vw, 0.2rem); // Slight softening
+        border-bottom-left-radius: max(0.2vw, 0.2rem); // Slight softening
+        
+        transition: 0.3s;
+        
+        &:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 20px 40px #b8cbe6;
+        }
+
+        .title {
             display: flex;
-            .logo{
+            align-items: center;
+
+            .logo {
                 width: max(4vw, 4rem);
                 height: max(4vw, 4rem);
                 object-fit: cover;
                 border-radius: 50%;
+                border: 2px solid #fff;
+                box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
             }
-            .values{
+
+            .values {
                 padding-left: max(1vw, 1rem);
-                p{
+
+                p {
                     font-size: max(1.2vw, 1.2rem);
                     padding-bottom: max(0.3vw, 0.3rem);
+                    font-weight: 600;
+                    // Gradient Text for Title
+                    background: linear-gradient(89.99deg, #7243C6 59.61%, #9B11AD 94.57%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
                 }
-                img{
+
+                img {
                     width: max(5vw, 5rem);
                     height: max(1vw, 1rem);
+                    filter: invert(1) brightness(0.5); // Adjust star rating color if needed
                 }
             }
         }
-        .disc{
+
+        .disc {
             margin-top: max(1vw, 1rem);
             padding-top: max(1vw, 1rem);
             width: 100%;
-            background: linear-gradient(0, #46598B, #00000000);
+            // Updated fade gradient to match light theme (Fade to white/transparent)
+            background: linear-gradient(0, rgba(255,255,255, 0.9), #00000000); 
             max-height: 15vh;
-            overflow-y: scroll;
+            overflow-y: auto;
             overflow-x: hidden;
             padding-right: max(0.5vw, 0.5rem);
             padding-left: max(0.5vw, 0.5rem);
             padding-bottom: max(1vw, 1rem);
             border-bottom-right-radius: max(1vw, 1rem);
-            p{
+
+            p {
                 font-size: max(1vw, 1rem);
+                color: #444; // Dark Grey for readability
+                line-height: 1.5;
             }
         }
     }
-    .more{
-        
+
+    .more {
         position: absolute;
         bottom: -3%;
-        font-size: max(1.5vw, 1.5rem);
         text-transform: capitalize;
+        font-size: max(1.5vw, 1.5rem);
         padding: max(0.3vw, 0.3rem) max(0.8vw, 0.8rem);
-        background: #22CAB4;
-        color: #FFF;
-        border:none;
+        
+        // --- MASTER BUTTON STYLE ---
+        color: #000;
+        border: none;
         outline: none;
         cursor: pointer;
+        background: linear-gradient(97.39deg, #FFF 7.18%, #CDDCF6 92.15%);
+        box-shadow: 0px 20px 40px #CEDBEF, inset 3px 3px 10px rgba(255, 255, 255, 0.72);
+        border-radius: max(0.5vw, 0.5rem);
+        
         word-spacing: max(0.5vw, 0.5rem);
         transition: 0.3s;
-        &:hover{
-            background: #227dcd;
-            outline: solid #22CAB4 max(0.1vw, 0.1rem);
+
+        &:hover {
+            outline: #ffffff solid max(0.1vw, 0.1rem);
+            transform: translateY(-2px);
         }
     }
 }
 
-%filter{
+%filter {
     height: 15vh;
     display: flex;
-    gap:max(1vw, 1rem);
+    gap: max(1vw, 1rem);
     align-items: end;
     width: 100%;
-    .input_holder{
-        label{
+    
+    // Add horizontal scroll for smaller screens if needed
+    overflow-x: auto; 
+    padding-bottom: 10px;
+
+    .input_holder {
+        label {
             padding-left: max(1vw, 1rem);
-            color: #FFF;
+            color: #000; // Label Black
             font-size: max(1.5vw, 1.5rem);
+            font-weight: 600;
+            display: block;
+            margin-bottom: 0.5rem;
         }
-        .input{
+
+        .input {
             display: flex;
             align-items: center;
-            flex-wrap: wrap;
+            flex-wrap: nowrap; // Prevent wrapping to keep button inside
             justify-content: center;
-            input{
-                border: max(0.1vw, 0.1rem) #227dcd solid;
-                background: #242424;
+
+            input {
+                // Master Input Style
+                border: 1px solid transparent;
+                background: #FFF;
                 width: max(20vw, 20rem);
                 font-size: max(1vw, 1rem);
-                color: #FFF;
+                color: #000;
                 outline: none;
-                padding: max(0.3vw, 0.3rem) max(0.5vw, 0.5rem);
+                padding: max(0.5vw, 0.5rem);
                 border-radius: max(1vw, 1rem);
                 padding-left: max(1.2vw, 1.2rem);
-                box-shadow:inset max(0.3vw, 0.3rem) max(0.3vw, 0.3rem) max(0.3vw, 0.3rem) max(0.1vw, 0.1rem) #00000085;
+                // Soft shadow instead of dark inset
+                box-shadow: 0px 4px 10px #CEDBEF; 
+                transition: 0.3s;
+                
+                &::placeholder {
+                    color: #999;
+                }
+                
+                &:focus {
+                     box-shadow: 0px 4px 15px #aabce0;
+                }
             }
-            button{
+
+            button {
                 width: max(2.5vw, 2.5rem);
                 height: max(2.5vw, 2.5rem);
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                background: #227dcd;
-                color: #FFF;
-                border: solid max(0.1vw, 0.1rem) #FFF;
+                
+                // Master Button Style (Small)
+                background: linear-gradient(97.39deg, #FFF 7.18%, #CDDCF6 92.15%);
+                color: #7243C6; // Icon color purple
+                
                 border: none;
                 outline: none;
                 border-radius: 50%;
                 cursor: pointer;
-                translate: -100% 0;
+                translate: -100% 0; // Keeping original logic
                 transition: 0.3s;
-                i{
+                
+                i {
                     font-size: max(1.3vw, 1.3em);
                 }
-                
-                &:hover{
-                    border: max(0.2vw, 0.2rem) #227dcd solid;
-                    background: #242424;
-                    box-shadow:inset max(-0.3vw, -0.3rem) max(-0.3vw, -0.3rem) max(0.3vw, 0.3rem) max(0.1vw, 0.1rem) #00000085;
+
+                &:hover {
+                    color: #9B11AD;
+                    transform: scale(1.1); // Scale effect instead of border
+                    box-shadow: 0px 5px 15px #CEDBEF;
                 }
             }
-            select{
+
+            select {
                 outline: none;
-                border: none;
-                border: max(0.1vw, 0.1rem) #227dcd solid;
-                background: #242424;
+                // Master Select Style
+                border: 1px solid transparent;
+                background: #FFF;
                 font-size: max(1vw, 1rem);
-                box-shadow:inset max(0.3vw, 0.3rem) max(0.3vw, 0.3rem) max(0.3vw, 0.3rem) max(0.1vw, 0.1rem) #00000085;
-                color: #FFF;
+                box-shadow: 0px 4px 10px #CEDBEF;
+                color: #000;
                 padding: max(0.3vw, 0.3rem) max(0.5vw, 0.5rem);
+                border-radius: max(0.5vw, 0.5rem);
+                cursor: pointer;
             }
         }
     }
-    
 }

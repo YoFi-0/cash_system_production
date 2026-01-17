@@ -1,12 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 .nav {
   position: fixed;
   z-index: 2;
-  height: 1.2%;
-  background: #004166;
-  width: 100px;
-  border-radius: 0 max(1.5vw, 1.5em) max(1.5vw, 1.5em) 0;
-  box-shadow: max(0.3vw, 0.3em) 0 max(0.5vw, 0.5em) max(0.2vw, 0.2em) rgba(8, 8, 8, 0.337254902);
-  background: radial-gradient(#963B5C);
   width: clamp(5rem, 5vw, 10rem);
   height: 100%;
   gap: 2vh;
@@ -15,6 +10,13 @@
   flex-direction: column;
   padding-top: max(1vw, 1em);
   padding-bottom: max(1vw, 1em);
+  border-radius: 0 max(1.5vw, 1.5em) max(1.5vw, 1.5em) 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(205, 220, 246, 0.9) 100%);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  box-shadow: max(0.3vw, 0.3em) 0 max(0.5vw, 0.5em) max(0.2vw, 0.2em) #CEDBEF;
+  border-right: 1px solid rgba(255, 255, 255, 0.6);
 }
 .nav a {
   text-decoration: none;
@@ -27,6 +29,7 @@
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 50%;
+  box-shadow: 0px 4px 10px rgba(114, 67, 198, 0.2);
 }
 .nav .icon img {
   width: 100%;
@@ -34,7 +37,7 @@
   border-radius: 50%;
 }
 .nav .button {
-  color: #FFF;
+  color: #7243C6;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,13 +45,20 @@
 }
 .nav .green {
   background: #22CDB3;
+  color: #fff;
+  border-radius: 50%;
+  padding: 5px;
 }
 .nav .red {
-  background: #AA0808;
+  background: #FF6B6B;
+  color: #fff;
+  border-radius: 50%;
+  padding: 5px;
 }
 .nav .servers {
   border-radius: max(5vw, 5em);
-  background: linear-gradient(180deg, #030327, #227FD1, #22CDB3);
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.6);
   width: 60%;
   flex-grow: 1;
   display: flex;
@@ -58,7 +68,7 @@
   gap: max(0.7vw, 0.7em);
 }
 .nav .servers .allServers {
-  box-shadow: inset max(0.3vw, 0.3em) 0 max(0.5vw, 0.5em) max(0.2vw, 0.2em) rgba(8, 8, 8, 0.337254902), inset max(-0.3vw, -0.3em) 0 max(-0.5vw, -0.5em) max(0.2vw, 0.2em) rgba(8, 8, 8, 0.337254902);
+  box-shadow: inset 2px 2px 5px rgba(205, 220, 246, 0.5), inset -2px -2px 5px rgba(255, 255, 255, 0.8);
   width: 100%;
   border-radius: max(5vw, 5em);
   flex-grow: 2;
@@ -75,12 +85,18 @@
 .nav .servers a {
   height: clamp(2.5rem, 2.5vw, 10rem);
   width: clamp(2.5rem, 2.5vw, 10rem);
-  background: #217BCC;
+  background: #FFF;
+  box-shadow: 0px 4px 8px #CEDBEF;
+  border: 1px solid #fff;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: max(1vw, 1em);
+  transition: 0.3s;
+}
+.nav .servers a:hover {
+  transform: scale(1.1);
 }
 .nav .servers a img {
   width: 100%;
@@ -92,6 +108,7 @@
   display: flex;
   flex-direction: column;
   height: 90vh;
+  font-family: "Poppins", sans-serif;
 }
 
 .cards {
@@ -107,10 +124,13 @@
   display: flex;
   align-items: center;
   gap: max(1vw, 1em);
-  background: #262A38;
-  box-shadow: max(0.3vw, 0.3em) 0 max(0.5vw, 0.5em) max(0.1vw, 0.1em) rgba(8, 8, 8, 0.337254902);
+  background: linear-gradient(105.41deg, rgba(255, 255, 255, 0.8) 7.83%, rgba(205, 220, 246, 0.8) 93.81%);
+  box-shadow: 0px 20px 40px #CEDBEF, inset 3px 3px 10px rgba(255, 255, 255, 0.72);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
   padding: max(1.5vw, 0.3rem) max(2vw, 0.7em);
-  border-radius: max(1vw, 1em);
+  border-radius: 31px;
   cursor: default;
   position: relative;
   z-index: 1;
@@ -121,6 +141,8 @@
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
+  border: 2px solid #fff;
+  box-shadow: 0 4px 10px #CEDBEF;
 }
 .cards .user_info .content {
   display: flex;
@@ -129,14 +151,19 @@
   gap: max(0.7vw, 0.7em);
 }
 .cards .user_info h1 {
-  color: #FFF;
+  background: linear-gradient(89.99deg, #7243C6 59.61%, #9B11AD 94.57%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   font-size: max(1rem, 2vw);
 }
 .cards .user_info h1 span {
-  color: #5c5c5c;
+  color: #666;
+  -webkit-text-fill-color: #666;
 }
 .cards .user_info p {
-  color: #a5cc08;
+  color: #22CDB3;
+  font-weight: 500;
   font-size: max(1rem, 1.2vw);
 }
 .cards .user_info .stars_image {
@@ -148,23 +175,32 @@
   height: max(1vw, 1rem);
 }
 .cards .privte_paypal {
-  background: #262A38;
-  color: #FFF;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid #fff;
+  color: #000;
   padding: max(1vw, 1rem) max(1vw, 1em);
   border-radius: max(1vw, 1em);
   display: flex;
   gap: max(3vw, 3em);
 }
 .cards .privte_paypal p {
-  color: #FFF;
+  color: #333;
+  font-weight: 500;
 }
 .cards .privte_paypal button {
   cursor: pointer;
-  background: #079C04;
-  color: #fff;
+  background: linear-gradient(97.39deg, #FFF 7.18%, #CDDCF6 92.15%);
+  color: #7243C6;
+  font-weight: bold;
+  box-shadow: 0px 5px 15px #CEDBEF;
   border-radius: max(0.5vw, 0.5em);
   border: none;
   padding: max(0.5vw, 0.1rem) max(1vw, 1rem);
+  transition: 0.3s;
+}
+.cards .privte_paypal button:hover {
+  outline: 1px solid #fff;
+  transform: translateY(-2px);
 }
 
 .paypal_pubb_back {
@@ -173,7 +209,7 @@
   display: none;
   position: absolute;
   padding: max(1.4vw, 1rem) max(1.4vw, 1rem);
-  background: rgba(3, 3, 39, 0.3333333333);
+  background: rgba(0, 0, 0, 0.2);
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
   z-index: 20;
@@ -181,32 +217,38 @@
   left: 50%;
   translate: -50% -50%;
   border-radius: max(1vw, 1em);
+  font-family: "Poppins", sans-serif;
 }
 .paypal_pubb_back .paypal_pubb {
-  box-shadow: inset max(-0.5vw, -0.3rem) max(-0.5vw, -0.3rem) max(0.1vw, 0.1rem) max(0.1vw, 0.1rem) rgba(0, 0, 0, 0.168627451), inset max(0.2vw, 0.3rem) max(0.2vw, 0.3rem) max(0.1vw, 0.1rem) max(0.1vw, 0.1rem) rgba(0, 204, 255, 0.2705882353);
   background: #FFF;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   gap: max(1vw, 0.9em);
   padding: max(0.5vw, 0.5em);
   padding-bottom: max(1.2vw, 1.2em);
-  border-radius: max(1vw, 1em);
+  border-radius: 31px;
 }
 .paypal_pubb_back .paypal_pubb p {
   font-size: max(1.3vw, 1.3em);
   text-align: center;
   translate: 0 30%;
   font-weight: bold;
+  color: #333;
 }
 .paypal_pubb_back .paypal_pubb input {
   font-size: max(1vw, 0.8rem);
-  border: none;
+  border: 1px solid #eee;
   padding: max(0.5vw, 0.5em) max(1vw, 1em);
   outline: none;
-  box-shadow: inset max(0.2vw, 0.3rem) max(0.2vw, 0.3rem) max(0.1vw, 0.1rem) max(0.1vw, 0.1rem) rgba(40, 40, 40, 0.1254901961);
+  box-shadow: none;
+  background: #F2F6FF;
   border-radius: max(0.7vw, 0.5rem);
   color: #000;
+}
+.paypal_pubb_back .paypal_pubb input:focus {
   background: #FFF;
+  box-shadow: 0 0 0 2px #CEDBEF;
 }
 .paypal_pubb_back .paypal_pubb .buttons {
   display: flex;
@@ -216,7 +258,7 @@
 .paypal_pubb_back .paypal_pubb .buttons button {
   cursor: pointer;
   border-radius: max(0.7vw, 0.5rem);
-  box-shadow: inset max(-0.5vw, -0.3rem) max(-0.5vw, -0.3rem) max(0.1vw, 0.1rem) max(0.1vw, 0.1rem) rgba(0, 0, 0, 0.168627451), inset max(0.2vw, 0.3rem) max(0.2vw, 0.3rem) max(0.1vw, 0.1rem) max(0.1vw, 0.1rem) rgba(255, 255, 255, 0.1960784314);
+  box-shadow: 0 5px 15px #CEDBEF;
   padding: max(0.5vw, 0.2em) max(1vw, 0.5em);
   font-size: max(1vw, 1em);
   display: flex;
@@ -224,26 +266,29 @@
   flex-direction: row-reverse;
   gap: max(0.5vw, 0.1rem);
   border: none;
+  font-weight: 600;
 }
 .paypal_pubb_back .paypal_pubb .buttons .yes {
-  background: #a5cc08;
+  background: linear-gradient(97.39deg, #22CDB3 7.18%, #149c86 92.15%);
   color: #FFF;
   transition: 0.3s;
 }
 .paypal_pubb_back .paypal_pubb .buttons .yes:hover {
-  box-shadow: inset max(-0.5vw, -0.3rem) max(-0.5vw, -0.3rem) max(0.1vw, 0.1rem) max(0.1vw, 0.1rem) rgba(0, 0, 0, 0.168627451), inset max(0.2vw, 0.3rem) max(0.2vw, 0.3rem) max(0.1vw, 0.1rem) max(0.1vw, 0.1rem) rgba(255, 255, 255, 0.1960784314), 0 0 max(1vw, 1rem) max(0.2vw, 0.2rem) #a5cc08;
+  box-shadow: 0 8px 20px #b0e9e0;
+  transform: translateY(-2px);
 }
 .paypal_pubb_back .paypal_pubb .buttons .yes:active {
-  background: #004166;
+  transform: translateY(0);
 }
 .paypal_pubb_back .paypal_pubb .buttons .no {
-  background: #AA0808;
+  background: #FF6B6B;
   color: #FFF;
   transition: 0.1s;
 }
 .paypal_pubb_back .paypal_pubb .buttons .no:hover {
-  box-shadow: inset max(-0.5vw, -0.3rem) max(-0.5vw, -0.3rem) max(0.1vw, 0.1rem) max(0.1vw, 0.1rem) rgba(0, 0, 0, 0.168627451), inset max(0.2vw, 0.3rem) max(0.2vw, 0.3rem) max(0.1vw, 0.1rem) max(0.1vw, 0.1rem) rgba(255, 255, 255, 0.1960784314), 0 0 max(1vw, 1rem) max(0.2vw, 0.2rem) #AA0808;
+  box-shadow: 0 8px 20px #ffcccc;
+  transform: translateY(-2px);
 }
 .paypal_pubb_back .paypal_pubb .buttons .no:active {
-  background: #004166;
+  transform: translateY(0);
 }/*# sourceMappingURL=nav.css.map */

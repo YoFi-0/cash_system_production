@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 .logs {
   display: flex;
   justify-content: center;
@@ -6,6 +11,7 @@
   gap: max(1vw, 1em);
   align-items: start;
   flex-grow: 1;
+  font-family: "Poppins", sans-serif;
   padding-top: max(2vw, 2rem);
 }
 @media (max-height: 600px) {
@@ -15,40 +21,54 @@
 }
 .logs .log_card {
   height: 100%;
-  box-shadow: max(0.3vw, 0.3em) 0 max(0.5vw, 0.5em) max(0.1vw, 0.1em) rgba(8, 8, 8, 0.337254902);
+  background: linear-gradient(105.41deg, rgba(255, 255, 255, 0.36) 7.83%, rgba(205, 220, 246, 0.36) 93.81%);
+  box-shadow: 0px 20px 40px #CEDBEF, inset 3px 3px 10px rgba(255, 255, 255, 0.72);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 31px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: #262A38;
   padding: max(1vw, 1rem);
   width: max(28vw, 20em);
-  border-radius: max(1vw, 1em);
 }
 .logs .log_card .head {
   display: flex;
   justify-content: space-between;
-  color: #FFF;
+  color: #000;
   align-items: center;
 }
 .logs .log_card .head h1 {
+  background: linear-gradient(89.99deg, #7243C6 59.61%, #9B11AD 94.57%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
   font-size: max(1.2vw, 0.7rem);
 }
 .logs .log_card .head button {
-  border-radius: max(0.5vw, 0.5rem);
-  background: #227DD1;
   border: none;
   outline: none;
   font-weight: bold;
-  color: #FFF;
+  color: #000;
   font-size: max(1vw, 0.7rem);
   padding: max(0.5vw, 0.5rem) max(1vw, 1rem);
   cursor: pointer;
+  background: linear-gradient(97.39deg, #FFF 7.18%, #CDDCF6 92.15%);
+  box-shadow: 0px 10px 20px #CEDBEF;
+  border-radius: max(1vw, 1em);
+  transition: 0.3s;
+}
+.logs .log_card .head button:hover {
+  outline: #ffffff solid max(0.1vw, 0.1rem);
 }
 .logs .log_card .mid {
   flex-grow: 1;
   max-height: 30vh;
-  overflow: scroll;
+  overflow-y: auto;
   margin-top: max(1vw, 1em);
+  padding-right: 5px;
 }
 @media screen and (max-height: 1100px), screen and (max-width: 1100px) {
   .logs .log_card .mid {
@@ -58,21 +78,30 @@
 .logs .log_card .mid .payment_log {
   margin: 0 0 max(1vw, 1rem) 0;
   cursor: pointer;
-  background: linear-gradient(90deg, #22D1B2, #227DD1);
-  border-radius: max(0.3vw, 0.3rem);
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 4px 15px rgba(168, 186, 218, 0.35);
+  border-radius: max(0.5vw, 0.5rem);
+  transition: 0.3s;
+}
+.logs .log_card .mid .payment_log:hover {
+  background: #FFF;
+  transform: translateY(-2px);
 }
 .logs .log_card .mid .payment_log .up {
   padding: max(0.5vw, 0.5rem);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #FFF;
+  color: #000;
 }
 .logs .log_card .mid .payment_log .up .amount {
   font-size: max(1.2vw, 0.7rem);
   font-weight: bold;
   text-align: start;
-  color: rgba(255, 255, 255, 0.4156862745);
+  background: linear-gradient(89.99deg, #7243C6 59.61%, #9B11AD 94.57%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -88,18 +117,22 @@
      object-fit: cover;
   border-radius: 50%;
   margin: 0 max(0.5vw, 0.5rem);
+  border: 1px solid #7243C6;
 }
 .logs .log_card .mid .payment_log .up .from p, .logs .log_card .mid .payment_log .up .to p {
   font-size: max(1vw, 0.8rem);
+  color: #333;
 }
 .logs .log_card .mid .payment_log .up .from .bold, .logs .log_card .mid .payment_log .up .to .bold {
   font-weight: bold;
+  color: #000;
 }
 .logs .log_card .mid .payment_log .up .from .not_bold, .logs .log_card .mid .payment_log .up .to .not_bold {
   font-size: max(0.9vw, 0.7rem);
   width: max(3vw, 3rem);
   overflow: hidden;
   text-overflow: ellipsis;
+  color: #666;
 }
 .logs .log_card .mid .payment_log .up .to {
   margin-left: max(0.5vw, 0.5rem);
@@ -113,24 +146,27 @@
 .logs .log_card .mid .payment_log .down {
   overflow: hidden;
   transition: 0.3s;
-  padding-bottom: 2vh;
+  padding-bottom: 0;
 }
 .logs .log_card .mid .payment_log .down .log_info {
   width: 95%;
   padding: max(0.5vw, 0.5em);
   margin: auto;
-  background: #282828;
+  margin-bottom: max(0.5vw, 0.5em);
+  background: #F2F6FF;
+  border-radius: max(0.3vw, 0.3rem);
 }
 .logs .log_card .mid .payment_log .down .log_info p {
-  color: #FFF;
+  color: #333;
   font-size: max(0.9vw, 0.9rem);
   font-weight: bold;
 }
 .logs .log_card .mid .payment_log .down .log_info p span {
   font-weight: 400;
+  color: #555;
 }
 .logs .log_card .mid .payment_log .down .log_info h1 {
-  color: #FFF;
+  color: #000;
   font-size: max(1.5vw, 1.5rem);
 }
 .logs .log_card .foot {
@@ -140,49 +176,63 @@
 }
 .logs .log_card .foot .More_Button {
   cursor: pointer;
-  background: #22CAB4;
-  color: #FFF;
-  font-weight: bold;
   border: none;
   outline: none;
+  font-weight: bold;
   font-size: max(1vw, 1rem);
-  border-radius: max(0.5vw, 0.5rem);
   padding: max(0.5vw, 0.5rem) max(1vw, 1rem);
+  color: #000;
+  background: linear-gradient(97.39deg, #FFF 7.18%, #CDDCF6 92.15%);
+  box-shadow: 0px 20px 40px #CEDBEF, inset 3px 3px 10px rgba(255, 255, 255, 0.72);
+  border-radius: max(1vw, 1em);
+  transition: 0.3s;
+}
+.logs .log_card .foot .More_Button:hover {
+  outline: #ffffff solid max(0.1vw, 0.1rem);
 }
 
 .server_config {
   width: max(28vw, 20em);
   height: 100%;
-  box-shadow: max(0.3vw, 0.3em) 0 max(0.5vw, 0.5em) max(0.1vw, 0.1em) rgba(8, 8, 8, 0.337254902);
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(105.41deg, rgba(255, 255, 255, 0.36) 7.83%, rgba(205, 220, 246, 0.36) 93.81%);
+  box-shadow: 0px 20px 40px #CEDBEF, inset 3px 3px 10px rgba(255, 255, 255, 0.72);
+  border-radius: 31px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .input_holder {
   width: 100%;
   height: 100%;
-  background: #242424;
+  background-color: rgb(242, 246, 255);
   padding: max(0.5vw, 0.3rem);
   position: relative;
   transition: 0.3s;
+  font-family: "Poppins", sans-serif;
 }
 .input_holder .error_msg {
   transition: 0.3s;
   position: absolute;
-  background: rgba(0, 0, 0, 0.5568627451);
-  -webkit-backdrop-filter: blure(10px);
-          backdrop-filter: blure(10px);
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   left: 50%;
   top: 50%;
   translate: -50% -50%;
-  border-radius: max(0.5vw, 0.5rem);
-  padding: max(1vw, 1rem);
+  border-radius: 31px;
+  padding: max(2rem, 2vw);
   display: flex;
   flex-direction: column;
+  box-shadow: 0px 20px 40px #CEDBEF;
+  z-index: 10;
 }
 .input_holder .error_msg .loadong {
   width: max(10vw, 10rem);
   height: max(10vw, 10rem);
   border-style: dashed none dashed none;
-  border-color: #FFF;
+  border-color: #7243C6;
   border-width: max(0.1vw, 0.1rem);
   border-radius: max(5vw, 5rem);
   display: flex;
@@ -200,7 +250,7 @@
   width: 40%;
   height: 80%;
   border-style: dashed none dashed none;
-  border-color: #FFF;
+  border-color: #9B11AD;
   border-width: max(0.2vw, 0.2rem);
   border-radius: max(5vw, 5rem);
   translate: -50% -50%;
@@ -215,29 +265,38 @@
   width: 40%;
   height: 0%;
   border-style: dashed dashed dashed dashed;
-  border-color: #FFF;
+  border-color: #7243C6;
   border-width: max(0.1vw, 0.1rem);
   border-radius: 50%;
   translate: -50% -50%;
   animation: loding infinite 2s linear;
 }
 .input_holder .error_msg h1 {
-  color: #FFF;
+  background: linear-gradient(89.99deg, #7243C6 59.61%, #9B11AD 94.57%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   margin-bottom: max(1.5vw, 1.5rem);
+  text-align: center;
 }
 .input_holder .error_msg button {
-  background: #22CAB4;
-  color: #FFF;
+  color: #000;
   font-size: max(1vw, 1rem);
   padding: max(0.5vw, 0.5rem) max(1vw, 1rem);
   outline: none;
   border: none;
   cursor: pointer;
-  border-radius: max(0.5vw, 0.5rem);
+  background: linear-gradient(97.39deg, #FFF 7.18%, #CDDCF6 92.15%);
+  box-shadow: 0px 20px 40px #CEDBEF, inset 3px 3px 10px rgba(255, 255, 255, 0.72);
+  border-radius: max(1vw, 1em);
+  transition: 0.3s;
+}
+.input_holder .error_msg button:hover {
+  outline: #ffffff solid max(0.1vw, 0.1rem);
 }
 .input_holder .linyer {
   padding: max(1vw, 0.8rem) max(3vw, 2rem);
-  background: linear-gradient(0, #46598B, rgba(0, 0, 0, 0));
+  background: linear-gradient(105.41deg, rgba(255, 255, 255, 0.36) 7.83%, rgba(205, 220, 246, 0.36) 93.81%);
   display: flex;
   position: relative;
   height: 100%;
@@ -247,10 +306,12 @@
   overflow-y: scroll;
   overflow-x: hidden;
   padding-top: max(4vw, 4rem);
+  border-radius: 31px;
 }
 .input_holder .linyer .from_to_input {
   display: flex;
   justify-content: space-around;
+  width: 100%;
 }
 .input_holder .linyer .from_to_input .one_of_tow {
   display: flex;
@@ -259,36 +320,60 @@
 }
 .input_holder .linyer .from_to_input .one_of_tow label {
   padding: 0;
+  color: #000;
 }
 .input_holder .linyer .from_to_input .one_of_tow input[type=date] {
   font-size: max(1vw, 1rem);
   padding: max(0.3vw, 0.3rem) max(0.7vw, 0.7rem);
 }
-.input_holder .linyer input, .input_holder .linyer textarea, .input_holder .linyer select, .input_holder .linyer button {
+.input_holder .linyer input, .input_holder .linyer textarea, .input_holder .linyer select {
   outline: none;
   border: none;
   font-size: max(0.9vw, 0.8rem);
-  background: #242424;
-  color: #FFF;
-  border: solid max(0.12vw, 0.12rem) #FFF;
+  background: white;
+  color: rgb(2, 2, 2);
+  border-radius: max(0.5vw, 0.5em);
+  padding: max(0.5vw, 0.5em) max(1vw, 1em);
+  margin-bottom: max(1vw, 1em);
   resize: none;
+  transition: 0.3s;
+}
+.input_holder .linyer input::-moz-placeholder, .input_holder .linyer textarea::-moz-placeholder, .input_holder .linyer select::-moz-placeholder {
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+.input_holder .linyer input::placeholder, .input_holder .linyer textarea::placeholder, .input_holder .linyer select::placeholder {
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+.input_holder .linyer input:focus, .input_holder .linyer textarea:focus, .input_holder .linyer select:focus {
+  padding: max(0.5vw, 0.5em) max(1vw, 1em);
+}
+.input_holder .linyer button, .input_holder .linyer input[type=submit] {
+  cursor: pointer;
+  color: #000;
+  font-size: max(1vw, 1rem);
+  padding: max(0.5vw, 0.5rem) max(1vw, 1rem);
+  border: none;
+  background: linear-gradient(97.39deg, #FFF 7.18%, #CDDCF6 92.15%);
+  box-shadow: 0px 20px 40px #CEDBEF, inset 3px 3px 10px rgba(255, 255, 255, 0.72);
+  border-radius: max(1vw, 1em);
+  transition: 0.3s;
+}
+.input_holder .linyer button:hover, .input_holder .linyer input[type=submit]:hover {
+  outline: #ffffff solid max(0.1vw, 0.1rem);
 }
 .input_holder .linyer h1 {
-  color: #FFF;
+  font-weight: 700;
+  background: linear-gradient(89.99deg, #7243C6 59.61%, #9B11AD 94.57%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   font-size: max(1.5vw, 1.5rem);
   position: absolute;
   padding: max(0.5vw, 0.5rem) max(1.5vw, 1.5rem);
   top: 0;
   left: 0;
-}
-.input_holder .linyer input[type=submit], .input_holder .linyer button {
-  background: #22CAB4;
-  cursor: pointer;
-  color: #FFF;
-  font-size: max(1vw, 1rem);
-  padding: max(0.5vw, 0.5rem) max(1vw, 1rem);
-  border: none;
-  border-radius: max(0.5vw, 0.5rem);
 }
 .input_holder .linyer .input_lable, .input_holder .linyer .multy_input {
   width: 100%;
@@ -297,22 +382,21 @@
   margin-bottom: max(1vw, 1rem);
 }
 .input_holder .linyer .input_lable label, .input_holder .linyer .multy_input label {
-  color: #FFF;
+  color: #000;
   font-size: max(1vw, 1rem);
   display: block;
   margin-bottom: max(0.5vw, 0.5rem);
   padding-left: max(0.8vw, 0.8rem);
   text-transform: capitalize;
+  font-weight: 500;
 }
 .input_holder .linyer .input_lable select, .input_holder .linyer .multy_input select {
   width: -moz-fit-content;
   width: fit-content;
-  padding: max(0.3vw, 0.3rem);
+  padding: max(0.3vw, 0.3rem) max(1vw, 1rem);
 }
 .input_holder .linyer .input_lable input[type=text], .input_holder .linyer .input_lable input[type=number], .input_holder .linyer .input_lable textarea, .input_holder .linyer .input_lable input[type=email], .input_holder .linyer .input_lable input[type=file], .input_holder .linyer .multy_input input[type=text], .input_holder .linyer .multy_input input[type=number], .input_holder .linyer .multy_input textarea, .input_holder .linyer .multy_input input[type=email], .input_holder .linyer .multy_input input[type=file] {
-  padding: max(0.3vw, 0.3rem) 0;
   width: 100%;
-  padding-left: max(0.5vw, 0.5rem);
   border-radius: max(0.5vw, 0.5rem);
 }
 .input_holder .linyer .input_lable textarea, .input_holder .linyer .multy_input textarea {
@@ -328,15 +412,20 @@
 .input_holder .linyer .input_lable .image_input .label_image, .input_holder .linyer .multy_input .image_input .label_image {
   cursor: pointer;
   font-size: max(1vw, 1rem);
-  background: #22CAB4;
+  color: #000;
   padding: max(0.5vw, 0.5rem) max(1vw, 1rem);
+  background: linear-gradient(97.39deg, #FFF 7.18%, #CDDCF6 92.15%);
+  box-shadow: 0px 20px 40px #CEDBEF, inset 3px 3px 10px rgba(255, 255, 255, 0.72);
+  border-radius: max(1vw, 1em);
 }
 .input_holder .linyer .input_lable .image_input img, .input_holder .linyer .multy_input .image_input img {
   display: block;
   width: max(5vw, 5rem);
   height: max(5vw, 5rem);
-  border: solid max(0.15vw, 0.15rem) #FFF;
+  border: solid max(0.15vw, 0.15rem) #000;
   border-radius: max(0.5vw, 0.5rem);
+  background: linear-gradient(169deg, #8b5dce, #656565);
+  padding: 2px;
 }
 .input_holder .multy_input {
   align-items: start;
@@ -378,36 +467,53 @@
   justify-content: center;
   align-items: center;
   background: rgba(0, 0, 0, 0.4470588235);
+  font-family: "Poppins", sans-serif;
 }
 .filtter_pupp .mid {
   width: max(28vw, 28rem);
   height: 50vh;
+  background: linear-gradient(105.41deg, rgba(255, 255, 255, 0.85) 7.83%, rgba(205, 220, 246, 0.85) 93.81%);
+  border-radius: 31px;
+  padding: max(2rem, 2vw);
+  text-align: center;
+  box-shadow: 0px 20px 40px #CEDBEF, inset 3px 3px 10px rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  overflow-y: auto;
 }
 
 .no_bot {
   padding-top: max(5vw, 5rem);
   padding-left: max(3vw, 3rem);
-  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  color: #000;
 }
 .no_bot h1 {
   font-size: max(2vw, 2rem);
   margin-bottom: max(1vw, 1rem);
+  font-weight: 700;
+  background: linear-gradient(89.99deg, #7243C6 59.61%, #9B11AD 94.57%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 .no_bot p {
   font-size: max(1.3vw, 1.3rem);
   margin-bottom: max(1.5vw, 1.5rem);
+  color: #444;
+  font-weight: 500;
 }
 .no_bot a {
   text-decoration: none;
-  color: #FFF;
-  background: #22CAB4;
-  padding: max(0.3vw, 0.3rem) max(1vw, 1rem);
   cursor: pointer;
-  box-shadow: rgba(0, 0, 0, 0.462745098) max(0.1vw, 0.1rem) max(0.1vw, 0.1rem) max(0.3vw, 0.3rem) max(0.1vw, 0.1rem);
   font-size: max(1.5vw, 1.5rem);
-  border-radius: max(0.5vw, 0.5rem);
+  padding: max(0.5vw, 0.5rem) max(2vw, 2rem);
+  border-radius: max(1vw, 1rem);
+  color: #000;
+  background: linear-gradient(97.39deg, #FFF 7.18%, #CDDCF6 92.15%);
+  box-shadow: 0px 20px 40px #CEDBEF, inset 3px 3px 10px rgba(255, 255, 255, 0.72);
   transition: 0.3s;
 }
 .no_bot a:hover {
-  background: #262A38;
+  outline: #7243C6 solid max(0.1vw, 0.1rem);
+  transform: translateY(-2px);
 }/*# sourceMappingURL=index.css.map */
