@@ -21,7 +21,7 @@ import { Programlogs } from "./logs";
 //out script [in lansher]
 
 process.on("uncaughtException" , (err) => {
-    Programlogs.write_error(err)
+    // Programlogs.write_error(err)
     if(process.env.PRODUCTION != "true"){
         console.log(err)
     }
@@ -169,13 +169,13 @@ export class Bot  extends discord.Client{
                 console.log(err)
                 console.log('[⛔] command dosn\'et add adedd')
             }
-            const cert = await readFile(path.join(ssl_config.ssl_files_path, ssl_config.cert_filename))
-            const privte_key = await readFile(path.join(ssl_config.ssl_files_path, ssl_config.privte_key_failename))
-            const https_Server = https.createServer({
-                key:privte_key,
-                cert:cert
-            }, httpServer)
-            https_Server.listen(server_port, async() => {
+            // const cert = await readFile(path.join(ssl_config.ssl_files_path, ssl_config.cert_filename))
+            // const privte_key = await readFile(path.join(ssl_config.ssl_files_path, ssl_config.privte_key_failename))
+            // const https_Server = https.createServer({
+            //     key:privte_key,
+            //     cert:cert
+            // }, httpServer)
+            httpServer.listen(server_port, async() => {
                 
                 console.log(`[✅] https server is on in port => ${server_port}`)
             })

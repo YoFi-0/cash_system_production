@@ -44,6 +44,7 @@ discord_OAuth2.post("/flash", async(req, res) => {
             logging:false
         })
     } catch(err){
+        console.log(err)
         logger.write_error({
             yofiMsg:"err in taken discord data from login its database error",
             error:err

@@ -13,7 +13,11 @@
             localStorage.clear()
             try{
                 const data = await fetch("/discord/flash", {
-                    method:"POST"
+                    method:"POST",
+                    headers:{
+                        "Content-Type":"application/json"
+                    },
+                    credentials: "include"
                 })
                 const redirect = await data.json()
                 window.location.assign(redirect.go)

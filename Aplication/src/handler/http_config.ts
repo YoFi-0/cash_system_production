@@ -24,17 +24,17 @@ export const APPLAY_HTTP_CONFIG = async (app:Express) => {
         cookie:{
             maxAge:1000 * 60 * 60 * 24,
             httpOnly:true,
-            secure:true
+            secure:process.env.PROTOCOL === "https" ? true : false,
         },
         saveUninitialized: true,
         resave: false,
         name:"YoFi",
-        store: new FileStore({
-            path:path.join(__dirname, "../../../ram"),
-            logFn:() => {
+        // store: new FileStore({
+        //     path:path.join(__dirname, "../../../ram"),
+        //     logFn:() => {
 
-            },
-        }),
+        //     },
+        // }),
     }))
     app.use(passport.initialize());
     app.use(passport.session());
