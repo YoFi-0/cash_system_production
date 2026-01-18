@@ -1,334 +1,151 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
-.nav {
-  position: fixed;
-  z-index: 50;
-  left: 0;
-  top: 0;
-  height: 100vh;
-  width: clamp(5rem, 6vw, 7rem);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2rem 0;
-  gap: 1.5rem;
-  border-radius: 0 24px 24px 0;
+* {
+  box-sizing: border-box;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body {
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.85) 0%, rgba(205, 220, 246, 0.85) 100%);
-  -webkit-backdrop-filter: blur(12px);
-          backdrop-filter: blur(12px);
-  box-shadow: 5px 0 25px rgba(206, 219, 239, 0.6);
-  border-right: 1px solid rgba(255, 255, 255, 0.6);
-}
-.nav a {
-  text-decoration: none;
-}
-.nav .icon {
-  cursor: pointer;
-  display: block;
-  width: 3.5rem;
-  height: 3.5rem;
-  flex-shrink: 0;
-  border-radius: 50%;
-  box-shadow: 0px 4px 15px rgba(114, 67, 198, 0.3);
-  transition: transform 0.3s ease;
-}
-.nav .icon:hover {
-  transform: scale(1.05);
-}
-.nav .icon img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 50%;
-  border: 2px solid #fff;
-}
-.nav .button {
-  color: #7243C6;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.4rem;
-  width: 2.5rem;
-  height: 2.5rem;
-  border-radius: 50%;
-  transition: 0.3s;
-}
-.nav .button:hover {
-  background: rgba(255, 255, 255, 0.5);
-  transform: translateY(-2px);
-}
-.nav .green, .nav .red {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
+  margin: 0;
   padding: 0;
-  box-shadow: 0 0 0 2px #fff;
-}
-.nav .green {
-  background: #22CDB3;
-}
-.nav .red {
-  background: #FF6B6B;
-}
-.nav .servers {
-  width: 70%;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: rgba(255, 255, 255, 0.5);
-  border: 1px solid rgba(255, 255, 255, 0.6);
-  border-radius: 50px;
-  padding: 0.5rem;
-  max-height: calc(100vh - 200px);
-}
-.nav .servers .allServers {
-  width: 100%;
-  height: 100%;
-  overflow-y: auto;
-  overflow-x: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  padding: 0.5rem 0;
-}
-.nav .servers .allServers::-webkit-scrollbar {
-  width: 0px;
-}
-.nav .servers a {
-  width: 3rem;
-  height: 3rem;
-  flex-shrink: 0;
-  background: #FFF;
-  box-shadow: 0px 4px 10px rgba(206, 219, 239, 0.8);
-  border: 2px solid #fff;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 0.9rem;
-  font-weight: bold;
-  color: #7243C6;
-  transition: 0.3s;
-}
-.nav .servers a:hover {
-  transform: scale(1.1);
-  box-shadow: 0px 6px 15px rgb(206, 219, 239);
-  border-color: #7243C6;
-}
-.nav .servers a img {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
-.inint_page {
-  display: flex;
-  flex-direction: column;
-  margin-left: clamp(5rem, 6vw, 7rem);
-  min-height: 100vh;
-  padding: 2rem;
-  font-family: "Poppins", sans-serif;
-}
-
-.cards {
-  display: flex;
-  gap: 1.5rem;
-  flex-wrap: wrap;
-  width: 100%;
-  align-items: flex-start;
-  justify-content: center;
-}
-.cards .user_info {
-  flex: 1 1 350px;
-  max-width: 500px;
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.8) 0%, rgba(205, 220, 246, 0.8) 100%);
-  box-shadow: 0px 15px 35px rgba(206, 219, 239, 0.5);
-  -webkit-backdrop-filter: blur(12px);
-          backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.8);
-  border-radius: 24px;
-  padding: 1.5rem;
+.paypal {
   position: relative;
-  z-index: 1;
-  transition: transform 0.3s ease;
-}
-.cards .user_info:hover {
-  transform: translateY(-5px);
-}
-.cards .user_info img {
-  width: 4.5rem;
-  height: 4.5rem;
-  flex-shrink: 0;
-  border-radius: 50%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border: 3px solid #fff;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-.cards .user_info .content {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 0.25rem;
-}
-.cards .user_info h1 {
-  font-size: 1.25rem;
-  font-weight: 700;
-  margin: 0;
-  background: linear-gradient(89.99deg, #7243C6 59.61%, #9B11AD 94.57%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-.cards .user_info h1 span {
-  font-size: 0.9em;
-  font-weight: 400;
-  color: #666;
-  -webkit-text-fill-color: #666;
-}
-.cards .user_info p {
-  color: #22CDB3;
-  font-weight: 600;
-  font-size: 0.95rem;
-  margin: 0;
-}
-.cards .user_info .stars_image {
-  width: auto;
-  height: 1rem;
-  margin-top: 0.5rem;
-  opacity: 0.8;
-}
-.cards .privte_paypal {
-  background: rgba(255, 255, 255, 0.6);
-  border: 1px solid #fff;
-  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5);
-  padding: 1rem 1.5rem;
-  border-radius: 16px;
-  display: flex;
   align-items: center;
-  gap: 2rem;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgb(242, 246, 255);
+  padding: 20px;
 }
-.cards .privte_paypal p {
-  color: #333;
-  font-weight: 600;
-  font-size: 1rem;
-}
-.cards .privte_paypal button {
-  cursor: pointer;
-  background: linear-gradient(97.39deg, #FFF 7.18%, #CDDCF6 92.15%);
-  color: #7243C6;
-  font-weight: 700;
-  font-size: 0.9rem;
-  box-shadow: 0px 5px 15px rgba(206, 219, 239, 0.8);
-  border-radius: 8px;
-  border: none;
-  padding: 0.6rem 1.2rem;
-  transition: 0.3s;
-}
-.cards .privte_paypal button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0px 8px 20px rgb(206, 219, 239);
-}
-
-.paypal_pubb_back {
-  position: fixed;
+.paypal .effct {
+  position: absolute;
   top: 0;
   left: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+.paypal .contint {
+  position: relative;
+  background: linear-gradient(105.41deg, rgba(255, 255, 255, 0.36) 7.83%, rgba(205, 220, 246, 0.36) 93.81%);
+  border-radius: 31px;
+  padding: 2rem;
+  text-align: center;
   width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.3);
+  max-width: 500px;
+  z-index: 2;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
-  z-index: 100;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
-  visibility: hidden;
-  transition: 0.3s ease;
 }
-.paypal_pubb_back.active {
-  opacity: 1;
-  visibility: visible;
+.paypal .contint img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: solid #000 3px;
+  padding: 5px;
+  background: linear-gradient(169deg, #8b5dce, #656565);
+  margin-bottom: 1rem;
 }
-.paypal_pubb_back .paypal_pubb {
-  background: #FFF;
-  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.15);
-  width: clamp(300px, 90%, 450px);
-  padding: 2rem;
-  border-radius: 24px;
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  text-align: center;
-  transform: scale(0.9);
-  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-.paypal_pubb_back .paypal_pubb p {
-  font-size: 1.2rem;
+.paypal .contint h1 {
   font-weight: 700;
-  color: #333;
-  margin-bottom: 0.5rem;
+  background: linear-gradient(89.99deg, #7243C6 59.61%, #9B11AD 94.57%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 1.8rem;
+  margin: 10px 0 20px 0;
 }
-.paypal_pubb_back .paypal_pubb input {
+.paypal .contint input {
   width: 100%;
+  background: white;
+  border-radius: 10px;
   font-size: 1rem;
-  padding: 0.8rem 1rem;
-  background: #F2F6FF;
+  color: rgb(2, 2, 2);
   border: 1px solid transparent;
-  border-radius: 12px;
-  color: #333;
-  outline: none;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+.paypal .contint input::-webkit-outer-spin-button, .paypal .contint input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.paypal .contint input::-moz-placeholder {
+  font-weight: 500;
+  color: #555;
+  font-size: 0.9rem;
+  -moz-transition: 0.3s;
   transition: 0.3s;
 }
-.paypal_pubb_back .paypal_pubb input:focus {
-  background: #FFF;
-  border-color: #7243C6;
-  box-shadow: 0 0 0 4px rgba(114, 67, 198, 0.1);
+.paypal .contint input::placeholder {
+  font-weight: 500;
+  color: #555;
+  font-size: 0.9rem;
+  transition: 0.3s;
 }
-.paypal_pubb_back .paypal_pubb .buttons {
+.paypal .contint input:focus::-moz-placeholder {
+  opacity: 0.5;
+}
+.paypal .contint input:focus::placeholder {
+  opacity: 0.5;
+}
+.paypal .contint input:focus {
+  outline: none;
+  border-color: #7243C6;
+}
+.paypal .contint .values {
   display: flex;
   justify-content: center;
-  gap: 1rem;
-  margin-top: 0.5rem;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  margin-bottom: 20px;
 }
-.paypal_pubb_back .paypal_pubb .buttons button {
-  flex: 1;
-  cursor: pointer;
-  border-radius: 10px;
-  padding: 0.8rem;
-  font-size: 1rem;
-  font-weight: 600;
+.paypal .contint .values button {
+  flex: 1 1 auto;
+  min-width: 80px;
+  color: #000;
   border: none;
-  transition: 0.2s;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 10px 15px;
+  background: linear-gradient(97.39deg, #FFF 7.18%, #CDDCF6 92.15%);
+  box-shadow: 0px 5px 15px #CEDBEF;
+  border-radius: 10px;
+  transition: 0.3s;
 }
-.paypal_pubb_back .paypal_pubb .buttons .yes {
-  background: linear-gradient(135deg, #22CDB3 0%, #1CA893 100%);
-  color: #FFF;
-  box-shadow: 0 5px 15px rgba(34, 205, 179, 0.3);
-}
-.paypal_pubb_back .paypal_pubb .buttons .yes:hover {
+.paypal .contint .values button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(34, 205, 179, 0.4);
+  box-shadow: 0px 8px 20px #b1c6e6;
 }
-.paypal_pubb_back .paypal_pubb .buttons .no {
-  background: #FF6B6B;
-  color: #FFF;
-  box-shadow: 0 5px 15px rgba(255, 107, 107, 0.3);
+.paypal .contint .paypalButton {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
-.paypal_pubb_back .paypal_pubb .buttons .no:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(255, 107, 107, 0.4);
+.paypal .contint .paypalButton #paypal-button-container {
+  width: 100%;
 }
 
-.paypal_pubb_back.active .paypal_pubb {
-  transform: scale(1);
+@media (max-width: 400px) {
+  .paypal .contint {
+    padding: 1.5rem;
+  }
+  .paypal .contint h1 {
+    font-size: 1.5rem;
+  }
+  .paypal .contint img {
+    width: 100px;
+    height: 100px;
+  }
 }/*# sourceMappingURL=donstion.css.map */

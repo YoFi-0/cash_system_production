@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  box-sizing: border-box;
+}
+
 input[type=number] {
   -moz-appearance: textfield;
 }
@@ -8,10 +12,10 @@ input[type=number]::-webkit-outer-spin-button, input[type=number]::-webkit-inner
 }
 
 body {
-  overflow: hidden;
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
+  background-color: rgb(242, 246, 255);
 }
 
 .paypal {
@@ -20,9 +24,9 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
-  background-color: rgb(242, 246, 255);
+  padding: 20px 10px;
 }
 .paypal .effct {
   position: absolute;
@@ -32,126 +36,116 @@ body {
   width: 100%;
   height: 100%;
   pointer-events: none;
+  overflow: hidden;
 }
 .paypal .contint {
   position: relative;
   z-index: 2;
-  width: clamp(350px, 90%, 550px);
-  max-height: 90vh;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.6) 0%, rgba(205, 220, 246, 0.6) 100%);
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
-  border-radius: 31px;
-  box-shadow: 0px 20px 50px rgba(176, 196, 222, 0.4), inset 0px 0px 0px 1px rgba(255, 255, 255, 0.6);
-  padding: clamp(2rem, 5vw, 3rem);
+  width: 100%;
+  max-width: 500px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.7) 0%, rgba(205, 220, 246, 0.7) 100%);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 20px 60px rgba(176, 196, 222, 0.5);
+  padding: 2.5rem 2rem;
   text-align: center;
-  overflow-y: auto;
 }
 .paypal .contint .profiles {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  gap: 0.8rem;
   margin-bottom: 2rem;
 }
 .paypal .contint .profiles img {
-  width: 7rem;
-  height: 7rem;
+  width: 110px;
+  height: 110px;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 50%;
   border: 4px solid #fff;
-  box-shadow: 0px 8px 20px rgba(114, 67, 198, 0.25);
-  padding: 0;
+  box-shadow: 0px 10px 25px rgba(114, 67, 198, 0.3);
   background: linear-gradient(169deg, #8b5dce, #656565);
 }
 .paypal .contint .profiles h1 {
   font-weight: 700;
-  font-size: 1.75rem;
+  font-size: clamp(1.5rem, 4vw, 1.8rem);
   margin: 0;
   line-height: 1.2;
   background: linear-gradient(89.99deg, #7243C6 59.61%, #9B11AD 94.57%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   background-clip: text;
+  color: transparent;
 }
 .paypal .contint input {
   width: 100%;
-  background: #FFF;
-  border-radius: 12px;
-  font-size: 1.1rem;
-  color: #333;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 14px;
+  font-size: 1.2rem;
+  color: #2d2d2d;
   font-weight: 600;
-  border: 1px solid transparent;
-  padding: 1rem 1.5rem;
+  border: 2px solid transparent;
+  padding: 14px;
   margin-bottom: 1.5rem;
   text-align: center;
-  box-shadow: 0px 5px 15px rgba(206, 219, 239, 0.3);
-  transition: 0.3s;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.03);
+  transition: all 0.3s ease;
 }
 .paypal .contint input::-moz-placeholder {
   font-weight: 500;
-  color: #aaa;
+  color: #b0b0b0;
   font-size: 1rem;
-  -moz-transition: 0.3s;
-  transition: 0.3s;
 }
 .paypal .contint input::placeholder {
   font-weight: 500;
-  color: #aaa;
+  color: #b0b0b0;
   font-size: 1rem;
-  transition: 0.3s;
 }
 .paypal .contint input:focus {
   outline: none;
   border-color: #7243C6;
-  box-shadow: 0px 8px 25px rgba(114, 67, 198, 0.15);
+  background: #fff;
   transform: translateY(-2px);
-}
-.paypal .contint input:focus::-moz-placeholder {
-  opacity: 0;
-}
-.paypal .contint input:focus::placeholder {
-  opacity: 0;
+  box-shadow: 0 8px 20px rgba(114, 67, 198, 0.15);
 }
 .paypal .contint .values {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 0.8rem;
+  gap: 10px;
   width: 100%;
   margin-bottom: 2rem;
 }
 .paypal .contint .values button {
-  flex: 1 1 auto;
+  flex: 1 1 calc(33% - 10px);
   min-width: 80px;
-  color: #000;
+  color: #4a4a4a;
   border: none;
   cursor: pointer;
-  outline: none;
   font-weight: 600;
-  font-size: 1rem;
-  padding: 0.6rem 1.2rem;
-  background: linear-gradient(97.39deg, #FFF 7.18%, #CDDCF6 92.15%);
-  box-shadow: 0px 5px 15px rgba(206, 219, 239, 0.8);
+  font-size: 0.95rem;
+  padding: 12px;
+  background: white;
+  box-shadow: 0px 4px 15px rgba(206, 219, 239, 0.6);
   border-radius: 12px;
-  transition: 0.3s;
+  transition: all 0.2s ease;
 }
 .paypal .contint .values button:hover {
-  transform: translateY(-2px);
+  transform: translateY(-3px);
+  color: #7243C6;
   box-shadow: 0px 8px 20px rgb(206, 219, 239);
-  outline: 1px solid #fff;
 }
 .paypal .contint .values button:active {
-  transform: scale(0.95);
+  transform: scale(0.96);
 }
 .paypal .contint .paypalButton {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
+  position: relative;
+  z-index: 5;
 }
 .paypal .contint .paypalButton #paypal-button-container {
   width: 100%;
-  z-index: 1;
+  min-height: 45px;
 }/*# sourceMappingURL=pay.css.map */

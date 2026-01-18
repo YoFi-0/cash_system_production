@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 // --- Global Fixes ---
+* {
+    box-sizing: border-box; // قاعدة ذهبية لضبط الحواف
+}
+
 input[type=number] {
     -moz-appearance: textfield;
     &::-webkit-outer-spin-button,
@@ -11,10 +15,11 @@ input[type=number] {
 }
 
 body {
-    overflow: hidden;
+    // overflow: hidden; <--- تم إزالتها للسماح بالسكرول عند فتح الكيبورد
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: rgb(242, 246, 255); // لون الخلفية هنا لضمان تغطية كاملة
 }
 
 .paypal {
@@ -23,112 +28,98 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh; // min-height بدلاً من height لتجنب قص المحتوى
     width: 100%;
-    background-color: rgb(242, 246, 255);
+    padding: 20px 10px; // مسافة أمان حول الكرت في الجوالات
 
-    // الخلفية المتحركة أو التأثيرات
+    // الخلفية المتحركة
     .effct {
         position: absolute;
         top: 0; left: 0;
-        z-index: 0; // تأكد أنها خلف المحتوى
+        z-index: 0;
         width: 100%; height: 100%;
-        pointer-events: none; // عشان ما تمنع الضغط على الأزرار
+        pointer-events: none;
+        overflow: hidden; // عشان التأثيرات ما تطلع برة الصفحة وتعمل سكرول
     }
 
     // --- MAIN CARD ---
     .contint {
         position: relative;
-        z-index: 2; // فوق الخلفية
+        z-index: 2;
         
         // --- Sizing Logic ---
-        // العرض: في الجوال 90%، في الديسكتوب لا يتجاوز 550 بكسل
-        // هذا أفضل من نسبة 40% الثابتة
-        width: clamp(350px, 90%, 550px);
-        max-height: 90vh; // عشان لو الشاشة قصيرة ما يختفي المحتوى
+        // التعديل هنا: استخدام min لضمان عدم تجاوز عرض الشاشة أبداً
+        width: 100%; 
+        max-width: 500px; // حد أقصى للكمبيوتر
         
-        background: linear-gradient(135deg, rgba(255, 255, 255, 0.6) 0%, rgba(205, 220, 246, 0.6) 100%);
-        backdrop-filter: blur(15px);
-        -webkit-backdrop-filter: blur(15px);
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.7) 0%, rgba(205, 220, 246, 0.7) 100%);
+        backdrop-filter: blur(20px); // زيادة البلور لجمالية أكثر
+        -webkit-backdrop-filter: blur(20px);
         
-        border-radius: 31px;
-        box-shadow: 0px 20px 50px rgba(176, 196, 222, 0.4), inset 0px 0px 0px 1px rgba(255, 255, 255, 0.6);
+        border-radius: 24px; // تقليل الانحناء قليلاً ليناسب الجوالات
+        border: 1px solid rgba(255, 255, 255, 0.8); // حدود زجاجية
+        box-shadow: 0px 20px 60px rgba(176, 196, 222, 0.5);
         
-        padding: clamp(2rem, 5vw, 3rem); // بادينج متجاوب
+        padding: 2.5rem 2rem;
         text-align: center;
-        overflow-y: auto; // سكرول داخلي لو المحتوى طال
-
+        
         // --- PROFILE SECTION ---
         .profiles {
             display: flex;
-            flex-direction: column; // الصور فوق والاسم تحتها
+            flex-direction: column;
             align-items: center;
-            gap: 1rem;
+            gap: 0.8rem;
             margin-bottom: 2rem;
 
             img {
-                // حجم ثابت للآفاتار لضمان الأناقة
-                width: 7rem; 
-                height: 7rem;
+                width: 110px; 
+                height: 110px;
                 object-fit: cover;
-                border-radius: 50%; // دائرة كاملة
-                
+                border-radius: 50%;
                 border: 4px solid #fff;
-                box-shadow: 0px 8px 20px rgba(114, 67, 198, 0.25);
-                padding: 0; // إلغاء البادينج عشان الصورة تملا الدائرة
+                box-shadow: 0px 10px 25px rgba(114, 67, 198, 0.3);
                 background: linear-gradient(169deg, #8b5dce, #656565);
             }
     
             h1 {
                 font-weight: 700;
-                // حجم خط واضح
-                font-size: 1.75rem; 
+                font-size: clamp(1.5rem, 4vw, 1.8rem); // حجم خط ديناميكي
                 margin: 0;
                 line-height: 1.2;
-                
-                // Theme Gradient
                 background: linear-gradient(89.99deg, #7243C6 59.61%, #9B11AD 94.57%);
                 -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
                 background-clip: text;
+                color: transparent; // الطريقة الصحيحة لإخفاء اللون الأصلي
             }
         }
 
         // --- INPUTS ---
         input {
-            width: 100%; // يأخذ عرض الكرت بالكامل
-            background: #FFF;
-            border-radius: 12px;
-            
-            // خط مقروء
-            font-size: 1.1rem; 
-            color: #333;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 14px;
+            font-size: 1.2rem; // تكبير الخط ليسهل قراءته
+            color: #2d2d2d;
             font-weight: 600;
-            
-            border: 1px solid transparent;
-            padding: 1rem 1.5rem;
+            border: 2px solid transparent; // تجهيز الحدود
+            padding: 14px;
             margin-bottom: 1.5rem;
-            text-align: center; // الرقم في النص أحلى في الدفع
-            
-            box-shadow: 0px 5px 15px rgba(206, 219, 239, 0.3);
-            transition: 0.3s;
+            text-align: center;
+            box-shadow: inset 0 2px 5px rgba(0,0,0,0.03); // ظل داخلي خفيف
+            transition: all 0.3s ease;
 
             &::placeholder {
                 font-weight: 500;
-                color: #aaa;
+                color: #b0b0b0;
                 font-size: 1rem;
-                transition: 0.3s;
             }
 
             &:focus {
                 outline: none;
                 border-color: #7243C6;
-                box-shadow: 0px 8px 25px rgba(114, 67, 198, 0.15);
+                background: #fff;
                 transform: translateY(-2px);
-                
-                &::placeholder {
-                    opacity: 0; // اختفاء النص عند الكتابة
-                }
+                box-shadow: 0 8px 20px rgba(114, 67, 198, 0.15);
             }
         }
 
@@ -137,53 +128,46 @@ body {
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            gap: 0.8rem;
-            
-            // تعديل العرض: 100% من الكرت، وليس 40%
-            width: 100%; 
+            gap: 10px;
+            width: 100%;
             margin-bottom: 2rem;
 
             button {
-                flex: 1 1 auto; // زر مرن
-                min-width: 80px; // لا يصغر زيادة عن اللزوم
-                
-                color: #000;
+                flex: 1 1 calc(33% - 10px); // كل سطر يأخذ 3 أزرار تقريباً
+                min-width: 80px;
+                color: #4a4a4a;
                 border: none;
                 cursor: pointer;
-                outline: none;
                 font-weight: 600;
-                font-size: 1rem;
-                
-                padding: 0.6rem 1.2rem;
-                
-                // Theme Button
-                background: linear-gradient(97.39deg, #FFF 7.18%, #CDDCF6 92.15%);
-                box-shadow: 0px 5px 15px rgba(206, 219, 239, 0.8);
+                font-size: 0.95rem;
+                padding: 12px;
+                background: white;
+                box-shadow: 0px 4px 15px rgba(206, 219, 239, 0.6);
                 border-radius: 12px;
-                transition: .3s;
+                transition: all 0.2s ease;
 
                 &:hover {
-                    transform: translateY(-2px);
+                    transform: translateY(-3px);
+                    color: #7243C6;
                     box-shadow: 0px 8px 20px rgba(206, 219, 239, 1);
-                    outline: 1px solid #fff;
                 }
                 
                 &:active {
-                    transform: scale(0.95);
+                    transform: scale(0.96);
                 }
             }
         }
 
         // --- PAYPAL BUTTON CONTAINER ---
         .paypalButton {
-            width: 100%; // الكرت كامل
-            display: flex;
-            justify-content: center;
-            margin-top: 1rem;
-
+            width: 100%;
+            position: relative;
+            z-index: 5; // أهم عنصر
+            
             #paypal-button-container {
                 width: 100%;
-                z-index: 1; // التأكد من قابلية النقر
+                // في حالة الباي بال، أحياناً تحتاج لتحديد ارتفاع أدنى لتجنب الوميض
+                min-height: 45px; 
             }
         }
     }
