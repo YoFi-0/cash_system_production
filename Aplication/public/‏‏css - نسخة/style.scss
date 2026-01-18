@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; // Master Font
+    list-style: none;
+}
+
+// Scrollbar styling kept as requested (Hidden)
+*::-webkit-scrollbar {
+    width: .5rem;
+    display: none;
+}
+*::-moz-scrollbar {
+    width: .5rem;
+    display: none;
+}
+
+*::-moz-scrollbar-track {
+    background: transparent;
+    display: none;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+    display: none;
+}
+
+*::-moz-scrollbar-thumb {
+    background: rgb(174, 174, 174);
+    border-radius: 10%;
+    display: none;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: rgb(174, 174, 174);
+    border-radius: 10%;
+    display: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body {
+    height: 100vh;
+    overflow-x: hidden;
+    // Master Background (Replaces the dark gradient)
+    background-color: rgb(242, 246, 255);
+    color: #000;
+}
+
+.alert_div {
+    // Structural positioning (Kept as is)
+    right: -200%;
+    top: 5%;
+    position: absolute;
+    z-index: 50;
+    width: max(25vw, 25rem);
+    
+    // --- MASTER STYLE ---
+    // Glassy Background instead of flat gradient
+    background: linear-gradient(105.41deg, rgba(255, 255, 255, 0.95) 7.83%, rgba(205, 220, 246, 0.95) 93.81%);
+    backdrop-filter: blur(10px);
+    
+    // Soft Shadow
+    box-shadow: 0px 20px 40px #CEDBEF, 0px 5px 10px rgba(0,0,0,0.05);
+    
+    // Border Radius
+    border-radius: max(0.5vw, 0.5rem);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    
+    // Theme Accent Border (Replaces the dark border-left)
+    border-left: solid #7243C6 max(0.5vw, 0.5rem);
+    
+    padding: max(1vw, 1rem);
+    padding-left: max(2vw, 2rem);
+    padding-right: max(1vw, 1rem);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+
+    p {
+        text-align: center;
+        font-size: max(3vw, 3rem); // Kept size logic
+        
+        // Updated Text Color for Light Theme
+        color: #333; 
+        font-weight: 600;
+        
+        // Removed harsh black text-shadow, replaced with subtle light shadow if needed
+        text-shadow: none;
+    }
+}

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+%no_bot {
+    padding-top: max(5vw, 5rem);
+    padding-left: max(3vw, 3rem);
+    font-family: 'Poppins', sans-serif; // Pattern Font applied
+    color: #000; // Text color adapted for Light Theme
+
+    h1 {
+        font-size: max(2vw, 2rem);
+        margin-bottom: max(1vw, 1rem);
+        font-weight: 700;
+
+        // Master Style Gradient Text
+        background: linear-gradient(89.99deg, #7243C6 59.61%, #9B11AD 94.57%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    p {
+        font-size: max(1.3vw, 1.3rem);
+        margin-bottom: max(1.5vw, 1.5rem);
+        color: #444; // Dark Grey for contrast against light bg
+        font-weight: 500;
+    }
+
+    a {
+        text-decoration: none;
+        cursor: pointer;
+        font-size: max(1.5vw, 1.5rem);
+        padding: max(0.5vw, 0.5rem) max(2vw, 2rem); // Increased horizontal padding for button look
+        border-radius: max(1vw, 1rem); // Softer radius to match pattern
+
+        // Master Style Button Theme
+        color: #000;
+        background: linear-gradient(97.39deg, #FFF 7.18%, #CDDCF6 92.15%);
+        box-shadow: 0px 20px 40px #CEDBEF, inset 3px 3px 10px rgba(255, 255, 255, 0.72);
+        
+        transition: 0.3s;
+
+        &:hover {
+            // Updated hover effect (Outline instead of dark bg)
+            outline: #7243C6 solid max(0.1vw, 0.1rem);
+            transform: translateY(-2px);
+        }
+    }
+}

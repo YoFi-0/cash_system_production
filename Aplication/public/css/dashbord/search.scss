@@ -4,71 +4,87 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Poppins', sans-serif; // Pattern Font
-
-    .servers {
-        @extend %servers;
-    }
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    
+    // تأكدنا أن الخلفية العامة للكلاس تأخذ المساحة
+    min-height: 100vh; 
 
     .filter {
         @extend %filter;
+    }
+
+    .servers {
+        @extend %servers;
     }
 }
 
 %servers {
     width: 100%;
     position: relative;
-    padding-top: max(2vw, 2rem);
+    // مسافات متجاوبة ومريحة
+    padding: clamp(2rem, 5vw, 4rem) clamp(1rem, 3vw, 2rem);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding-bottom: max(3vw, 3rem);
-    gap: max(1vw, 1rem);
+    // زيادة المسافة السفلية عشان زر "More" العائم ما يغطي على شيء تحته
+    padding-bottom: 5rem; 
+    gap: 2.5rem; // مسافة ثابتة ونظيفة بين الكروت
 
     .singel_server {
-        width: max(20vw, 20rem);
-        padding: max(1vw, 1rem);
+        // --- Card Sizing Logic ---
+        // الكرت مرن: الأساس 300 بكسل، ولا يزيد عرضاً عن 420 بكسل
+        flex: 1 1 300px;
+        max-width: 420px;
+        
+        padding: 1.5rem;
+        position: relative; // ضروري عشان الزر العائم
+        margin-bottom: 1.5rem; // مسافة أمان إضافية
         
         // --- MASTER STYLE CARD ---
-        background: linear-gradient(105.41deg, rgba(255, 255, 255, 0.9) 7.83%, rgba(205, 220, 246, 0.9) 93.81%);
-        box-shadow: 0px 10px 30px #CEDBEF; // Soft shadow
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(235, 240, 250, 0.95) 100%);
+        box-shadow: 0px 10px 30px rgba(206, 219, 239, 0.6);
         border: 1px solid rgba(255, 255, 255, 0.8);
-        color: #000; // Text Black
+        color: #333;
         
-        // Keeping the original unique radius logic
-        border-top-left-radius: max(1vw, 1rem);
-        border-bottom-right-radius: max(1vw, 1rem);
-        border-top-right-radius: max(0.2vw, 0.2rem); // Slight softening
-        border-bottom-left-radius: max(0.2vw, 0.2rem); // Slight softening
+        // Radius logic (Kept your creative concept but fixed units)
+        border-top-left-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        border-top-right-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
         
-        transition: 0.3s;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
         
         &:hover {
-            transform: translateY(-5px);
-            box-shadow: 0px 20px 40px #b8cbe6;
+            transform: translateY(-8px);
+            box-shadow: 0px 20px 45px rgba(184, 203, 230, 0.8);
         }
 
         .title {
             display: flex;
             align-items: center;
+            gap: 1rem; // مسافة بين اللوجو والنص
 
             .logo {
-                width: max(4vw, 4rem);
-                height: max(4vw, 4rem);
+                // حجم ثابت للوجو لمنع التشوه
+                width: 4rem; 
+                height: 4rem;
+                flex-shrink: 0;
                 object-fit: cover;
                 border-radius: 50%;
-                border: 2px solid #fff;
-                box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+                border: 3px solid #fff;
+                box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
             }
 
             .values {
-                padding-left: max(1vw, 1rem);
-
+                display: flex;
+                flex-direction: column;
+                
                 p {
-                    font-size: max(1.2vw, 1.2rem);
-                    padding-bottom: max(0.3vw, 0.3rem);
-                    font-weight: 600;
-                    // Gradient Text for Title
+                    font-size: 1.1rem;
+                    font-weight: 700;
+                    margin-bottom: 0.25rem;
+                    // Gradient Text
                     background: linear-gradient(89.99deg, #7243C6 59.61%, #9B11AD 94.57%);
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
@@ -76,152 +92,181 @@
                 }
 
                 img {
-                    width: max(5vw, 5rem);
-                    height: max(1vw, 1rem);
-                    filter: invert(1) brightness(0.5); // Adjust star rating color if needed
+                    // ضبط حجم علم الدولة أو الأيقونة
+                    width: auto;
+                    height: 1.2rem;
+                    object-fit: contain;
+                    align-self: flex-start;
                 }
             }
         }
 
         .disc {
-            margin-top: max(1vw, 1rem);
-            padding-top: max(1vw, 1rem);
+            margin-top: 1.2rem;
+            padding-top: 1rem;
             width: 100%;
-            // Updated fade gradient to match light theme (Fade to white/transparent)
-            background: linear-gradient(0, rgba(255,255,255, 0.9), #00000000); 
-            max-height: 15vh;
+            border-top: 1px solid rgba(0,0,0,0.05); // خط فاصل خفيف
+            
+            // تحديد ارتفاع للنص عشان الكروت تكون متساوية الطول تقريباً
+            height: 120px; 
             overflow-y: auto;
-            overflow-x: hidden;
-            padding-right: max(0.5vw, 0.5rem);
-            padding-left: max(0.5vw, 0.5rem);
-            padding-bottom: max(1vw, 1rem);
-            border-bottom-right-radius: max(1vw, 1rem);
-
+            
+            // Fade effect logic
+            background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 100%);
+            
             p {
-                font-size: max(1vw, 1rem);
-                color: #444; // Dark Grey for readability
-                line-height: 1.5;
+                font-size: 0.95rem;
+                color: #555;
+                line-height: 1.6;
+                padding-right: 5px;
+            }
+
+            // Scrollbar styling specifically for the description
+            &::-webkit-scrollbar { width: 4px; }
+            &::-webkit-scrollbar-thumb { background: #ccc; border-radius: 4px; }
+        }
+
+        
+    }
+    .more {
+            position: absolute;
+            // جعلت الزر معلق في المنتصف السفلي
+            bottom: -1.2rem; 
+            left: 50%;
+            transform: translateX(-50%); // توسيط الزر بدقة
+            
+            white-space: nowrap;
+            font-size: 0.9rem;
+            font-weight: 600;
+            padding: 0.6rem 1.5rem;
+            
+            // --- MASTER BUTTON STYLE ---
+            color: #000;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            background: linear-gradient(97.39deg, #FFF 7.18%, #CDDCF6 92.15%);
+            box-shadow: 0px 10px 20px rgba(206, 219, 239, 0.8), inset 0px 0px 0px 1px #fff;
+            border-radius: 50px; // شكل كبسولة كاملة
+            
+            transition: 0.3s;
+            z-index: 2;
+
+            &:hover {
+                transform: translateX(-50%) translateY(-3px); // الحفاظ على التوسيط مع الحركة
+                box-shadow: 0px 15px 30px rgba(206, 219, 239, 1);
             }
         }
-    }
-
-    .more {
-        position: absolute;
-        bottom: -3%;
-        text-transform: capitalize;
-        font-size: max(1.5vw, 1.5rem);
-        padding: max(0.3vw, 0.3rem) max(0.8vw, 0.8rem);
-        
-        // --- MASTER BUTTON STYLE ---
-        color: #000;
-        border: none;
-        outline: none;
-        cursor: pointer;
-        background: linear-gradient(97.39deg, #FFF 7.18%, #CDDCF6 92.15%);
-        box-shadow: 0px 20px 40px #CEDBEF, inset 3px 3px 10px rgba(255, 255, 255, 0.72);
-        border-radius: max(0.5vw, 0.5rem);
-        
-        word-spacing: max(0.5vw, 0.5rem);
-        transition: 0.3s;
-
-        &:hover {
-            outline: #ffffff solid max(0.1vw, 0.1rem);
-            transform: translateY(-2px);
-        }
-    }
 }
 
 %filter {
-    height: 15vh;
-    display: flex;
-    gap: max(1vw, 1rem);
-    align-items: end;
     width: 100%;
+    // ألغيت الارتفاع الثابت، البادينج أفضل
+    padding: clamp(2rem, 4vw, 3rem) 1rem; 
     
-    // Add horizontal scroll for smaller screens if needed
-    overflow-x: auto; 
-    padding-bottom: 10px;
+    display: flex;
+    justify-content: center; // توسيط حقل البحث
+    align-items: flex-end;
+    gap: 1.5rem;
+    flex-wrap: wrap; // السماح بالنزول لسطر جديد في الجوال
 
     .input_holder {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
         label {
-            padding-left: max(1vw, 1rem);
-            color: #000; // Label Black
-            font-size: max(1.5vw, 1.5rem);
+            color: #333;
+            font-size: 1rem;
             font-weight: 600;
-            display: block;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.75rem;
+            align-self: flex-start; // العنوان يبدأ من اليسار
+            padding-left: 0.5rem;
         }
 
         .input {
             display: flex;
             align-items: center;
-            flex-wrap: nowrap; // Prevent wrapping to keep button inside
-            justify-content: center;
+            position: relative; // عشان التحكم في العناصر
 
             input {
-                // Master Input Style
+                // --- Master Input Style ---
                 border: 1px solid transparent;
                 background: #FFF;
-                width: max(20vw, 20rem);
-                font-size: max(1vw, 1rem);
-                color: #000;
+                
+                // العرض: لا يقل عن 280 ولا يزيد عن 600 بكسل
+                width: clamp(280px, 50vw, 600px); 
+                
+                font-size: 1rem;
+                color: #333;
                 outline: none;
-                padding: max(0.5vw, 0.5rem);
-                border-radius: max(1vw, 1rem);
-                padding-left: max(1.2vw, 1.2rem);
-                // Soft shadow instead of dark inset
-                box-shadow: 0px 4px 10px #CEDBEF; 
+                
+                padding: 1rem 1.5rem;
+                padding-right: 3.5rem; // مساحة كافية لزر البحث الدائري
+                
+                border-radius: 50px; // شكل دائري كامل (كبسولة)
+                box-shadow: 0px 5px 20px rgba(206, 219, 239, 0.6);
                 transition: 0.3s;
                 
                 &::placeholder {
-                    color: #999;
+                    color: #aaa;
+                    font-weight: 400;
                 }
                 
                 &:focus {
-                     box-shadow: 0px 4px 15px #aabce0;
+                     box-shadow: 0px 8px 25px rgba(114, 67, 198, 0.15);
+                     border-color: rgba(114, 67, 198, 0.2);
                 }
             }
 
             button {
-                width: max(2.5vw, 2.5rem);
-                height: max(2.5vw, 2.5rem);
+                margin-left: 1rem;
+                width: 2.8rem;
+                height: 2.8rem;
+                
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 
-                // Master Button Style (Small)
                 background: linear-gradient(97.39deg, #FFF 7.18%, #CDDCF6 92.15%);
-                color: #7243C6; // Icon color purple
-                
+                color: #7243C6;
                 border: none;
-                outline: none;
                 border-radius: 50%;
                 cursor: pointer;
-                translate: -100% 0; // Keeping original logic
+                box-shadow: 0px 4px 10px rgba(0,0,0,0.05);
                 transition: 0.3s;
                 
+                // ألغيت الـ translate القديم لأنه معقد، الاعتماد على absolute أسهل
+                translate: 0 0; 
+
                 i {
-                    font-size: max(1.3vw, 1.3em);
+                    font-size: 1.2rem;
                 }
 
                 &:hover {
                     color: #9B11AD;
-                    transform: scale(1.1); // Scale effect instead of border
-                    box-shadow: 0px 5px 15px #CEDBEF;
+                    transform: scale(1.1); // تكبير مع الحفاظ على التوسيط
                 }
             }
 
             select {
                 outline: none;
-                // Master Select Style
-                border: 1px solid transparent;
+                border: none;
                 background: #FFF;
-                font-size: max(1vw, 1rem);
-                box-shadow: 0px 4px 10px #CEDBEF;
-                color: #000;
-                padding: max(0.3vw, 0.3rem) max(0.5vw, 0.5rem);
-                border-radius: max(0.5vw, 0.5rem);
+                font-size: 0.95rem;
+                box-shadow: 0px 5px 20px rgba(206, 219, 239, 0.6);
+                color: #333;
+                padding: 0.8rem 1.5rem;
+                border-radius: 12px;
                 cursor: pointer;
+                height: 100%; // يطابق ارتفاع الانبوت
+                margin-left: 1rem; // مسافة بينه وبين الانبوت
+                
+                transition: 0.3s;
+                
+                &:hover {
+                    transform: translateY(-2px);
+                }
             }
         }
     }

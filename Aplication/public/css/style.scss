@@ -1,105 +1,105 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
+// --- 1. GLOBAL RESET ---
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif; // Master Font
+    font-family: 'Poppins', sans-serif;
     list-style: none;
+
+    // --- SCROLLBAR HIDING (Cleanest Method) ---
+    // Firefox
+    scrollbar-width: none; 
+    
+    // Chrome, Edge, Safari
+    &::-webkit-scrollbar {
+        display: none; 
+        width: 0;
+        background: transparent;
+    }
 }
 
-// Scrollbar styling kept as requested (Hidden)
-*::-webkit-scrollbar {
-    width: .5rem;
-    display: none;
-}
-*::-moz-scrollbar {
-    width: .5rem;
-    display: none;
-}
-
-*::-moz-scrollbar-track {
-    background: transparent;
-    display: none;
-}
-
-*::-webkit-scrollbar-track {
-    background: transparent;
-    display: none;
-}
-
-*::-moz-scrollbar-thumb {
-    background: rgb(174, 174, 174);
-    border-radius: 10%;
-    display: none;
-}
-
-*::-webkit-scrollbar-thumb {
-    background: rgb(174, 174, 174);
-    border-radius: 10%;
-    display: none;
-}
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-/* Firefox */
+// مدخلات الأرقام (إخفاء الأسهم الجانبية)
 input[type=number] {
-  -moz-appearance: textfield;
+    -moz-appearance: textfield;
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
 }
 
 body {
     height: 100vh;
+    width: 100vw;
     overflow-x: hidden;
-    // Master Background (Replaces the dark gradient)
+    // لون الخلفية الأساسي (Light Theme)
     background-color: rgb(242, 246, 255);
-    color: #000;
+    color: #333; // الأسود الفاحم (#000) قاسي على العين، هذا الرمادي الغامق أريح
+    
+    // تنعيم الخطوط
+    -webkit-font-smoothing: antialiased;
 }
 
+// --- 2. ALERT BOX ---
 .alert_div {
-    // Structural positioning (Kept as is)
-    right: -200%;
-    top: 5%;
-    position: absolute;
-    z-index: 50;
-    width: max(25vw, 25rem);
+    // --- Positioning ---
+    // Fixed أفضل للتنبيهات عشان تظهر فوق المحتوى حتى لو نزلنا بالسكرول
+    position: fixed; 
+    z-index: 1000; // تأكدنا أنه فوق الناف بار والمودال
+    top: 2rem; // مسافة من الأعلى
+    right: -100%; // الحالة الافتراضية (مخفي خارج الشاشة)
+    
+    // --- Sizing ---
+    // العرض: يتمدد حسب النص لكن بحدود منطقية
+    width: auto;
+    min-width: 300px;
+    max-width: 450px; 
     
     // --- MASTER STYLE ---
-    // Glassy Background instead of flat gradient
-    background: linear-gradient(105.41deg, rgba(255, 255, 255, 0.95) 7.83%, rgba(205, 220, 246, 0.95) 93.81%);
-    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     
-    // Soft Shadow
-    box-shadow: 0px 20px 40px #CEDBEF, 0px 5px 10px rgba(0,0,0,0.05);
+    // Soft Shadow & Radius
+    box-shadow: 0px 10px 30px rgba(114, 67, 198, 0.15), 0px 4px 10px rgba(0,0,0,0.05);
+    border-radius: 12px;
     
-    // Border Radius
-    border-radius: max(0.5vw, 0.5rem);
+    // Borders
     border: 1px solid rgba(255, 255, 255, 0.8);
+    // الشريط الجانبي الملون (Accent)
+    border-left: 5px solid #7243C6; 
     
-    // Theme Accent Border (Replaces the dark border-left)
-    border-left: solid #7243C6 max(0.5vw, 0.5rem);
-    
-    padding: max(1vw, 1rem);
-    padding-left: max(2vw, 2rem);
-    padding-right: max(1vw, 1rem);
+    // Spacing
+    padding: 1rem 1.5rem;
     
     display: flex;
-    justify-content: center;
+    justify-content: flex-start; // النص يبدأ من اليسار (أفضل للقراءة)
     align-items: center;
-    transition: 0.3s;
+    gap: 1rem; // مسافة لو قررت تضيف أيقونة مستقبلاً
+    
+    transition: right 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); // حركة دخول ناعمة (Bounce Effect)
+
+    // كلاس يتم إضافته بالجافاسكربت لإظهار التنبيه
+    &.active {
+        right: 2rem; // المسافة من اليمين عند الظهور
+    }
 
     p {
-        text-align: center;
-        font-size: max(3vw, 3rem); // Kept size logic
-        
-        // Updated Text Color for Light Theme
+        margin: 0;
+        text-align: left;
+        // تصحيح حجم الخط (كان 3rem وهذا ضخم جداً)
+        font-size: 1rem; 
+        line-height: 1.5;
         color: #333; 
         font-weight: 600;
-        
-        // Removed harsh black text-shadow, replaced with subtle light shadow if needed
-        text-shadow: none;
+    }
+    
+    // إضافة اختيارية: أيقونة تنبيه
+    // يمكنك إضافة <i class="icon"></i> في الـ HTML
+    .icon {
+        font-size: 1.5rem;
+        color: #7243C6;
     }
 }

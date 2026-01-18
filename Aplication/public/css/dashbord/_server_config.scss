@@ -1,24 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 %server_config {
-    // Layout properties (Kept as is)
-    width: max(28vw, 20em);
+    // --- LAYOUT & SIZING ---
+    // التعديل: استخدام clamp يضمن أن العرض لا يقل عن 300 ولا يزيد عن 450 بكسل
+    // هذا أفضل من max() التي قد تجعل اللوحة عريضة جداً
+    width: clamp(18rem, 25vw, 28rem); 
+    
     height: 100%;
-
-    // --- MASTER STYLE INJECTION ---
+    display: flex;
+    flex-direction: column; // لترتيب المحتوى تحت بعض
+    
+    // --- MASTER STYLE & THEME ---
     font-family: 'Poppins', sans-serif;
+    color: #333; // لون الخط الأساسي (رمادي غامق بدل الأسود الفاحم)
 
-    // Glassmorphism Background
-    background: linear-gradient(105.41deg, rgba(255, 255, 255, 0.36) 7.83%, rgba(205, 220, 246, 0.36) 93.81%);
+    // Glassmorphism Background (تحسين طفيف للشفافية)
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.5) 0%, rgba(205, 220, 246, 0.5) 100%);
     
-    // Soft Shadow (Replaces the dark #08080856 shadow)
-    box-shadow: 0px 20px 40px #CEDBEF, inset 3px 3px 10px rgba(255, 255, 255, 0.72);
+    // Shadows & Borders
+    // جعلت الظل أنعم قليلاً والحدود أوضح لتعطي تأثير الكريستال
+    box-shadow: 0px 15px 35px rgba(206, 219, 239, 0.5), inset 0px 0px 0px 1px rgba(255, 255, 255, 0.8);
+    border-radius: 24px; // 24px يعتبر Standard حديث وأكثر انسيابية من 31px
     
-    // Pattern Border Radius
-    border-radius: 31px;
+    // Glass Filters
+    backdrop-filter: blur(12px); // زدت البلور قليلاً لإخفاء الخلفية المزعجة
+    -webkit-backdrop-filter: blur(12px);
+    
+    // --- CONTENT SPACING ---
+    // إضافة مسافة داخلية ضرورية عشان المحتوى يتنفس
+    
+    // في حال كان المحتوى طويلاً، نسمح بالسكرول
+    overflow-y: auto; 
+    overflow-x: hidden;
 
-    // Glass Effect enhancements
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    // --- SCROLLBAR STYLING ---
+    // تنسيق شريط التمرير ليكون ناعماً وغير مزعج
+    &::-webkit-scrollbar {
+        width: 5px;
+    }
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: rgba(114, 67, 198, 0.15); // لون بنفسجي خفيف جداً
+        border-radius: 10px;
+    }
+    
+    &::-webkit-scrollbar-thumb:hover {
+        background: rgba(114, 67, 198, 0.3);
+    }
 }

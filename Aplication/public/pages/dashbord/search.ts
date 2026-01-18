@@ -32,6 +32,7 @@ const render = async(before_Render?:() => Promise<void>) => {
     if(!HTTP_Data){
         return
     }
+    console.log("http_data: ", HTTP_Data)
     if(HTTP_Data.length == 0){
         console.log("out of amo")
         _("#More_Button").addStyles({
@@ -53,7 +54,7 @@ const render = async(before_Render?:() => Promise<void>) => {
         return _single_server({
             server_stars:`${value.rate}`,
             server_disc:value.disc,
-            server_image:value.basket_embed_imageURL,
+            server_image:value.server_imgeURL,
             server_name:value.server_name
         })
     }))
@@ -93,8 +94,9 @@ const _section_2 = async () => {
             return _single_server({
                 server_stars:`${value.rate}`,
                 server_disc:value.disc,
-                server_image:value.basket_embed_imageURL,
-                server_name:value.server_name
+                server_image:value.server_imgeURL,
+                server_name:value.server_name,
+                invite_link:value.invite_link
             })
         }),
         _button("more",(elm) => More_Button = elm, {
@@ -177,12 +179,14 @@ const _single_server = ({
     server_stars,
     server_disc,
     server_name,
-    server_image
+    server_image,
+    invite_link
 }:{
     server_stars:string,
     server_name:string,
     server_disc:string,
-    server_image:string
+    server_image:string,
+    invite_link?:string,
 }) => {
     return _div(
         {
@@ -200,7 +204,7 @@ const _single_server = ({
                 {
                     classes:"values"
                 },
-                _p(server_name),
+                invite_link ? _a({href:invite_link, target:"_blank"}, _p(server_name)) : _p(server_name),
                 _img({classes:"stars_image",src:`/images/stars/${server_stars.includes(".") ? `${server_stars.split(".")[0]}h.svg` : `${server_stars}.svg`}`})
             )
         ),

@@ -1,1 +1,491 @@
-'use strict';const _0x57efa6=_0x10b0;(function(_0x21257a,_0x34d922){const _0x1a99f6=_0x10b0,_0x156546=_0x21257a();while(!![]){try{const _0x58906b=-parseInt(_0x1a99f6(0x109))/0x1*(-parseInt(_0x1a99f6(0x136))/0x2)+parseInt(_0x1a99f6(0x117))/0x3+-parseInt(_0x1a99f6(0x11e))/0x4*(parseInt(_0x1a99f6(0xfa))/0x5)+parseInt(_0x1a99f6(0x112))/0x6*(-parseInt(_0x1a99f6(0x13a))/0x7)+parseInt(_0x1a99f6(0x10c))/0x8*(-parseInt(_0x1a99f6(0xfd))/0x9)+-parseInt(_0x1a99f6(0x115))/0xa*(parseInt(_0x1a99f6(0x107))/0xb)+-parseInt(_0x1a99f6(0x126))/0xc*(-parseInt(_0x1a99f6(0x135))/0xd);if(_0x58906b===_0x34d922)break;else _0x156546['push'](_0x156546['shift']());}catch(_0x432135){_0x156546['push'](_0x156546['shift']());}}}(_0x4629,0xde1f2));localStorage[_0x57efa6(0x14d)](_0x57efa6(0x10d)),localStorage['removeItem'](_0x57efa6(0x137)),localStorage[_0x57efa6(0x14d)]('log_card_3');var this_target_server_id='';window[_0x57efa6(0x100)]['href'][_0x57efa6(0x133)]('?')[0x1]&&window[_0x57efa6(0x100)][_0x57efa6(0x10e)][_0x57efa6(0x133)]('?')[0x1][_0x57efa6(0x133)]('&')[_0x57efa6(0x128)](_0xdd1372=>{const _0x1e1cb6=_0x57efa6;_0xdd1372[_0x1e1cb6(0xfe)]('server_id')&&(this_target_server_id=_0xdd1372[_0x1e1cb6(0x133)]('=')[0x1]);});const send_HTTP_Requist=async({url:_0x5e3b99,method:_0x4a6c95,formData:_0x5c128a})=>{const _0x3aa30d=_0x57efa6;var _0x341560=new FormData();_0x5c128a?_0x5c128a[_0x3aa30d(0x102)](_0x3aa30d(0x106),user_user):_0x341560[_0x3aa30d(0x102)](_0x3aa30d(0x106),user_user);var _0x540a3e,_0x5903db=!![];try{await $[_0x3aa30d(0x144)]({'url':_0x5e3b99,'type':_0x4a6c95||_0x3aa30d(0x104),'data':_0x5c128a||_0x341560,'success':function(_0x10a99e){_0x540a3e=_0x10a99e,is_respons_error(_0x10a99e)&&(_0x5903db=![]);},'cache':![],'contentType':![],'processData':![]});}catch(_0x336c36){return send_YoFi_alert(_0x3aa30d(0x152)),![];}if(!_0x5903db)return![];return _0x540a3e||[];};let from_user_logs_start={'my_servers_donations':0x0,'private_donations':0x0,'store_payments':0x0},from_server_logs_start={'this_store_payments':0x0,'donation':0x0};const localStorage_create=(_0x1ed03d,_0x4b2de3={})=>{const _0x2f81c8=_0x57efa6;localStorage[_0x2f81c8(0x148)](_0x1ed03d,JSON[_0x2f81c8(0x124)](_0x4b2de3));},localStorage_get=_0x1b328b=>{const _0x5ab8b9=_0x57efa6;return JSON['parse'](localStorage[_0x5ab8b9(0x114)](_0x1b328b)?localStorage[_0x5ab8b9(0x114)](_0x1b328b):'{}');};function _0x4629(){const _0x1e79fa=['element','attributes','onTouchStart','style','innerHTML','setStyles','ajax','placeHolder','removeProperty','removeStyles','setItem','setText','tag','removeNamedItem','changeAttr','removeItem','onMouseUp','onMouseDown','cheldren','values','networking\x20error','onMouseMove','jQElement','onTouchEnd','onmouseup','IMG','value','toString','onmousemove','ontouchend','5yUfRBu','removeClasses','trim','1143ByiZHS','startsWith','sleepByMelSuc','location','text','append','sleepBySuc','POST','addChilds','user_user','179399lPClLc','dataset','2HJFsqX','textContent','addStyles','73624XXrpif','log_card_1','href','ontouchstart','set_all_attrs','string\x20must\x20have\x20a\x20value','30QvAJdx','src','getItem','140JYyiRF','type','2239722bcubEZ','tagName','removeAllStyles','name','getSlector','setAttribute','baseSelector','4233412UDlyMV','input','attrs','classList','className','Re_Attr','stringify','appendChild','6328716cUhIoC','string','forEach','add','onTouchMove','keys','changeStyles','join','the\x20elector\x20parentElement\x20must\x20have\x20an\x20id','div','setChilds','onclick','INPUT','split','classes','65cwNbte','627836OTrpbl','log_card_2','push','addClasses','904547wPTeag','filter','onClick','querySelector'];_0x4629=function(){return _0x1e79fa;};return _0x4629();}class Sleep{static async[_0x57efa6(0xff)](_0x1a2f67){await new Promise(_0x590eae=>setTimeout(_0x590eae,_0x1a2f67));}static async[_0x57efa6(0x103)](_0x53f175){await new Promise(_0x528e7b=>setTimeout(_0x528e7b,_0x53f175*0x3e8));}static async['sleepByMin'](_0xc8db54){await new Promise(_0x5708c6=>setTimeout(_0x5708c6,_0xc8db54*0x3e8*0x3c));}static async['sleepByHours'](_0x5b7e34){await new Promise(_0x33a777=>setTimeout(_0x33a777,_0x5b7e34*0x3e8*0x3c*0x3c));}}class YoFiElement{[_0x57efa6(0x120)];[_0x57efa6(0x150)];['element'];[_0x57efa6(0xf2)];[_0x57efa6(0x101)]='';[_0x57efa6(0x14a)];constructor({attrs:_0x5b5474,tag:_0x3372de,cheldren:_0x292c66,init:_0x327d15,textContent:_0x449c77}){const _0x37a5ef=_0x57efa6,_0x2c68f6=document['createElement'](_0x3372de);this[_0x37a5ef(0x14a)]=_0x3372de,this['element']=_0x2c68f6;if(_0x5b5474){this[_0x37a5ef(0x120)]=_0x5b5474,this[_0x37a5ef(0x110)]();_0x5b5474[_0x37a5ef(0x116)]&&(this['element'][_0x37a5ef(0x116)]=_0x5b5474[_0x37a5ef(0x116)]);_0x5b5474[_0x37a5ef(0x113)]&&(this['element'][_0x37a5ef(0x113)]=_0x5b5474[_0x37a5ef(0x113)]);_0x5b5474['id']&&(this[_0x37a5ef(0x13e)]['id']=_0x5b5474['id']);if(_0x5b5474[_0x37a5ef(0x108)])for(let _0x2adfb7 of Object['keys'](_0x5b5474['dataset'])){this[_0x37a5ef(0x13e)][_0x37a5ef(0x108)][_0x2adfb7]=_0x5b5474[_0x37a5ef(0x108)][_0x2adfb7];}if(_0x5b5474[_0x37a5ef(0x134)])for(let _0x3f1efc of _0x5b5474[_0x37a5ef(0x134)][_0x37a5ef(0xfc)]()['split']('\x20')){this[_0x37a5ef(0x13e)]['classList'][_0x37a5ef(0x129)](_0x3f1efc);}_0x5b5474[_0x37a5ef(0x141)]&&this[_0x37a5ef(0x143)](_0x5b5474[_0x37a5ef(0x141)]);_0x5b5474[_0x37a5ef(0x10e)]&&(this['element']['href']=_0x5b5474[_0x37a5ef(0x10e)]);if(_0x5b5474[_0x37a5ef(0x11d)]){const _0x39bf4a=document['querySelector'](_0x5b5474[_0x37a5ef(0x11d)]);_0x39bf4a&&_0x39bf4a[_0x37a5ef(0x125)](this[_0x37a5ef(0x13e)]);}_0x5b5474[_0x37a5ef(0xf6)]&&this[_0x37a5ef(0x149)](_0x5b5474[_0x37a5ef(0xf6)]),_0x5b5474['placeHolder']&&this[_0x37a5ef(0x14c)]({'placeHolder':_0x5b5474[_0x37a5ef(0x145)]});}_0x449c77&&this['setText'](_0x449c77);_0x292c66&&(this['cheldren']=_0x292c66,_0x292c66[_0x37a5ef(0x128)](_0x329609=>{const _0x54dd70=_0x37a5ef;this[_0x54dd70(0x13e)]['appendChild'](_0x329609[_0x54dd70(0x13e)]);}));this[_0x37a5ef(0xf2)]=$(this[_0x37a5ef(0x13e)]);_0x327d15&&_0x327d15(this);return;}[_0x57efa6(0x143)](_0x24ebd7){const _0x2a66b1=_0x57efa6;this[_0x2a66b1(0x13e)][_0x2a66b1(0x141)]='';for(let _0x130db5 of Object[_0x2a66b1(0x12b)](_0x24ebd7)){this[_0x2a66b1(0x13e)][_0x2a66b1(0x141)][_0x130db5]=_0x24ebd7[_0x130db5];}return this[_0x2a66b1(0x120)]&&this[_0x2a66b1(0x123)]({'style':_0x24ebd7}),this;}[_0x57efa6(0x10b)](_0x1ce79f){const _0x7dce9c=_0x57efa6;for(let _0x13f6e4 of Object[_0x7dce9c(0x12b)](_0x1ce79f)){this['element']['style'][_0x13f6e4]=_0x1ce79f[_0x13f6e4];}return this;}[_0x57efa6(0xfb)](_0x123f5e){const _0x455be6=_0x57efa6;for(let _0x327a65 of _0x123f5e['trim']()[_0x455be6(0x133)]('\x20')){_0x327a65?this[_0x455be6(0x13e)][_0x455be6(0x121)]['remove'](_0x327a65):null,this['attrs']?.[_0x455be6(0x134)]&&(this[_0x455be6(0x120)][_0x455be6(0x134)]=this[_0x455be6(0x120)][_0x455be6(0x134)][_0x455be6(0xfc)]()[_0x455be6(0x133)]('\x20')[_0x455be6(0x13b)](_0x2da87a=>_0x2da87a!=_0x327a65)[_0x455be6(0x12d)]('\x20'));}return this;}[_0x57efa6(0x149)](_0x68e229){const _0x50c5f6=_0x57efa6;if(this[_0x50c5f6(0x14a)]==_0x50c5f6(0x11f))this['element'][_0x50c5f6(0xf6)]=_0x68e229,this[_0x50c5f6(0x123)]({'value':_0x68e229});else this[_0x50c5f6(0x14a)]=='img'?(this[_0x50c5f6(0x13e)][_0x50c5f6(0x113)]=_0x68e229,this['Re_Attr']({'src':_0x68e229})):this[_0x50c5f6(0x13e)][_0x50c5f6(0x10a)]=_0x68e229;;return this[_0x50c5f6(0x101)]=_0x68e229,this;}['addClasses'](_0x5be4c7){const _0x4706b4=_0x57efa6;for(let _0x291184 of _0x5be4c7['trim']()[_0x4706b4(0x133)]('\x20')){_0x291184?this[_0x4706b4(0x13e)][_0x4706b4(0x121)][_0x4706b4(0x129)](_0x291184):null;if(this[_0x4706b4(0x120)]){var _0x57bd07=this[_0x4706b4(0x120)][_0x4706b4(0x134)]?.[_0x4706b4(0xfc)]()['split']('\x20')||[];_0x57bd07?.[_0x4706b4(0x138)](_0x291184),this[_0x4706b4(0x123)]({'classes':_0x57bd07?.[_0x4706b4(0x12d)]('\x20')});}}return this;}[_0x57efa6(0x12c)](_0x16c554){const _0x56649f=_0x57efa6;for(let _0x328a2f of Object['keys'](_0x16c554)){this[_0x56649f(0x13e)][_0x56649f(0x141)][_0x328a2f]=_0x16c554[_0x328a2f];}return this[_0x56649f(0x120)]&&(this['attrs'][_0x56649f(0x141)]={...this[_0x56649f(0x120)][_0x56649f(0x141)],..._0x16c554}),this;}[_0x57efa6(0x147)](_0x12f893){const _0x1d7084=_0x57efa6;for(let _0x1f0be9 of _0x12f893){this[_0x1d7084(0x13e)][_0x1d7084(0x141)][_0x1d7084(0x146)](''+_0x1f0be9[_0x1d7084(0xf7)]()),this[_0x1d7084(0x120)]&&this['attrs'][_0x1d7084(0x141)]&&delete this[_0x1d7084(0x120)][_0x1d7084(0x141)][_0x1f0be9];}return this;}[_0x57efa6(0x119)](){const _0x3077d3=_0x57efa6;return this[_0x3077d3(0x13e)]['attributes'][_0x3077d3(0x14b)](_0x3077d3(0x141)),this['attrs']&&this[_0x3077d3(0x120)][_0x3077d3(0x141)]&&this[_0x3077d3(0x123)]({'style':undefined}),this;}[_0x57efa6(0x105)](..._0x3271e4){const _0x4f5750=_0x57efa6;return _0x3271e4&&_0x3271e4[_0x4f5750(0x128)](_0x387441=>{const _0x1fc1f4=_0x4f5750;this[_0x1fc1f4(0x13e)]['appendChild'](_0x387441[_0x1fc1f4(0x13e)]);}),this;}[_0x57efa6(0x130)](..._0xcdc9ee){const _0x57ff37=_0x57efa6;return this[_0x57ff37(0x13e)][_0x57ff37(0x142)]=this[_0x57ff37(0x101)]||'',_0xcdc9ee&&_0xcdc9ee[_0x57ff37(0x128)](_0x500dfc=>{const _0x4ad1e7=_0x57ff37;this[_0x4ad1e7(0x13e)][_0x4ad1e7(0x125)](_0x500dfc[_0x4ad1e7(0x13e)]);}),this;}[_0x57efa6(0x13c)](_0x489d7a){const _0x1a84ab=_0x57efa6;return this[_0x1a84ab(0x13e)][_0x1a84ab(0x131)]=_0x161912=>{_0x489d7a(_0x161912);},this;}[_0x57efa6(0x14f)](_0x51ed5e){const _0x423ff9=_0x57efa6;return this[_0x423ff9(0x13e)]['onmousedown']=_0x380f4f=>{_0x51ed5e(_0x380f4f);},this;}[_0x57efa6(0x14e)](_0x3e0666){const _0xb349e3=_0x57efa6;return this[_0xb349e3(0x13e)][_0xb349e3(0xf4)]=_0x545c73=>{_0x3e0666(_0x545c73);},this;}[_0x57efa6(0xf1)](_0x2448b3){const _0x39ecbc=_0x57efa6;return this[_0x39ecbc(0x13e)][_0x39ecbc(0xf8)]=_0x59ad19=>{_0x2448b3(_0x59ad19);},this;}[_0x57efa6(0x140)](_0x19fc71){const _0x46d287=_0x57efa6;return this[_0x46d287(0x13e)][_0x46d287(0x10f)]=_0x49fb54=>{_0x19fc71(_0x49fb54);},this;}[_0x57efa6(0xf3)](_0x22dcb0){const _0x6c3825=_0x57efa6;return this[_0x6c3825(0x13e)][_0x6c3825(0xf9)]=_0x6d4f54=>{_0x22dcb0(_0x6d4f54);},this;}[_0x57efa6(0x12a)](_0xcd0008){const _0xca3792=_0x57efa6;return this[_0xca3792(0x13e)]['ontouchmove']=_0x155761=>{_0xcd0008(_0x155761);},this;}['changeAttr'](_0x3df93a,_0x497294){const _0x51dbd7=_0x57efa6;if(typeof _0x3df93a==_0x51dbd7(0x127)&&_0x497294)return this[_0x51dbd7(0x13e)][_0x51dbd7(0x11c)](_0x3df93a,_0x497294),this[_0x51dbd7(0x120)]&&(this[_0x51dbd7(0x120)][_0x3df93a]=_0x497294),this;if(_0x497294||typeof _0x3df93a=='string'){throw Error(_0x51dbd7(0x111));return this;}for(let _0x2e4820 of Object['keys'](_0x3df93a)){this[_0x51dbd7(0x13e)][_0x51dbd7(0x11c)](_0x2e4820,_0x3df93a[_0x2e4820]),this[_0x51dbd7(0x120)]&&(this[_0x51dbd7(0x120)][_0x2e4820]=_0x3df93a[_0x2e4820]);}return this;}[_0x57efa6(0x123)](_0x11babe){const _0x4f0fbe=_0x57efa6;if(this[_0x4f0fbe(0x120)])for(let _0x3a2cc9 of Object['keys'](_0x11babe)){this['attrs'][_0x3a2cc9]=_0x11babe[_0x3a2cc9];}return this;}['set_all_attrs'](){const _0x3d6c55=_0x57efa6;if(this[_0x3d6c55(0x120)])for(let _0x32c529 of Object[_0x3d6c55(0x12b)](this[_0x3d6c55(0x120)])){if(_0x32c529==_0x3d6c55(0x11d)||_0x32c529==_0x3d6c55(0x134)||_0x32c529=='dataset'||_0x32c529=='href'||_0x32c529=='id'||_0x32c529==_0x3d6c55(0x145)||_0x32c529==_0x3d6c55(0x113)||_0x32c529=='style'||_0x32c529=='value'||_0x32c529==_0x3d6c55(0x116))continue;this[_0x3d6c55(0x13e)][_0x3d6c55(0x11c)](_0x32c529,this[_0x3d6c55(0x120)][_0x32c529]);}return this;}[_0x57efa6(0x11b)](_0x3dd6cf){const _0x2cc53c=_0x57efa6;if(!this[_0x2cc53c(0x13e)]['id'])throw Error(_0x2cc53c(0x12e));return _('#'+this[_0x2cc53c(0x13e)]['id']+'\x20'+_0x3dd6cf);}}class YoFiSelectorElement extends YoFiElement{constructor({selector:_0xd6e963,init:_0x56ac0d,cheldren:_0x4856a7}){const _0x4ce648=_0x57efa6;super({'tag':Y[_0x4ce648(0x12f)],'attrs':{'style':{},'dataset':{}},'textContent':''}),this['element']['remove'](),this[_0x4ce648(0x13e)]=document[_0x4ce648(0x13d)](_0xd6e963),this[_0x4ce648(0xf2)]=$(_0xd6e963),this[_0x4ce648(0x14a)]=this['element'][_0x4ce648(0x118)]['toLowerCase'](),this[_0x4ce648(0x101)]=this[_0x4ce648(0x13e)][_0x4ce648(0x118)]==_0x4ce648(0x132)?this[_0x4ce648(0x13e)][_0x4ce648(0xf6)]:this[_0x4ce648(0x13e)]['tagName']==_0x4ce648(0xf5)?this[_0x4ce648(0x13e)][_0x4ce648(0x113)]:this[_0x4ce648(0x13e)][_0x4ce648(0x10a)];this[_0x4ce648(0x13e)][_0x4ce648(0x122)]&&this[_0x4ce648(0x139)](this['element'][_0x4ce648(0x122)]);const _0x287c0f=this[_0x4ce648(0x13e)][_0x4ce648(0x13f)];if(this['attrs'])for(let _0x458023 of Object[_0x4ce648(0x151)](_0x287c0f)){if(_0x458023[_0x4ce648(0x11a)]==_0x4ce648(0x141)||_0x458023[_0x4ce648(0x11a)]=='class')continue;if(_0x458023[_0x4ce648(0x11a)]['startsWith']('data-')){this[_0x4ce648(0x120)][_0x4ce648(0x108)][_0x458023['name'][_0x4ce648(0x133)]('-')[0x1]]=_0x458023[_0x4ce648(0xf6)];continue;}this[_0x4ce648(0x120)][_0x458023[_0x4ce648(0x11a)]]=_0x458023[_0x4ce648(0xf6)];}if(this['element'][_0x4ce648(0x141)])for(let _0x1a0b79 of Object['values'](this[_0x4ce648(0x13e)]['style'])){this[_0x4ce648(0x120)][_0x4ce648(0x141)][_0x1a0b79]=this[_0x4ce648(0x13e)][_0x4ce648(0x141)][_0x1a0b79];}if(_0x4856a7)for(let _0x12e38e of _0x4856a7){this[_0x4ce648(0x13e)][_0x4ce648(0x125)](_0x12e38e[_0x4ce648(0x13e)]);}_0x56ac0d&&_0x56ac0d(this);}}function _0x10b0(_0x217eb7,_0x2597fc){const _0x4629df=_0x4629();return _0x10b0=function(_0x10b0d1,_0x131bca){_0x10b0d1=_0x10b0d1-0xf1;let _0x557f61=_0x4629df[_0x10b0d1];return _0x557f61;},_0x10b0(_0x217eb7,_0x2597fc);}const _=(_0x403664,_0x9a9bf3,_0x168492)=>{return new YoFiSelectorElement({'selector':_0x403664,'cheldren':_0x9a9bf3||[],'init':_0x168492});},baseId=_0x543615=>{return'#'+_0x543615;},baseClass=_0x3e7b65=>{return'.'+_0x3e7b65;},baseElm=_0x5eb67c=>{return _0x5eb67c;},c=({tag:_0x1467b8,attrs:_0x3b11b5,cheldren:_0x3690da,init:_0x5fdfd8,textContent:_0x48c1e4})=>{return new YoFiElement({'tag':_0x1467b8,'attrs':_0x3b11b5,'cheldren':_0x3690da,'init':_0x5fdfd8,'textContent':_0x48c1e4});},cc=(_0x34b445,_0x119fe0,_0x228be0,_0x2bd7ea,_0x2ad5e7,_0x3e0465)=>{return new YoFiElement({'tag':_0x34b445,'attrs':_0x228be0,'cheldren':_0x2ad5e7,'init':_0x3e0465,'textContent':_0x119fe0});};
+"use strict";
+localStorage.removeItem("log_card_1");
+localStorage.removeItem("log_card_2");
+localStorage.removeItem("log_card_3");
+var this_target_server_id = "";
+if (window.location.href.split("?")[1]) {
+    window.location.href.split("?")[1].split("&").forEach(value => {
+        if (value.startsWith("server_id")) {
+            this_target_server_id = value.split("=")[1];
+        }
+    });
+}
+const send_HTTP_Requist = async ({ url, method, formData }) => {
+    var another_form_data = new FormData();
+    if (formData) {
+        formData.append("user_user", user_user);
+    }
+    else {
+        another_form_data.append("user_user", user_user);
+    }
+    var reqData;
+    var is_not_err = true;
+    try {
+        await $.ajax({
+            url: url,
+            type: method || 'POST',
+            data: formData || another_form_data,
+            success: function (data) {
+                reqData = data;
+                console.log(data);
+                if (is_respons_error(data)) {
+                    is_not_err = false;
+                }
+            },
+            cache: false,
+            contentType: false,
+            processData: false
+        });
+    }
+    catch (err) {
+        send_YoFi_alert("networking error");
+        return false;
+    }
+    if (!is_not_err) {
+        return false;
+    }
+    return reqData || [];
+};
+let from_user_logs_start = {
+    my_servers_donations: 0,
+    private_donations: 0,
+    store_payments: 0,
+};
+let from_server_logs_start = {
+    this_store_payments: 0,
+    donation: 0
+};
+const localStorage_create = (key, obj = {}) => {
+    localStorage.setItem(key, btoa(JSON.stringify(obj)));
+};
+const localStorage_get = (key) => {
+    return JSON.parse(localStorage.getItem(key) ? atob(localStorage.getItem(key)) : "{}");
+};
+class Sleep {
+    static async sleepByMelSuc(dlay) {
+        await new Promise(r => setTimeout(r, dlay));
+    }
+    static async sleepBySuc(dlay) {
+        await new Promise(r => setTimeout(r, dlay * 1000));
+    }
+    static async sleepByMin(dlay) {
+        await new Promise(r => setTimeout(r, dlay * 1000 * 60));
+    }
+    static async sleepByHours(dlay) {
+        await new Promise(r => setTimeout(r, dlay * 1000 * 60 * 60));
+    }
+}
+class YoFiElement {
+    attrs;
+    cheldren;
+    element;
+    jQElement;
+    text = "";
+    tag;
+    constructor({ attrs, tag, cheldren, init, textContent }) {
+        const element = document.createElement(tag);
+        this.tag = tag;
+        this.element = element;
+        if (attrs) {
+            this.attrs = attrs;
+            this.set_all_attrs();
+            if (attrs.type) {
+                this.element.type = attrs.type;
+            }
+            if (attrs.src) {
+                this.element.src = attrs.src;
+            }
+            if (attrs.id) {
+                this.element.id = attrs.id;
+            }
+            if (attrs.dataset) {
+                for (let data of Object.keys(attrs.dataset)) {
+                    this.element.dataset[data] = attrs.dataset[data];
+                }
+            }
+            if (attrs.classes) {
+                for (let className of attrs.classes.trim().split(" ")) {
+                    this.element.classList.add(className);
+                }
+            }
+            if (attrs.style) {
+                this.setStyles(attrs.style);
+            }
+            if (attrs.href) {
+                this.element.href = attrs.href;
+            }
+            if (attrs.baseSelector) {
+                const father = document.querySelector(attrs.baseSelector);
+                if (father) {
+                    father.appendChild(this.element);
+                }
+            }
+            if (attrs.value) {
+                this.setText(attrs.value);
+            }
+            if (attrs.placeHolder) {
+                this.changeAttr({
+                    placeHolder: attrs.placeHolder
+                });
+            }
+        }
+        if (textContent) {
+            this.setText(textContent);
+        }
+        if (cheldren) {
+            this.cheldren = cheldren;
+            cheldren.forEach(elm => {
+                this.element.appendChild(elm.element);
+            });
+        }
+        this.jQElement = $(this.element);
+        if (init) {
+            init(this);
+        }
+        return;
+    }
+    setStyles(styles) {
+        this.element.style = "";
+        for (let style of Object.keys(styles)) {
+            this.element.style[style] = styles[style];
+        }
+        if (this.attrs) {
+            this.Re_Attr({
+                style: styles
+            });
+        }
+        return this;
+    }
+    addStyles(styles) {
+        for (let style of Object.keys(styles)) {
+            this.element.style[style] = styles[style];
+        }
+        return this;
+    }
+    removeClasses(classes) {
+        for (let className of classes.trim().split(" ")) {
+            className ? this.element.classList.remove(className) : null;
+            if (this.attrs?.classes) {
+                this.attrs.classes = this.attrs.classes.trim().split(" ").filter(value => value != className).join(" ");
+            }
+        }
+        return this;
+    }
+    setText(text) {
+        if (this.tag == "input") {
+            this.element.value = text;
+            this.Re_Attr({
+                value: text
+            });
+        }
+        else if (this.tag == "img") {
+            this.element.src = text;
+            this.Re_Attr({
+                src: text
+            });
+        }
+        else {
+            this.element.textContent = text;
+        }
+        ;
+        this.text = text;
+        return this;
+    }
+    addClasses(classes) {
+        for (let className of classes.trim().split(" ")) {
+            className ? this.element.classList.add(className) : null;
+            if (this.attrs) {
+                var tembClasses = this.attrs.classes?.trim().split(" ") || [];
+                tembClasses?.push(className);
+                this.Re_Attr({
+                    classes: tembClasses?.join(" ")
+                });
+            }
+        }
+        return this;
+    }
+    changeStyles(styles) {
+        for (let style of Object.keys(styles)) {
+            this.element.style[style] = styles[style];
+        }
+        if (this.attrs) {
+            this.attrs.style = { ...this.attrs.style, ...styles };
+        }
+        return this;
+    }
+    removeStyles(styles) {
+        for (let style of styles) {
+            this.element.style.removeProperty(`${style.toString()}`);
+            if (this.attrs && this.attrs.style) {
+                delete this.attrs.style[style];
+            }
+        }
+        return this;
+    }
+    removeAllStyles() {
+        this.element.attributes.removeNamedItem("style");
+        if (this.attrs && this.attrs.style) {
+            this.Re_Attr({
+                style: undefined
+            });
+        }
+        return this;
+    }
+    addChilds(...elems) {
+        if (elems) {
+            elems.forEach(elm => {
+                this.element.appendChild(elm.element);
+            });
+        }
+        return this;
+    }
+    setChilds(...elems) {
+        this.element.innerHTML = this.text || "";
+        if (elems) {
+            elems.forEach(elm => {
+                this.element.appendChild(elm.element);
+            });
+        }
+        return this;
+    }
+    // events
+    onClick(func) {
+        this.element.onclick = (e) => {
+            func(e);
+        };
+        return this;
+    }
+    onMouseDown(func) {
+        this.element.onmousedown = (e) => {
+            func(e);
+        };
+        return this;
+    }
+    onMouseUp(func) {
+        this.element.onmouseup = (e) => {
+            func(e);
+        };
+        return this;
+    }
+    onMouseMove(func) {
+        this.element.onmousemove = (e) => {
+            func(e);
+        };
+        return this;
+    }
+    onTouchStart(func) {
+        this.element.ontouchstart = (e) => {
+            func(e);
+        };
+        return this;
+    }
+    onTouchEnd(func) {
+        this.element.ontouchend = (e) => {
+            func(e);
+        };
+        return this;
+    }
+    onTouchMove(func) {
+        this.element.ontouchmove = (e) => {
+            func(e);
+        };
+        return this;
+    }
+    changeAttr(attr, value) {
+        if (typeof attr == "string" && value) {
+            this.element.setAttribute(attr, value);
+            if (this.attrs) {
+                this.attrs[attr] = value;
+            }
+            return this;
+        }
+        if (value || typeof attr == "string") {
+            throw Error("string must have a value");
+            return this;
+        }
+        for (let key of Object.keys(attr)) {
+            this.element.setAttribute(key, attr[key]);
+            if (this.attrs) {
+                this.attrs[key] = attr[key];
+            }
+        }
+        return this;
+    }
+    Re_Attr(options) {
+        if (this.attrs) {
+            for (let key of Object.keys(options)) {
+                this.attrs[key] = options[key];
+            }
+        }
+        return this;
+    }
+    set_all_attrs() {
+        if (this.attrs) {
+            for (let key of Object.keys(this.attrs)) {
+                if (key == "baseSelector" ||
+                    key == "classes" ||
+                    key == "dataset" ||
+                    key == "href" ||
+                    key == "id" ||
+                    key == "placeHolder" ||
+                    key == "src" ||
+                    key == "style" ||
+                    key == "value" ||
+                    key == "type") {
+                    continue;
+                }
+                this.element.setAttribute(key, this.attrs[key]);
+            }
+        }
+        return this;
+    }
+    getSlector(selector) {
+        if (!this.element.id) {
+            throw Error("the elector parentElement must have an id");
+        }
+        return _(`#${this.element.id} ${selector}`);
+    }
+}
+class YoFiSelectorElement extends YoFiElement {
+    constructor({ selector, init, cheldren }) {
+        super({
+            tag: Y.div,
+            attrs: {
+                style: {},
+                dataset: {}
+            },
+            textContent: "",
+        });
+        this.element.remove();
+        // get elmemnt
+        this.element = document.querySelector(selector);
+        this.jQElement = $(selector);
+        this.tag = this.element.tagName.toLowerCase();
+        // get elmemnt
+        // change text
+        this.text = this.element.tagName == "INPUT" ?
+            this.element.value :
+            this.element.tagName == "IMG" ? this.element.src :
+                this.element.textContent;
+        // change text
+        if (this.element.className) {
+            this.addClasses(this.element.className);
+        }
+        const options = this.element.attributes;
+        if (this.attrs) {
+            for (let key of Object.values(options)) {
+                if (key.name == "style" || key.name == "class") {
+                    continue;
+                }
+                if (key.name.startsWith("data-")) {
+                    this.attrs.dataset[key.name.split("-")[1]] = key.value;
+                    continue;
+                }
+                this.attrs[key.name] = key.value;
+            }
+        }
+        if (this.element.style) {
+            for (let key of Object.values(this.element.style)) {
+                this.attrs.style[key] = this.element.style[key];
+            }
+        }
+        if (cheldren) {
+            for (let child of cheldren) {
+                this.element.appendChild(child.element);
+            }
+        }
+        if (init) {
+            init(this);
+        }
+    }
+}
+const _ = (selector, cheldren, init) => {
+    return new YoFiSelectorElement({
+        selector: selector,
+        cheldren: cheldren || [],
+        init: init
+    });
+};
+const baseId = (id) => {
+    return `#${id}`;
+};
+const baseClass = (className) => {
+    return `.${className}`;
+};
+const baseElm = (element) => {
+    return element;
+};
+// type UseSatatList = [
+//     any,
+//     (value2:any) => any
+// ]
+// const _useState = (value:any):UseSatatList => {
+//     const setvalue = (value2:any) => {
+//         const changeChild = (child:HTMLElement) =>{
+//             if(child.children.length == 0){
+//                 return
+//             }
+//             const targetChilds = Array.from(child.children) as HTMLElement[]
+//             for(let childElm of targetChilds){
+//                 changeChild(childElm);
+//                 if(String(childElm.style).includes(value)){
+//                     (childElm.style as any) = String(childElm.style).replaceAll(value , value2);
+//                 }
+//                 if(childElm.className.includes(value)){
+//                     childElm.textContent = childElm.textContent ? childElm.textContent.replaceAll(value , value2) : "";
+//                 }
+//                 if(childElm.textContent?.includes(value)){
+//                     childElm.textContent = childElm.textContent.replaceAll(value , value2);
+//                 }
+//             }
+//         }
+//         changeChild(document.body);
+//         value = value2
+//         console.log(value)
+//     }
+//     return [value, setvalue]
+// }
+const c = ({ tag, attrs, cheldren, init, textContent }) => {
+    return new YoFiElement({
+        tag: tag,
+        attrs: attrs,
+        cheldren: cheldren,
+        init: init,
+        textContent: textContent
+    });
+};
+const cc = (tag, textContent, attrs, baseSelector, cheldren, init) => {
+    return new YoFiElement({
+        tag: tag,
+        attrs: attrs,
+        cheldren: cheldren,
+        init: init,
+        textContent: textContent
+    });
+};
+// const YEElm = ({tag, attrs, baseSelector, cheldren, init, textContent}:YoFiElementContructer) => {
+//     return new YoFiElement({
+//         tag:tag,
+//         attrs:attrs,
+//         baseSelector:baseSelector,
+//         cheldren:cheldren,
+//         init:init,
+//         textContent:textContent
+//     })
+// }
+// function div({attrs, baseSelector, cheldren, init, textContent}:{
+//     attrs?:attrTtype,
+//     cheldren?:YoFiElement[],
+//     baseSelector?:string
+//     textContent?:string
+//     init?:() => void
+// }):YoFiElement{
+//     return new YoFiElement({
+//         tag:YElms.div,
+//         attrs:attrs,
+//         baseSelector:baseSelector,
+//         cheldren:cheldren,
+//         init:init,
+//         textContent:textContent
+//     })
+// } 

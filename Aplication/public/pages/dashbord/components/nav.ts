@@ -28,10 +28,10 @@ const aside = async() => {
         _a(
             {
                 classes:"icon",
-                href:"https://google.com"
+                href:"https://discord.gg/SAkDeRMBpx"
             },
             _img({
-                src:"/images/Screenshot 2023-04-28 081426.png"
+                src:"/images/logo.svg"
             }),
         ),
         _a(

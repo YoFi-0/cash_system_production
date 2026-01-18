@@ -1,1 +1,43 @@
-'use strict';(function(_0x51bb4c,_0x2c10d3){const _0x460284=_0x3d42,_0x60e04d=_0x51bb4c();while(!![]){try{const _0x537675=parseInt(_0x460284(0xb7))/0x1+parseInt(_0x460284(0xb5))/0x2+-parseInt(_0x460284(0xb6))/0x3+-parseInt(_0x460284(0xc1))/0x4*(-parseInt(_0x460284(0xb1))/0x5)+parseInt(_0x460284(0xc7))/0x6*(parseInt(_0x460284(0xb8))/0x7)+-parseInt(_0x460284(0xbb))/0x8*(-parseInt(_0x460284(0xc0))/0x9)+-parseInt(_0x460284(0xc4))/0xa;if(_0x537675===_0x2c10d3)break;else _0x60e04d['push'](_0x60e04d['shift']());}catch(_0x263925){_0x60e04d['push'](_0x60e04d['shift']());}}}(_0x8aae,0xa17ca));function _0x3d42(_0x6b5f03,_0x4912a8){const _0x8aae55=_0x8aae();return _0x3d42=function(_0x3d423c,_0x3c5783){_0x3d423c=_0x3d423c-0xaf;let _0x1101b2=_0x8aae55[_0x3d423c];return _0x1101b2;},_0x3d42(_0x6b5f03,_0x4912a8);}function _0x8aae(){const _0x2d0ca2=['542472dkfmiZ','get','/dashbord/server?server_id=','41128WcfRQu','server_id','/api/v1/dashbord/all/get_all_owned_servers_id','map','icon','234WAwxED','4dQHwTl','fa-solid\x20fa-folder-open','/images/logo.svg','7669110MahVDd','icon\x20button\x20green','fa-solid\x20fa-magnifying-glass','72kIvogJ','user_owned_servers','assign','nav','https://discord.com/api/oauth2/authorize?client_id=1097245926453690389&permissions=2048&scope=bot%20applications.commands','allServers','2182225FsuEwF','servers','fa-solid\x20fa-arrow-right-from-bracket','/dashbord/search','185646vlyPOU','2720538gsUyPA','742321vfIgPi'];_0x8aae=function(){return _0x2d0ca2;};return _0x8aae();}const aside=async()=>{const _0x395569=_0x3d42,_0x51e713=await fetch(_0x395569(0xbd),{'method':_0x395569(0xb9)}),_0x538fd2=await _0x51e713['json']();if(is_respons_error(_0x538fd2))return _aside({'classes':_0x395569(0xca)},_a({'classes':'icon','href':_0x395569(0xaf)},_img({'src':_0x395569(0xc3)})));const _0x2511a6=_0x538fd2[_0x395569(0xc8)];return _aside({'classes':_0x395569(0xca)},_a({'classes':_0x395569(0xbf),'href':_0x395569(0xaf)},_img({'src':_0x395569(0xc3)})),_a({'classes':_0x395569(0xc5),'href':'/dashbord/user'},_i({'classes':_0x395569(0xc2)})),_div({'classes':_0x395569(0xb2)},_div({'classes':_0x395569(0xb0)},..._0x2511a6[_0x395569(0xbe)](_0x293886=>_a({'href':_0x395569(0xba)+_0x293886[_0x395569(0xbc)]},_img({'src':_0x293886['server_icon']})))),_a({'classes':'button','href':_0x395569(0xb4)},_i({'classes':_0x395569(0xc6)}))),_a({'classes':'icon\x20button\x20red'},_i({'classes':_0x395569(0xb3)}))['onClick'](async _0x299dc0=>{const _0xf7577=_0x395569;await fetch('/log_out?hide_user='+user_user),window['location'][_0xf7577(0xc9)]('/');}));};
+"use strict";
+const aside = async () => {
+    const getAllServers = await fetch("/api/v1/dashbord/all/get_all_owned_servers_id", {
+        method: "get"
+    });
+    const get_server_id_and_icon = await getAllServers.json();
+    if (is_respons_error(get_server_id_and_icon)) {
+        return _aside({
+            classes: "nav"
+        }, _a({
+            classes: "icon",
+            href: "https://google.com"
+        }, _img({
+            src: "/images/Screenshot 2023-04-28 081426.png"
+        })));
+    }
+    const images = get_server_id_and_icon.user_owned_servers;
+    return _aside({
+        classes: "nav"
+    }, _a({
+        classes: "icon",
+        href: "https://discord.gg/SAkDeRMBpx"
+    }, _img({
+        src: "/images/logo.svg"
+    })), _a({
+        classes: "icon button green",
+        href: "/dashbord/user"
+    }, _i({ classes: "fa-solid fa-folder-open" })), _div({
+        classes: "servers"
+    }, _div({
+        classes: "allServers"
+    }, ...images.map((value) => _a({ href: `/dashbord/server?server_id=${value.server_id}` }, _img({ src: value.server_icon })))), _a({
+        classes: "button",
+        href: "/dashbord/search",
+    }, _i({
+        classes: "fa-solid fa-magnifying-glass"
+    }))), _a({
+        classes: "icon button red",
+    }, _i({ classes: "fa-solid fa-arrow-right-from-bracket" })).onClick(async (e) => {
+        await fetch("/log_out?hide_user=" + user_user);
+        window.location.assign("/");
+    }));
+};

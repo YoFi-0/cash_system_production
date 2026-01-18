@@ -1,22 +1,52 @@
+// --- 1. GLOBAL RESET & BASICS (مهم جداً) ---
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; // هذا السطر هو سر ثبات التصميم
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; // منع السكرول الجانبي المزعج
+}
+
+body {
+    // إعدادات الخط العامة (عشان لو نسيت عنصر ما عطيته خط)
+    font-family: 'Poppins', sans-serif;
+    
+    // لون خلفية الصفحة بالكامل (يتناسب مع الثيم الفاتح حقك)
+    background-color: #F2F6FF; 
+    
+    // تنعيم الخطوط
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+// --- 2. IMPORTS ---
 @import "./logs";
 @import "./server_config";
 @import "./input_holder";
 @import "./filtter_pupp";
-@import "./no_server";
+@import "./no_server"; // تأكد أن اسم الملف صحيح (no_bot vs no_server)
 
+// --- 3. CLASS MAPPING ---
 .logs {
     @extend %logs;
 }
-.no_bot{
+
+.no_bot {
     @extend %no_bot;
 }
 
-.server_config{
+.server_config {
     @extend %server_config;
 }
-.input_holder{
+
+.input_holder {
     @extend %input_holder;
 }
-.filtter_pupp{
+
+.filtter_pupp {
     @extend %filtter_pupp;
 }

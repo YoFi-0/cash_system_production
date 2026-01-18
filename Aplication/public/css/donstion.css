@@ -1,139 +1,334 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
-input[type=number] {
-  -moz-appearance: textfield;
-}
-
-body {
-  overflow: hidden;
-  font-family: "Poppins", sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-.paypal {
-  position: relative;
+.nav {
+  position: fixed;
+  z-index: 50;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: clamp(5rem, 6vw, 7rem);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 100vh;
+  padding: 2rem 0;
+  gap: 1.5rem;
+  border-radius: 0 24px 24px 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.85) 0%, rgba(205, 220, 246, 0.85) 100%);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  box-shadow: 5px 0 25px rgba(206, 219, 239, 0.6);
+  border-right: 1px solid rgba(255, 255, 255, 0.6);
+}
+.nav a {
+  text-decoration: none;
+}
+.nav .icon {
+  cursor: pointer;
+  display: block;
+  width: 3.5rem;
+  height: 3.5rem;
+  flex-shrink: 0;
+  border-radius: 50%;
+  box-shadow: 0px 4px 15px rgba(114, 67, 198, 0.3);
+  transition: transform 0.3s ease;
+}
+.nav .icon:hover {
+  transform: scale(1.05);
+}
+.nav .icon img {
   width: 100%;
-  background-color: rgb(242, 246, 255);
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #fff;
 }
-.paypal .effct {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
+.nav .button {
+  color: #7243C6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  transition: 0.3s;
 }
-.paypal .contint {
-  position: relative;
-  background: linear-gradient(105.41deg, rgba(255, 255, 255, 0.36) 7.83%, rgba(205, 220, 246, 0.36) 93.81%);
-  border-radius: 31px;
-  padding: max(2rem, 2vw);
-  text-align: center;
-  width: 40%;
+.nav .button:hover {
+  background: rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
+}
+.nav .green, .nav .red {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  padding: 0;
+  box-shadow: 0 0 0 2px #fff;
+}
+.nav .green {
+  background: #22CDB3;
+}
+.nav .red {
+  background: #FF6B6B;
+}
+.nav .servers {
+  width: 70%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 50px;
+  padding: 0.5rem;
+  max-height: calc(100vh - 200px);
+}
+.nav .servers .allServers {
+  width: 100%;
+  height: 100%;
   overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 0;
 }
-@media (max-width: 750px) {
-  .paypal .contint {
-    width: 100%;
-  }
+.nav .servers .allServers::-webkit-scrollbar {
+  width: 0px;
 }
-.paypal .contint img {
-  border-radius: max(50vw, 50em);
-  max-width: max(10vw, 10em);
-  width: max(10rem, 7vw);
-  height: max(10rem, 7vw);
-  border: solid #000 max(0.2vw, 0.2rem);
-  padding: 5px;
-  background: linear-gradient(169deg, #8b5dce, #656565);
+.nav .servers a {
+  width: 3rem;
+  height: 3rem;
+  flex-shrink: 0;
+  background: #FFF;
+  box-shadow: 0px 4px 10px rgba(206, 219, 239, 0.8);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #7243C6;
+  transition: 0.3s;
 }
-.paypal .contint h1 {
+.nav .servers a:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 6px 15px rgb(206, 219, 239);
+  border-color: #7243C6;
+}
+.nav .servers a img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.inint_page {
+  display: flex;
+  flex-direction: column;
+  margin-left: clamp(5rem, 6vw, 7rem);
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.cards {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+}
+.cards .user_info {
+  flex: 1 1 350px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.8) 0%, rgba(205, 220, 246, 0.8) 100%);
+  box-shadow: 0px 15px 35px rgba(206, 219, 239, 0.5);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 24px;
+  padding: 1.5rem;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.3s ease;
+}
+.cards .user_info:hover {
+  transform: translateY(-5px);
+}
+.cards .user_info img {
+  width: 4.5rem;
+  height: 4.5rem;
+  flex-shrink: 0;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.cards .user_info .content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+}
+.cards .user_info h1 {
+  font-size: 1.25rem;
   font-weight: 700;
+  margin: 0;
   background: linear-gradient(89.99deg, #7243C6 59.61%, #9B11AD 94.57%);
   -webkit-background-clip: text;
-  font-size: max(2vw, 1.5rem);
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
-  transform: rotate(0.21deg);
 }
-.paypal .contint input {
-  position: relative;
-  background: white;
-  border-radius: max(0.5vw, 0.5em);
-  font-size: clamp(1vw, 20vw, 1rem);
-  color: rgb(2, 2, 2);
-  border: none;
-  border-style: none;
-  padding: max(0.5vw, 0.5em) max(1vw, 1em);
-  margin-bottom: max(1vw, 1em);
-  transition: 0.3s;
+.cards .user_info h1 span {
+  font-size: 0.9em;
+  font-weight: 400;
+  color: #666;
+  -webkit-text-fill-color: #666;
 }
-.paypal .contint input::-webkit-outer-spin-button, .paypal .contint input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
+.cards .user_info p {
+  color: #22CDB3;
+  font-weight: 600;
+  font-size: 0.95rem;
   margin: 0;
 }
-.paypal .contint input::-moz-placeholder {
-  font-weight: 500;
-  color: rgb(0, 0, 0);
-  font-size: max(1vw, 1em);
-  -moz-transition: 0.3s;
-  transition: 0.3s;
-  -moz-user-select: none;
-       user-select: none;
+.cards .user_info .stars_image {
+  width: auto;
+  height: 1rem;
+  margin-top: 0.5rem;
+  opacity: 0.8;
 }
-.paypal .contint input::placeholder {
-  font-weight: 500;
-  color: rgb(0, 0, 0);
-  font-size: max(1vw, 1em);
-  transition: 0.3s;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-}
-.paypal .contint input:focus::-moz-placeholder {
-  color: transparent;
-}
-.paypal .contint input:focus::placeholder {
-  color: transparent;
-}
-.paypal .contint input:focus {
-  outline: 1;
-  padding: max(0.5vw, 0.5em) max(1vw, 1em);
-}
-.paypal .contint .values {
+.cards .privte_paypal {
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid #fff;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5);
+  padding: 1rem 1.5rem;
+  border-radius: 16px;
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: max(1vw, 1rem);
-  width: 40%;
-  margin: auto;
-  margin-bottom: max(1vw, 1rem);
+  align-items: center;
+  gap: 2rem;
 }
-.paypal .contint .values button {
-  color: #000;
-  border: none;
+.cards .privte_paypal p {
+  color: #333;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.cards .privte_paypal button {
   cursor: pointer;
-  outline: none;
-  font-size: max(1vw, 0.7rem);
-  padding: max(0.3vw, 0.3em) max(1vw, 1em);
   background: linear-gradient(97.39deg, #FFF 7.18%, #CDDCF6 92.15%);
-  box-shadow: 0px 20px 40px #CEDBEF, inset 3px 3px 10px rgba(255, 255, 255, 0.72);
-  border-radius: max(1vw, 1em);
+  color: #7243C6;
+  font-weight: 700;
+  font-size: 0.9rem;
+  box-shadow: 0px 5px 15px rgba(206, 219, 239, 0.8);
+  border-radius: 8px;
+  border: none;
+  padding: 0.6rem 1.2rem;
   transition: 0.3s;
 }
-.paypal .contint .values button:hover {
-  outline: #ffffff solid max(0.1vw, 0.1rem);
+.cards .privte_paypal button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 8px 20px rgb(206, 219, 239);
 }
-.paypal .contint .paypalButton {
-  text-align: center;
+
+.paypal_pubb_back {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  z-index: 100;
   display: flex;
   justify-content: center;
-  width: 40%;
-  margin: auto;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease;
 }
-.paypal .contint .paypalButton #paypal-button-container {
+.paypal_pubb_back.active {
+  opacity: 1;
+  visibility: visible;
+}
+.paypal_pubb_back .paypal_pubb {
+  background: #FFF;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.15);
+  width: clamp(300px, 90%, 450px);
+  padding: 2rem;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: center;
+  transform: scale(0.9);
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.paypal_pubb_back .paypal_pubb p {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+.paypal_pubb_back .paypal_pubb input {
   width: 100%;
+  font-size: 1rem;
+  padding: 0.8rem 1rem;
+  background: #F2F6FF;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  color: #333;
+  outline: none;
+  transition: 0.3s;
+}
+.paypal_pubb_back .paypal_pubb input:focus {
+  background: #FFF;
+  border-color: #7243C6;
+  box-shadow: 0 0 0 4px rgba(114, 67, 198, 0.1);
+}
+.paypal_pubb_back .paypal_pubb .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+.paypal_pubb_back .paypal_pubb .buttons button {
+  flex: 1;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  transition: 0.2s;
+}
+.paypal_pubb_back .paypal_pubb .buttons .yes {
+  background: linear-gradient(135deg, #22CDB3 0%, #1CA893 100%);
+  color: #FFF;
+  box-shadow: 0 5px 15px rgba(34, 205, 179, 0.3);
+}
+.paypal_pubb_back .paypal_pubb .buttons .yes:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(34, 205, 179, 0.4);
+}
+.paypal_pubb_back .paypal_pubb .buttons .no {
+  background: #FF6B6B;
+  color: #FFF;
+  box-shadow: 0 5px 15px rgba(255, 107, 107, 0.3);
+}
+.paypal_pubb_back .paypal_pubb .buttons .no:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(255, 107, 107, 0.4);
+}
+
+.paypal_pubb_back.active .paypal_pubb {
+  transform: scale(1);
 }/*# sourceMappingURL=donstion.css.map */

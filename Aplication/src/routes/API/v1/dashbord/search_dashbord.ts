@@ -6,6 +6,7 @@ import { DB_RatesServersTable, DB_ServersTable } from "../../../../types"
 import { Send_err_msg, unknown_problem } from "../../../pages/error_page"
 import { route_code } from "../../../../functions"
 import { HTTPLogs } from "../../../../handler/logs"
+import { client } from "../../../../handler/runner"
 const search_dashbord = Router()
 
 search_dashbord.use(chacke_aggred_terms_api)
@@ -62,8 +63,13 @@ search_dashbord.post("/render", async(req, res) => {
         logger.write_error(err, route_code.search_dashbord + 1)
         return res.send(error_handler.create_json_api_msg(p_unknown_problem(1)))
     }
-
-    return res.send(getAllServers.map(value => value.get()))
+    var final = []
+    for(let i = 0; i < getAllServers.length; i++){
+        let s = getAllServers[i].get() as DB_ServersTable
+        (s as any).server_imgeURL  = `https://cdn.discordapp.com/icons/${s.server_id}/${client.guilds.cache.get(s.server_id)?.icon}.png?size=256`
+        final.push(s)
+    }
+    return res.send(final)
 })
 
 search_dashbord.post("/render_agine", async(req, res) => {
@@ -107,6 +113,7 @@ search_dashbord.post("/render_agine", async(req, res) => {
         ]
     } : notNull
     var getAllServers;
+    
     try{
         getAllServers = await ServersTable.findAll({
             where:where,
@@ -119,7 +126,13 @@ search_dashbord.post("/render_agine", async(req, res) => {
         logger.write_error(err, route_code.search_dashbord + 2)
         return res.send(error_handler.create_json_api_msg(p_unknown_problem(2)))
     }
-    return res.send(getAllServers.map(value => value.get()))
+    var final = []
+    for(let i = 0; i < getAllServers.length; i++){
+        let s = getAllServers[i].get() as DB_ServersTable
+        (s as any).server_imgeURL  = `https://cdn.discordapp.com/icons/${s.server_id}/${client.guilds.cache.get(s.server_id)?.icon}.png?size=256`
+        final.push(s)
+    }
+    return res.send(final)
 })
 
 

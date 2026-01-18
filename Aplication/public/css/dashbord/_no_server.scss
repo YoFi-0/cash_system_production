@@ -1,17 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 %no_bot {
-    padding-top: max(5vw, 5rem);
-    padding-left: max(3vw, 3rem);
-    font-family: 'Poppins', sans-serif; // Pattern Font applied
-    color: #000; // Text color adapted for Light Theme
+    // --- Layout & Spacing ---
+    // جعلت البادينج متجاوباً باستخدام clamp
+    padding: clamp(3rem, 8vw, 6rem) clamp(1.5rem, 5vw, 4rem);
+    
+    // يفضل في صفحات الخطأ أن يكون المحتوى في الوسط عمودياً إذا كانت الصفحة فارغة
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    min-height: 80vh; // يضمن أن المحتوى يأخذ ارتفاع الشاشة
+
+    font-family: 'Poppins', sans-serif;
+    color: #000;
 
     h1 {
-        font-size: max(2vw, 2rem);
-        margin-bottom: max(1vw, 1rem);
+        // حجم خط كبير لكن لا يتجاوز 4rem
+        font-size: clamp(2rem, 5vw, 4rem);
+        margin-bottom: 1.5rem;
         font-weight: 700;
+        line-height: 1.2; // تحسين تباعد الأسطر للعنوان
 
-        // Master Style Gradient Text
+        // Gradient Text (نفس الستايل الخاص بك)
         background: linear-gradient(89.99deg, #7243C6 59.61%, #9B11AD 94.57%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -19,30 +29,51 @@
     }
 
     p {
-        font-size: max(1.3vw, 1.3rem);
-        margin-bottom: max(1.5vw, 1.5rem);
-        color: #444; // Dark Grey for contrast against light bg
+        // حجم خط مقروء (بين 16px و 20px)
+        font-size: clamp(1rem, 2vw, 1.25rem);
+        margin-bottom: 2.5rem;
+        color: #444;
         font-weight: 500;
+        line-height: 1.6;
+        
+        // مهم: تحديد عرض النص عشان ما يفرش بعرض الشاشة كاملة
+        max-width: 600px; 
     }
 
     a {
+        width: fit-content;
         text-decoration: none;
         cursor: pointer;
-        font-size: max(1.5vw, 1.5rem);
-        padding: max(0.5vw, 0.5rem) max(2vw, 2rem); // Increased horizontal padding for button look
-        border-radius: max(1vw, 1rem); // Softer radius to match pattern
+        
+        // --- تصحيح الزر ---
+        display: inline-flex; // ضروري عشان البادينج والترانسفورم يشتغلوا صح
+        justify-content: center;
+        align-items: center;
+        
+        font-size: 1.1rem; // حجم خط ثابت ومناسب للأزرار
+        font-weight: 600;
+        
+        // بادينج عريض يعطي فخامة للزر
+        padding: 1rem 3rem; 
+        border-radius: 16px; 
 
-        // Master Style Button Theme
+        // Theme Colors
         color: #000;
         background: linear-gradient(97.39deg, #FFF 7.18%, #CDDCF6 92.15%);
-        box-shadow: 0px 20px 40px #CEDBEF, inset 3px 3px 10px rgba(255, 255, 255, 0.72);
+        box-shadow: 0px 15px 30px rgba(206, 219, 239, 0.8), inset 0px 0px 0px 1px #fff;
         
-        transition: 0.3s;
+        transition: all 0.3s ease;
 
         &:hover {
-            // Updated hover effect (Outline instead of dark bg)
-            outline: #7243C6 solid max(0.1vw, 0.1rem);
-            transform: translateY(-2px);
+            // تأثير التحويم
+            outline: 2px solid #7243C6; // لون الثيم
+            outline-offset: 2px; // مسافة جمالية بين الزر والحد
+            transform: translateY(-3px); // يرتفع للأعلى قليلاً
+            box-shadow: 0px 20px 40px rgba(206, 219, 239, 1);
+        }
+        
+        &:active {
+            transform: translateY(-1px);
         }
     }
 }

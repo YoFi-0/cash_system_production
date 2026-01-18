@@ -4,202 +4,216 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    height: 30vh;
-    gap: max(1vw, 1em);
-    align-items: start;
+    // ألغيت الارتفاع الثابت 30vh لأنه قد يقص المحتوى
+    min-height: 30vh; 
+    gap: 2rem; // مسافة موحدة ونظيفة بين الكروت
+    align-items: flex-start; // عشان الكروت ما تتمطط بالطول
     flex-grow: 1;
-    font-family: 'Poppins', sans-serif; // Pattern Font
-
-    @media (max-height: 600px) {
-        min-height: 80vh;
-    }
-    padding-top: max(2vw, 2rem);
+    font-family: 'Poppins', sans-serif;
+    padding: clamp(1.5rem, 4vw, 3rem);
 
     .log_card {
-        height: 100%;
+        // --- SIZING & LAYOUT ---
+        // الكرت يأخذ مساحة مرنة، لا يقل عن 320 بكسل ولا يزيد عن 500 بكسل
+        flex: 1 1 320px;
+        max-width: 500px;
         
-        // --- MASTER STYLE CONTAINER ---
-        background: linear-gradient(105.41deg, rgba(255, 255, 255, 0.36) 7.83%, rgba(205, 220, 246, 0.36) 93.81%);
-        box-shadow: 0px 20px 40px #CEDBEF, inset 3px 3px 10px rgba(255, 255, 255, 0.72);
-        backdrop-filter: blur(10px); // Added for glass effect consistency
-        border: 1px solid rgba(255, 255, 255, 0.5);
-        border-radius: 31px; // Pattern Radius
-        // -----------------------------
-
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding: max(1vw, 1rem);
-        width: max(28vw, 20em);
+        
+        // --- THEME & STYLING ---
+        background: linear-gradient(105.41deg, rgba(255, 255, 255, 0.45) 7.83%, rgba(205, 220, 246, 0.45) 93.81%);
+        box-shadow: 0px 15px 35px rgba(206, 219, 239, 0.6), inset 0px 0px 0px 1px rgba(255, 255, 255, 0.6);
+        backdrop-filter: blur(12px);
+        border-radius: 24px;
+        padding: 1.5rem; // مسافة داخلية مريحة
+        transition: transform 0.3s ease;
 
+        &:hover {
+            transform: translateY(-5px); // حركة طفيفة عند المرور
+        }
+
+        // --- HEADER ---
         .head {
             display: flex;
             justify-content: space-between;
-            color: #000; // Text became black
             align-items: center;
-
+            margin-bottom: 1rem;
+            
             h1 {
-                // Master Gradient Text
                 background: linear-gradient(89.99deg, #7243C6 59.61%, #9B11AD 94.57%);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
                 background-clip: text;
                 font-weight: 700;
-                font-size: max(1.2vw, 0.7rem);
+                font-size: 1.1rem; // حجم خط واضح وثابت
+                margin: 0;
             }
 
             button {
-                // Master Style Button
                 border: none;
                 outline: none;
-                font-weight: bold;
-                color: #000;
-                font-size: max(1vw, 0.7rem);
-                padding: max(0.5vw, 0.5rem) max(1vw, 1rem);
+                font-weight: 600;
+                color: #333;
+                font-size: 0.85rem;
+                padding: 0.5rem 1rem;
                 cursor: pointer;
                 background: linear-gradient(97.39deg, #FFF 7.18%, #CDDCF6 92.15%);
-                box-shadow: 0px 10px 20px #CEDBEF; 
-                border-radius: max(1vw, 1em); // Button Radius from pattern
+                box-shadow: 0px 5px 15px rgba(206, 219, 239, 0.8);
+                border-radius: 10px;
                 transition: 0.3s;
 
                 &:hover {
-                    outline: #ffffff solid max(0.1vw, 0.1rem);
+                    background: #fff;
+                    box-shadow: 0px 8px 20px rgba(206, 219, 239, 1);
                 }
             }
         }
 
+        // --- MIDDLE (SCROLL AREA) ---
         .mid {
             flex-grow: 1;
-            max-height: 30vh;
+            // تحديد ارتفاع أقصى للمنطقة القابلة للسكرول
+            max-height: 400px; 
+            overflow-y: auto;
+            padding-right: 5px; // مسافة عشان السكرول ما يغطي الكلام
+            margin-bottom: 1rem;
 
-            @media screen and (max-height: 1100px), screen and (max-width: 1100px) {
-                max-height: 50vh;
+            // تنسيق شريط السكرول
+            &::-webkit-scrollbar {
+                width: 5px;
+            }
+            &::-webkit-scrollbar-track {
+                background: transparent;
+            }
+            &::-webkit-scrollbar-thumb {
+                background: rgba(114, 67, 198, 0.2);
+                border-radius: 10px;
             }
 
-            overflow-y: auto; // Changed to auto for cleaner look
-            margin-top: max(1vw, 1em);
-            padding-right: 5px; // Space for scrollbar
-
             .payment_log {
-                margin: 0 0 max(1vw, 1rem) 0;
+                display: block; // ضمان أن العنصر يأخذ السطر كامل
+                margin-bottom: 0.75rem;
                 cursor: pointer;
-                
-                // Item Styling: White card to pop against glass background
-                background: rgba(255, 255, 255, 0.8);
-                box-shadow: 0px 4px 15px rgba(168, 186, 218, 0.35);
-                border-radius: max(0.5vw, 0.5rem); // Slightly softer radius
-                transition: 0.3s;
-                
+                background: rgba(255, 255, 255, 0.7);
+                box-shadow: 0px 2px 8px rgba(168, 186, 218, 0.15);
+                border-radius: 12px;
+                transition: all 0.2s ease;
+                border: 1px solid transparent;
+
                 &:hover {
                     background: #FFF;
-                    transform: translateY(-2px);
+                    transform: translateX(3px); // حركة لليمين بسيطة
+                    border-color: rgba(114, 67, 198, 0.2);
                 }
 
                 .up {
-                    padding: max(0.5vw, 0.5rem);
+                    padding: 0.8rem 1rem;
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
-                    color: #000; // Text Black
 
                     .amount {
-                        font-size: max(1.2vw, 0.7rem);
-                        font-weight: bold;
-                        text-align: start;
-                        // Gradient text for money/amount to make it stand out
+                        font-size: 0.95rem;
+                        font-weight: 700;
                         background: linear-gradient(89.99deg, #7243C6 59.61%, #9B11AD 94.57%);
                         -webkit-background-clip: text;
                         -webkit-text-fill-color: transparent;
                         background-clip: text;
-                        
-                        overflow: hidden;
-                        text-overflow: ellipsis;
+                        white-space: nowrap; // يمنع نزول الرقم لسطرين
                     }
 
                     .from, .to {
                         display: flex;
                         align-items: center;
+                        gap: 0.5rem; // مسافة بين الصورة والنص
 
                         img {
-                            width: max(1.7vw, 1.3rem);
-                            height: max(1.7vw, 1.3rem);
+                            // أحجام ثابتة للصور - مهم جداً
+                            width: 2rem; 
+                            height: 2rem;
+                            flex-shrink: 0; // يمنع انضغاط الصورة
                             object-fit: cover;
                             border-radius: 50%;
-                            margin: 0 max(0.5vw, 0.5rem);
-                            border: 1px solid #7243C6; // Purple border matches theme
+                            border: 2px solid rgba(114, 67, 198, 0.2);
+                            padding: 1px;
                         }
 
-                        display: flex;
-
                         p {
-                            font-size: max(1vw, 0.8rem);
-                            color: #333; // Dark Grey
+                            font-size: 0.85rem;
+                            color: #333;
+                            display: flex;
+                            flex-direction: column; // لترتيب الاسم والوصف تحت بعض
+                            line-height: 1.2;
                         }
 
                         .bold {
-                            font-weight: bold;
+                            font-weight: 600;
                             color: #000;
                         }
 
                         .not_bold {
-                            font-size: max(0.9vw, 0.7rem);
-                            width: max(3vw, 3rem);
+                            font-size: 0.75rem;
+                            color: #777;
+                            max-width: 80px;
+                            white-space: nowrap;
                             overflow: hidden;
                             text-overflow: ellipsis;
-                            color: #666; // Lighter grey for secondary text
                         }
                     }
-
+                    
+                    // تنسيق السهم أو الفاصل بين الطرفين
                     .to {
-                        margin-left: max(0.5vw, 0.5rem);
-
-                        img {
-                            margin-left: 0;
-                        }
-
+                        margin-left: auto; // يدفع العنصر لليمين
+                        flex-direction: row-reverse; // يعكس اتجاه "إلى" ليكون الصورة في الطرف
+                        
                         p {
-                            margin-right: max(0.5vw, 0.5rem);
+                           text-align: right; // محاذاة النص لليمين
+                           align-items: flex-end;
                         }
                     }
                 }
 
                 .down {
+                    max-height: 0; // مخفي افتراضياً
                     overflow: hidden;
-                    transition: 0.3s;
-                    padding-bottom: 0; // Adjusted logic
-
+                    transition: max-height 0.3s ease-out;
+                    
+                    // يتم تفعيل هذا الكلاس عبر JS عادةً (مثل .active)
+                    // سأضع التنسيق هنا ليكون جاهزاً
                     .log_info {
-                        width: 95%;
-                        padding: max(0.5vw, 0.5em);
-                        margin: auto;
-                        margin-bottom: max(0.5vw, 0.5em);
-                        // Light background for expanded details
-                        background: #F2F6FF; 
-                        border-radius: max(0.3vw, 0.3rem);
-
-                        p {
-                            color: #333;
-                            font-size: max(0.9vw, 0.9rem);
-                            font-weight: bold;
-
-                            span {
-                                font-weight: 400;
-                                color: #555;
-                            }
-                        }
+                        padding: 1rem;
+                        background: #F8FAFF;
+                        border-top: 1px solid rgba(0,0,0,0.05);
+                        border-radius: 0 0 12px 12px;
 
                         h1 {
-                            // Sub-header styling
-                            color: #000;
-                            font-size: max(1.5vw, 1.5rem);
+                            font-size: 1rem;
+                            color: #333;
+                            margin-bottom: 0.5rem;
+                        }
+                        
+                        p {
+                            font-size: 0.85rem;
+                            color: #555;
+                            margin-bottom: 0.25rem;
+                            display: flex;
+                            justify-content: space-between;
+                            
+                            span {
+                                font-weight: 600;
+                                color: #000;
+                            }
                         }
                     }
                 }
             }
         }
 
+        // --- FOOTER ---
         .foot {
-            padding-top: max(1vw, 1rem);
+            padding-top: 0.5rem;
             display: flex;
             justify-content: center;
 
@@ -207,19 +221,19 @@
                 cursor: pointer;
                 border: none;
                 outline: none;
-                font-weight: bold;
-                font-size: max(1vw, 1rem);
-                padding: max(0.5vw, 0.5rem) max(1vw, 1rem);
-                
-                // Master Style Button
+                font-weight: 600;
+                font-size: 0.9rem;
+                padding: 0.75rem 2rem;
                 color: #000;
                 background: linear-gradient(97.39deg, #FFF 7.18%, #CDDCF6 92.15%);
-                box-shadow: 0px 20px 40px #CEDBEF, inset 3px 3px 10px rgba(255, 255, 255, 0.72);
-                border-radius: max(1vw, 1em);
+                box-shadow: 0px 10px 20px rgba(206, 219, 239, 0.8);
+                border-radius: 12px;
                 transition: .3s;
+                width: 100%; // جعل الزر بعرض الكرت
 
                 &:hover {
-                    outline: #ffffff solid max(0.1vw, 0.1rem);
+                    transform: translateY(-2px);
+                    box-shadow: 0px 15px 25px rgba(206, 219, 239, 1);
                 }
             }
         }

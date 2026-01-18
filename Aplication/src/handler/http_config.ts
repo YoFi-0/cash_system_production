@@ -29,12 +29,12 @@ export const APPLAY_HTTP_CONFIG = async (app:Express) => {
         saveUninitialized: true,
         resave: false,
         name:"YoFi",
-        // store: new FileStore({
-        //     path:path.join(__dirname, "../../../ram"),
-        //     logFn:() => {
+        store: new FileStore({
+            path:path.join(__dirname, "../../../ram"),
+            logFn:() => {
 
-        //     },
-        // }),
+            },
+        }),
     }))
     app.use(passport.initialize());
     app.use(passport.session());

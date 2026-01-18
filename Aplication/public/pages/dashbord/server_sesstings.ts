@@ -57,7 +57,8 @@ const renderServerConfig = async() => {
                     _h1("The bot is not in your server"),
                     _p("please add the bot in your server and come back to create your own digital store"),
                     _a("Add The Bot ",{
-                        href:"https://google.com"
+                        href:"https://discord.com/api/oauth2/authorize?client_id=1097245926453690389&permissions=2048&scope=bot%20applications.commands",
+                        target:"_blank"
                     })
                 )
             : 

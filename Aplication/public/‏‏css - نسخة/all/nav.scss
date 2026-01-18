@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.nav {
+    // Structural properties (Kept as is)
+    position: fixed;
+    z-index: 2;
+    // height: 1.200%; // Seems like a typo in original, kept as is or assumed logic
+    width: clamp(5rem, 5vw, 10rem);
+    height: 100%;
+    gap: max(2vh, 2vh);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: max(1vw, 1em);
+    padding-bottom: max(1vw, 1em);
+    border-radius: 0 max(1.5vw, 1.5em) max(1.5vw, 1.5em) 0;
+
+    // --- MASTER STYLE INJECTION ---
+    font-family: 'Poppins', sans-serif;
+    
+    // Glassy Sidebar Background
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(205, 220, 246, 0.9) 100%);
+    backdrop-filter: blur(10px);
+    
+    // Soft Shadow & Border
+    box-shadow: max(0.3vw, 0.3em) 0 max(0.5vw, 0.5em) max(0.2vw, 0.2em) #CEDBEF;
+    border-right: 1px solid rgba(255, 255, 255, 0.6);
+
+    a {
+        text-decoration: none;
+    }
+
+    .icon {
+        cursor: pointer;
+        display: block;
+        width: clamp(3rem, 3vw, 10rem);
+        height: clamp(3rem, 3vw, 10rem);
+        object-fit: cover;
+        border-radius: 50%;
+        // Added shadow/border to icon container
+        box-shadow: 0px 4px 10px rgba(114, 67, 198, 0.2); 
+
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+    }
+
+    .button {
+        color: #7243C6; // Changed to Theme Purple
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: max(1.5vw, 1.5em);
+    }
+
+    .green {
+        // Soft Green for Light Theme
+        background: #22CDB3; 
+        color: #fff;
+        border-radius: 50%; // Assuming buttons need shape
+        padding: 5px;
+    }
+
+    .red {
+         // Soft Red for Light Theme
+        background: #FF6B6B;
+        color: #fff;
+        border-radius: 50%;
+        padding: 5px;
+    }
+
+    .servers {
+        border-radius: max(5vw, 5em);
+        // Clean transparent background instead of dark gradient
+        background: rgba(255, 255, 255, 0.4);
+        border: 1px solid rgba(255, 255, 255, 0.6);
+        
+        width: 60%;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 0 max(0.5vw, 0.1rem) 0;
+        gap: max(0.7vw, 0.7em);
+
+        .allServers {
+            // Replaced dark inset shadow with soft light inset
+            box-shadow: inset 2px 2px 5px rgba(205, 220, 246, 0.5), inset -2px -2px 5px rgba(255, 255, 255, 0.8);
+            
+            width: 100%;
+            border-radius: max(5vw, 5em);
+            flex-grow: 2;
+            height: 60vh;
+            overflow: hidden;
+            overflow-y: scroll;
+            padding: 0 0 max(1vw, 1em) 0;
+            display: flex;
+            padding-top: max(0.5vw, 0.5em);
+            align-items: center;
+            flex-direction: column;
+            gap: max(1vw, 1em);
+        }
+
+        a {
+            height: clamp(2.5rem, 2.5vw, 10rem);
+            width: clamp(2.5rem, 2.5vw, 10rem);
+            // Master Style: White bubbles with shadow
+            background: #FFF;
+            box-shadow: 0px 4px 8px #CEDBEF;
+            border: 1px solid #fff;
+            
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: max(1vw, 1em);
+            transition: 0.3s;
+            
+            &:hover {
+                transform: scale(1.1);
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
+.inint_page {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cards {
+    display: flex;
+    gap: max(1vw, 1em);
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    .user_info {
+        max-width: max(25vw, 25rem);
+        display: flex;
+        align-items: center;
+        gap: max(1vw, 1em);
+        
+        // --- MASTER CARD STYLE ---
+        background: linear-gradient(105.41deg, rgba(255, 255, 255, 0.8) 7.83%, rgba(205, 220, 246, 0.8) 93.81%);
+        box-shadow: 0px 20px 40px #CEDBEF, inset 3px 3px 10px rgba(255, 255, 255, 0.72);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.6);
+        // -----------------------
+        
+        padding: max(1.5vw, 0.3rem) max(2vw, 0.7em);
+        border-radius: 31px; // Master Pattern Radius
+        cursor: default;
+        position: relative;
+        z-index: 1;
+
+        img {
+            width: max(3rem, 5vw);
+            height: max(3rem, 5vw);
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #fff;
+            box-shadow: 0 4px 10px #CEDBEF;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: max(0.7vw, 0.7em);
+        }
+
+        h1 {
+            // Master Gradient Text
+            background: linear-gradient(89.99deg, #7243C6 59.61%, #9B11AD 94.57%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            
+            font-size: max(1rem, 2vw);
+
+            span {
+                color: #666; // Grey for contrast on light bg
+                -webkit-text-fill-color: #666; // Reset gradient for span
+            }
+        }
+
+        p {
+            color: #22CDB3; // Darker Teal for readability
+            font-weight: 500;
+            font-size: max(1rem, 1.2vw);
+        }
+
+        .stars_image {
+            height: auto;
+            border-radius: 0;
+            width: max(5vw, 5rem);
+            object-fit: contain;
+            height: max(1vw, 1rem);
+            // Optionally add filter to adjust star color if they are white images
+            // filter: invert(1); 
+        }
+    }
+
+    .privte_paypal {
+        // Changed to a light "inset" area style
+        background: rgba(255, 255, 255, 0.5);
+        border: 1px solid #fff;
+        color: #000;
+        
+        padding: max(1vw, 1rem) max(1vw, 1em);
+        border-radius: max(1vw, 1em);
+        display: flex;
+        gap: max(3vw, 3em);
+
+        p {
+            color: #333;
+            font-weight: 500;
+        }
+
+        button {
+            cursor: pointer;
+            // Master Button Style
+            background: linear-gradient(97.39deg, #FFF 7.18%, #CDDCF6 92.15%);
+            color: #7243C6;
+            font-weight: bold;
+            box-shadow: 0px 5px 15px #CEDBEF;
+            
+            border-radius: max(0.5vw, 0.5em);
+            border: none;
+            padding: max(0.5vw, 0.1rem) max(1vw, 1rem);
+            transition: 0.3s;
+            
+            &:hover {
+                outline: 1px solid #fff;
+                transform: translateY(-2px);
+            }
+        }
+    }
+}
+
+.paypal_pubb_back {
+    opacity: 0;
+    transition: 0.3s;
+    display: none;
+    position: absolute;
+    padding: max(1.4vw, 1rem) max(1.4vw, 1rem);
+    
+    // Overlay Background
+    background: rgba(0, 0, 0, 0.2); 
+    backdrop-filter: blur(10px);
+    z-index: 20;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    border-radius: max(1vw, 1em);
+    font-family: 'Poppins', sans-serif;
+
+    .paypal_pubb {
+        // Master Modal Style
+        background: #FFF;
+        box-shadow: 0px 20px 50px rgba(0,0,0,0.1);
+        
+        display: flex;
+        flex-direction: column;
+        gap: max(1vw, 0.9em);
+        padding: max(0.5vw, 0.5em);
+        padding-bottom: max(1.2vw, 1.2em);
+        border-radius: 31px; // Master Radius
+
+        p {
+            font-size: max(1.3vw, 1.3em);
+            text-align: center;
+            translate: 0 30%;
+            font-weight: bold;
+            color: #333;
+        }
+
+        input {
+            font-size: max(1vw, 0.8rem);
+            border: 1px solid #eee;
+            padding: max(0.5vw, 0.5em) max(1vw, 1em);
+            outline: none;
+            // Clean Input Style
+            box-shadow: none;
+            background: #F2F6FF; 
+            border-radius: max(0.7vw, 0.5rem);
+            color: #000;
+            
+            &:focus {
+                background: #FFF;
+                box-shadow: 0 0 0 2px #CEDBEF;
+            }
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-around;
+            gap: max(1.5vw, 1.5em);
+
+            button {
+                cursor: pointer;
+                border-radius: max(0.7vw, 0.5rem);
+                box-shadow: 0 5px 15px #CEDBEF;
+                padding: max(0.5vw, 0.2em) max(1vw, 0.5em);
+                font-size: max(1vw, 1em);
+                display: flex;
+                align-items: center;
+                flex-direction: row-reverse;
+                gap: max(0.5vw, 0.1rem);
+                border: none;
+                font-weight: 600;
+            }
+
+            .yes {
+                // Master Primary Button Theme (Greenish/Turquoise variant)
+                background: linear-gradient(97.39deg, #22CDB3 7.18%, #149c86 92.15%);
+                color: #FFF;
+                transition: 0.3s;
+
+                &:hover {
+                     box-shadow: 0 8px 20px #b0e9e0;
+                     transform: translateY(-2px);
+                }
+                
+                &:active {
+                    transform: translateY(0);
+                }
+            }
+
+            .no {
+                // Soft Red for "No"
+                background: #FF6B6B;
+                color: #FFF;
+                transition: 0.1s;
+
+                &:hover {
+                    box-shadow: 0 8px 20px #ffcccc;
+                    transform: translateY(-2px);
+                }
+                
+                &:active {
+                    transform: translateY(0);
+                }
+            }
+        }
+    }
+}

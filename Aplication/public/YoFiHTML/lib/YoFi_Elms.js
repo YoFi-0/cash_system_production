@@ -1,1 +1,3557 @@
-'use strict';function _0x5db0(){var _0x4b1ed5=['9cDuend','kbd','summary','del','img','track','address','8367453lfWQeh','777WEjftU','style','sup','fieldset','var','audio','2306pGRtZK','footer','embed','push','dfn','small','meta','textarea','samp','canvas','strong','840052FJZkPl','legend','11382539YZmkjz','figcaption','header','menu','picture','template','html','hgroup','time','base','thead','output','map','function','tfoot','main','col','abbr','head','nav','aside','19393627kecXXG','filter','script','optgroup','bdo','20hgUajT','dialog','cite','button','bdi','link','div','title','blockquote','colgroup','figure','source','meter','mark','area','progress','10Wsijzk','365352NDSrQV','pre','object','select','article','form','iframe','label','ins','caption','data','span','noscript','slot','table','video','string','option','wbr','input','body','tbody','section','sub','datalist','ruby','details','366312KqRtUt'];_0x5db0=function(){return _0x4b1ed5;};return _0x5db0();}var _0x239d5f=_0x8b4b;(function(_0x139d8d,_0xbdde86){var _0x3f1947=_0x8b4b,_0x3ca519=_0x139d8d();while(!![]){try{var _0x455799=-parseInt(_0x3f1947(0x158))/0x1*(-parseInt(_0x3f1947(0x15e))/0x2)+-parseInt(_0x3f1947(0x150))/0x3*(parseInt(_0x3f1947(0x169))/0x4)+parseInt(_0x3f1947(0x185))/0x5*(-parseInt(_0x3f1947(0x196))/0x6)+parseInt(_0x3f1947(0x16b))/0x7+parseInt(_0x3f1947(0x14f))/0x8+parseInt(_0x3f1947(0x157))/0x9+parseInt(_0x3f1947(0x195))/0xa*(-parseInt(_0x3f1947(0x180))/0xb);if(_0x455799===_0xbdde86)break;else _0x3ca519['push'](_0x3ca519['shift']());}catch(_0x1c4019){_0x3ca519['push'](_0x3ca519['shift']());}}}(_0x5db0,0xd2280));class Yprops{['a']='a';[_0x239d5f(0x17c)]=_0x239d5f(0x17c);[_0x239d5f(0x156)]=_0x239d5f(0x156);[_0x239d5f(0x193)]=_0x239d5f(0x193);[_0x239d5f(0x19a)]='article';[_0x239d5f(0x17f)]=_0x239d5f(0x17f);['audio']=_0x239d5f(0x15d);['b']='b';[_0x239d5f(0x174)]=_0x239d5f(0x174);['bdi']=_0x239d5f(0x189);['bdo']=_0x239d5f(0x184);[_0x239d5f(0x18d)]=_0x239d5f(0x18d);['body']=_0x239d5f(0x1aa);['br']='br';[_0x239d5f(0x188)]='button';[_0x239d5f(0x167)]=_0x239d5f(0x167);['caption']=_0x239d5f(0x19f);['cite']=_0x239d5f(0x187);['co']='co';[_0x239d5f(0x17b)]=_0x239d5f(0x17b);[_0x239d5f(0x18e)]='colgroup';[_0x239d5f(0x1a0)]=_0x239d5f(0x1a0);[_0x239d5f(0x1ae)]=_0x239d5f(0x1ae);['dd']='dd';['del']='del';[_0x239d5f(0x14e)]=_0x239d5f(0x14e);[_0x239d5f(0x162)]=_0x239d5f(0x162);[_0x239d5f(0x186)]=_0x239d5f(0x186);[_0x239d5f(0x18b)]=_0x239d5f(0x18b);['dl']='dl';['dt']='dt';['em']='em';['embed']=_0x239d5f(0x160);[_0x239d5f(0x15b)]=_0x239d5f(0x15b);[_0x239d5f(0x16c)]='figcaption';[_0x239d5f(0x18f)]=_0x239d5f(0x18f);['footer']=_0x239d5f(0x15f);[_0x239d5f(0x19b)]=_0x239d5f(0x19b);['h1']='h1';['h2']='h2';['h3']='h3';['h4']='h4';['h5']='h5';['h6']='h6';['head']=_0x239d5f(0x17d);[_0x239d5f(0x16d)]=_0x239d5f(0x16d);['hgroup']='hgroup';['hr']='hr';[_0x239d5f(0x171)]=_0x239d5f(0x171);['i']='i';[_0x239d5f(0x19c)]=_0x239d5f(0x19c);[_0x239d5f(0x154)]=_0x239d5f(0x154);[_0x239d5f(0x1a9)]=_0x239d5f(0x1a9);[_0x239d5f(0x19e)]='ins';[_0x239d5f(0x151)]=_0x239d5f(0x151);[_0x239d5f(0x19d)]='label';['legend']=_0x239d5f(0x16a);['li']='li';['link']=_0x239d5f(0x18a);[_0x239d5f(0x17a)]=_0x239d5f(0x17a);['map']='map';[_0x239d5f(0x192)]=_0x239d5f(0x192);[_0x239d5f(0x16e)]=_0x239d5f(0x16e);[_0x239d5f(0x164)]=_0x239d5f(0x164);[_0x239d5f(0x191)]=_0x239d5f(0x191);['nav']='nav';[_0x239d5f(0x1a2)]=_0x239d5f(0x1a2);[_0x239d5f(0x198)]='object';['ol']='ol';[_0x239d5f(0x183)]=_0x239d5f(0x183);[_0x239d5f(0x1a7)]='option';[_0x239d5f(0x176)]=_0x239d5f(0x176);['p']='p';[_0x239d5f(0x16f)]=_0x239d5f(0x16f);[_0x239d5f(0x197)]=_0x239d5f(0x197);[_0x239d5f(0x194)]='progress';['q']='q';['rp']='rp';['rt']='rt';['ruby']=_0x239d5f(0x14d);['s']='s';[_0x239d5f(0x166)]=_0x239d5f(0x166);['script']=_0x239d5f(0x182);[_0x239d5f(0x1ac)]=_0x239d5f(0x1ac);['select']=_0x239d5f(0x199);['slot']=_0x239d5f(0x1a3);[_0x239d5f(0x163)]='small';[_0x239d5f(0x190)]=_0x239d5f(0x190);[_0x239d5f(0x1a1)]=_0x239d5f(0x1a1);[_0x239d5f(0x168)]='strong';['style']=_0x239d5f(0x159);[_0x239d5f(0x1ad)]=_0x239d5f(0x1ad);['summary']=_0x239d5f(0x152);[_0x239d5f(0x15a)]=_0x239d5f(0x15a);[_0x239d5f(0x1a4)]='table';[_0x239d5f(0x1ab)]=_0x239d5f(0x1ab);['td']='td';[_0x239d5f(0x170)]='template';[_0x239d5f(0x165)]=_0x239d5f(0x165);['tfoot']='tfoot';['th']='th';[_0x239d5f(0x175)]=_0x239d5f(0x175);[_0x239d5f(0x173)]=_0x239d5f(0x173);[_0x239d5f(0x18c)]=_0x239d5f(0x18c);['tr']='tr';[_0x239d5f(0x155)]=_0x239d5f(0x155);['u']='u';['ul']='ul';[_0x239d5f(0x15c)]=_0x239d5f(0x15c);[_0x239d5f(0x1a5)]=_0x239d5f(0x1a5);[_0x239d5f(0x1a8)]=_0x239d5f(0x1a8);}function _0x8b4b(_0x2df7db,_0x1ddd28){var _0x5db01c=_0x5db0();return _0x8b4b=function(_0x8b4bfc,_0x64eaa0){_0x8b4bfc=_0x8b4bfc-0x14d;var _0x2fa0c4=_0x5db01c[_0x8b4bfc];return _0x2fa0c4;},_0x8b4b(_0x2df7db,_0x1ddd28);}class Y{static ['a']='a';static [_0x239d5f(0x17c)]=_0x239d5f(0x17c);static [_0x239d5f(0x156)]='address';static [_0x239d5f(0x193)]=_0x239d5f(0x193);static ['article']=_0x239d5f(0x19a);static [_0x239d5f(0x17f)]=_0x239d5f(0x17f);static ['audio']=_0x239d5f(0x15d);static ['b']='b';static ['base']='base';static ['bdi']=_0x239d5f(0x189);static [_0x239d5f(0x184)]='bdo';static [_0x239d5f(0x18d)]=_0x239d5f(0x18d);static [_0x239d5f(0x1aa)]=_0x239d5f(0x1aa);static ['br']='br';static ['button']='button';static [_0x239d5f(0x167)]=_0x239d5f(0x167);static [_0x239d5f(0x19f)]=_0x239d5f(0x19f);static ['cite']='cite';static ['co']='co';static [_0x239d5f(0x17b)]=_0x239d5f(0x17b);static ['colgroup']='colgroup';static [_0x239d5f(0x1a0)]=_0x239d5f(0x1a0);static [_0x239d5f(0x1ae)]='datalist';static ['dd']='dd';static [_0x239d5f(0x153)]=_0x239d5f(0x153);static [_0x239d5f(0x14e)]=_0x239d5f(0x14e);static ['dfn']=_0x239d5f(0x162);static [_0x239d5f(0x186)]=_0x239d5f(0x186);static [_0x239d5f(0x18b)]='div';static ['dl']='dl';static ['dt']='dt';static ['em']='em';static ['embed']=_0x239d5f(0x160);static [_0x239d5f(0x15b)]=_0x239d5f(0x15b);static [_0x239d5f(0x16c)]=_0x239d5f(0x16c);static [_0x239d5f(0x18f)]=_0x239d5f(0x18f);static [_0x239d5f(0x15f)]='footer';static [_0x239d5f(0x19b)]=_0x239d5f(0x19b);static ['h1']='h1';static ['h2']='h2';static ['h3']='h3';static ['h4']='h4';static ['h5']='h5';static ['h6']='h6';static [_0x239d5f(0x17d)]=_0x239d5f(0x17d);static [_0x239d5f(0x16d)]=_0x239d5f(0x16d);static [_0x239d5f(0x172)]=_0x239d5f(0x172);static ['hr']='hr';static [_0x239d5f(0x171)]=_0x239d5f(0x171);static ['i']='i';static ['iframe']=_0x239d5f(0x19c);static ['img']=_0x239d5f(0x154);static ['input']=_0x239d5f(0x1a9);static ['ins']='ins';static [_0x239d5f(0x151)]=_0x239d5f(0x151);static [_0x239d5f(0x19d)]=_0x239d5f(0x19d);static [_0x239d5f(0x16a)]='legend';static ['li']='li';static ['link']=_0x239d5f(0x18a);static ['main']=_0x239d5f(0x17a);static [_0x239d5f(0x177)]=_0x239d5f(0x177);static [_0x239d5f(0x192)]=_0x239d5f(0x192);static ['menu']=_0x239d5f(0x16e);static [_0x239d5f(0x164)]='meta';static [_0x239d5f(0x191)]=_0x239d5f(0x191);static [_0x239d5f(0x17e)]='nav';static ['noscript']=_0x239d5f(0x1a2);static [_0x239d5f(0x198)]=_0x239d5f(0x198);static ['ol']='ol';static ['optgroup']=_0x239d5f(0x183);static [_0x239d5f(0x1a7)]=_0x239d5f(0x1a7);static [_0x239d5f(0x176)]=_0x239d5f(0x176);static ['p']='p';static [_0x239d5f(0x16f)]=_0x239d5f(0x16f);static [_0x239d5f(0x197)]=_0x239d5f(0x197);static [_0x239d5f(0x194)]=_0x239d5f(0x194);static ['q']='q';static ['rp']='rp';static ['rt']='rt';static [_0x239d5f(0x14d)]=_0x239d5f(0x14d);static ['s']='s';static ['samp']=_0x239d5f(0x166);static [_0x239d5f(0x182)]='script';static [_0x239d5f(0x1ac)]='section';static [_0x239d5f(0x199)]=_0x239d5f(0x199);static [_0x239d5f(0x1a3)]=_0x239d5f(0x1a3);static [_0x239d5f(0x163)]=_0x239d5f(0x163);static [_0x239d5f(0x190)]=_0x239d5f(0x190);static [_0x239d5f(0x1a1)]=_0x239d5f(0x1a1);static [_0x239d5f(0x168)]=_0x239d5f(0x168);static [_0x239d5f(0x159)]=_0x239d5f(0x159);static [_0x239d5f(0x1ad)]='sub';static [_0x239d5f(0x152)]=_0x239d5f(0x152);static ['sup']=_0x239d5f(0x15a);static [_0x239d5f(0x1a4)]='table';static [_0x239d5f(0x1ab)]=_0x239d5f(0x1ab);static ['td']='td';static [_0x239d5f(0x170)]=_0x239d5f(0x170);static [_0x239d5f(0x165)]=_0x239d5f(0x165);static [_0x239d5f(0x179)]='tfoot';static ['th']='th';static [_0x239d5f(0x175)]='thead';static [_0x239d5f(0x173)]=_0x239d5f(0x173);static ['title']=_0x239d5f(0x18c);static ['tr']='tr';static [_0x239d5f(0x155)]='track';static ['u']='u';static ['ul']='ul';static [_0x239d5f(0x15c)]='var';static [_0x239d5f(0x1a5)]=_0x239d5f(0x1a5);static [_0x239d5f(0x1a8)]=_0x239d5f(0x1a8);}const _a=(..._0x429fc1)=>{var _0x22dbae=_0x239d5f,_0x28d647,_0xffe9d=[],_0x4eeab8,_0x3d704e='';for(let _0x1b64e2 of _0x429fc1){if(typeof _0x1b64e2==_0x22dbae(0x178)){_0x4eeab8=_0x1b64e2;continue;}if(_0x1b64e2 instanceof YoFiElement){_0xffe9d[_0x22dbae(0x161)](_0x1b64e2);continue;}if(typeof _0x1b64e2==_0x22dbae(0x1a6)){_0x3d704e+=_0x1b64e2;continue;}_0x1b64e2 instanceof Object&&(_0x28d647=_0x1b64e2);}return new YoFiElement({'tag':Y['a'],'attrs':_0x28d647,'cheldren':_0xffe9d?_0xffe9d[_0x22dbae(0x181)](_0x2a60ef=>typeof _0x2a60ef!=_0x22dbae(0x1a6)):undefined,'init':_0x4eeab8,'textContent':_0x3d704e});},_abbr=(..._0x325fca)=>{var _0x3167cb=_0x239d5f,_0x2735e7,_0x2a7e0f=[],_0xe33c81,_0xf40e1b='';for(let _0x420a8b of _0x325fca){if(typeof _0x420a8b=='function'){_0xe33c81=_0x420a8b;continue;}if(_0x420a8b instanceof YoFiElement){_0x2a7e0f[_0x3167cb(0x161)](_0x420a8b);continue;}if(typeof _0x420a8b==_0x3167cb(0x1a6)){_0xf40e1b+=_0x420a8b;continue;}_0x420a8b instanceof Object&&(_0x2735e7=_0x420a8b);}return new YoFiElement({'tag':Y[_0x3167cb(0x17c)],'attrs':_0x2735e7,'cheldren':_0x2a7e0f?_0x2a7e0f[_0x3167cb(0x181)](_0x116a52=>typeof _0x116a52!=_0x3167cb(0x1a6)):undefined,'init':_0xe33c81,'textContent':_0xf40e1b});},_address=(..._0x574180)=>{var _0x13aa51=_0x239d5f,_0x4607f0,_0x1ab7f7=[],_0x2b5ece,_0x182978='';for(let _0x329084 of _0x574180){if(typeof _0x329084==_0x13aa51(0x178)){_0x2b5ece=_0x329084;continue;}if(_0x329084 instanceof YoFiElement){_0x1ab7f7[_0x13aa51(0x161)](_0x329084);continue;}if(typeof _0x329084==_0x13aa51(0x1a6)){_0x182978+=_0x329084;continue;}_0x329084 instanceof Object&&(_0x4607f0=_0x329084);}return new YoFiElement({'tag':Y[_0x13aa51(0x156)],'attrs':_0x4607f0,'cheldren':_0x1ab7f7?_0x1ab7f7[_0x13aa51(0x181)](_0x5874fe=>typeof _0x5874fe!=_0x13aa51(0x1a6)):undefined,'init':_0x2b5ece,'textContent':_0x182978});},_area=(..._0x8fdfbf)=>{var _0x2ba16a=_0x239d5f,_0x583099,_0x1ce31c=[],_0x419153,_0xfd702c='';for(let _0x276891 of _0x8fdfbf){if(typeof _0x276891==_0x2ba16a(0x178)){_0x419153=_0x276891;continue;}if(_0x276891 instanceof YoFiElement){_0x1ce31c[_0x2ba16a(0x161)](_0x276891);continue;}if(typeof _0x276891==_0x2ba16a(0x1a6)){_0xfd702c+=_0x276891;continue;}_0x276891 instanceof Object&&(_0x583099=_0x276891);}return new YoFiElement({'tag':Y[_0x2ba16a(0x193)],'attrs':_0x583099,'cheldren':_0x1ce31c?_0x1ce31c['filter'](_0x43b77c=>typeof _0x43b77c!=_0x2ba16a(0x1a6)):undefined,'init':_0x419153,'textContent':_0xfd702c});},_article=(..._0x51675b)=>{var _0x43cd82=_0x239d5f,_0x237a56,_0x266ae6=[],_0x5204ec,_0x25b096='';for(let _0xa53ac2 of _0x51675b){if(typeof _0xa53ac2==_0x43cd82(0x178)){_0x5204ec=_0xa53ac2;continue;}if(_0xa53ac2 instanceof YoFiElement){_0x266ae6[_0x43cd82(0x161)](_0xa53ac2);continue;}if(typeof _0xa53ac2==_0x43cd82(0x1a6)){_0x25b096+=_0xa53ac2;continue;}_0xa53ac2 instanceof Object&&(_0x237a56=_0xa53ac2);}return new YoFiElement({'tag':Y[_0x43cd82(0x19a)],'attrs':_0x237a56,'cheldren':_0x266ae6?_0x266ae6[_0x43cd82(0x181)](_0x3b18d0=>typeof _0x3b18d0!=_0x43cd82(0x1a6)):undefined,'init':_0x5204ec,'textContent':_0x25b096});},_aside=(..._0x1e19aa)=>{var _0xbd9cfe=_0x239d5f,_0x236b00,_0x38a0f0=[],_0xfee114,_0x54e04d='';for(let _0x31aad2 of _0x1e19aa){if(typeof _0x31aad2==_0xbd9cfe(0x178)){_0xfee114=_0x31aad2;continue;}if(_0x31aad2 instanceof YoFiElement){_0x38a0f0[_0xbd9cfe(0x161)](_0x31aad2);continue;}if(typeof _0x31aad2==_0xbd9cfe(0x1a6)){_0x54e04d+=_0x31aad2;continue;}_0x31aad2 instanceof Object&&(_0x236b00=_0x31aad2);}return new YoFiElement({'tag':Y[_0xbd9cfe(0x17f)],'attrs':_0x236b00,'cheldren':_0x38a0f0?_0x38a0f0['filter'](_0x1c4619=>typeof _0x1c4619!='string'):undefined,'init':_0xfee114,'textContent':_0x54e04d});},_audio=(..._0x1e8e9d)=>{var _0x118df4=_0x239d5f,_0x14afb8,_0x3bb05b=[],_0x20a21b,_0x53785f='';for(let _0x198037 of _0x1e8e9d){if(typeof _0x198037=='function'){_0x20a21b=_0x198037;continue;}if(_0x198037 instanceof YoFiElement){_0x3bb05b[_0x118df4(0x161)](_0x198037);continue;}if(typeof _0x198037=='string'){_0x53785f+=_0x198037;continue;}_0x198037 instanceof Object&&(_0x14afb8=_0x198037);}return new YoFiElement({'tag':Y[_0x118df4(0x15d)],'attrs':_0x14afb8,'cheldren':_0x3bb05b?_0x3bb05b[_0x118df4(0x181)](_0x221a38=>typeof _0x221a38!=_0x118df4(0x1a6)):undefined,'init':_0x20a21b,'textContent':_0x53785f});},_b=(..._0x1afdb7)=>{var _0x3e82a1=_0x239d5f,_0x12efe4,_0x2d8394=[],_0x269723,_0x191de5='';for(let _0xc46fd8 of _0x1afdb7){if(typeof _0xc46fd8==_0x3e82a1(0x178)){_0x269723=_0xc46fd8;continue;}if(_0xc46fd8 instanceof YoFiElement){_0x2d8394[_0x3e82a1(0x161)](_0xc46fd8);continue;}if(typeof _0xc46fd8==_0x3e82a1(0x1a6)){_0x191de5+=_0xc46fd8;continue;}_0xc46fd8 instanceof Object&&(_0x12efe4=_0xc46fd8);}return new YoFiElement({'tag':Y['b'],'attrs':_0x12efe4,'cheldren':_0x2d8394?_0x2d8394[_0x3e82a1(0x181)](_0x136726=>typeof _0x136726!=_0x3e82a1(0x1a6)):undefined,'init':_0x269723,'textContent':_0x191de5});},_base=(..._0x3804a8)=>{var _0x28d804=_0x239d5f,_0x16e2fb,_0x2a1a8b=[],_0x16cdaa,_0x3adf66='';for(let _0x3b84d6 of _0x3804a8){if(typeof _0x3b84d6==_0x28d804(0x178)){_0x16cdaa=_0x3b84d6;continue;}if(_0x3b84d6 instanceof YoFiElement){_0x2a1a8b[_0x28d804(0x161)](_0x3b84d6);continue;}if(typeof _0x3b84d6==_0x28d804(0x1a6)){_0x3adf66+=_0x3b84d6;continue;}_0x3b84d6 instanceof Object&&(_0x16e2fb=_0x3b84d6);}return new YoFiElement({'tag':Y['base'],'attrs':_0x16e2fb,'cheldren':_0x2a1a8b?_0x2a1a8b[_0x28d804(0x181)](_0x1d06c1=>typeof _0x1d06c1!=_0x28d804(0x1a6)):undefined,'init':_0x16cdaa,'textContent':_0x3adf66});},_bdi=(..._0x644f39)=>{var _0x417624=_0x239d5f,_0x5eecc3,_0xd45a21=[],_0x58129e,_0x2e9da1='';for(let _0x1b3711 of _0x644f39){if(typeof _0x1b3711==_0x417624(0x178)){_0x58129e=_0x1b3711;continue;}if(_0x1b3711 instanceof YoFiElement){_0xd45a21[_0x417624(0x161)](_0x1b3711);continue;}if(typeof _0x1b3711==_0x417624(0x1a6)){_0x2e9da1+=_0x1b3711;continue;}_0x1b3711 instanceof Object&&(_0x5eecc3=_0x1b3711);}return new YoFiElement({'tag':Y[_0x417624(0x189)],'attrs':_0x5eecc3,'cheldren':_0xd45a21?_0xd45a21[_0x417624(0x181)](_0x37a40c=>typeof _0x37a40c!=_0x417624(0x1a6)):undefined,'init':_0x58129e,'textContent':_0x2e9da1});},_bdo=(..._0x12529f)=>{var _0x56094d=_0x239d5f,_0x3519f6,_0xfb98de=[],_0x3ee9b8,_0x5dd320='';for(let _0x5e9034 of _0x12529f){if(typeof _0x5e9034==_0x56094d(0x178)){_0x3ee9b8=_0x5e9034;continue;}if(_0x5e9034 instanceof YoFiElement){_0xfb98de[_0x56094d(0x161)](_0x5e9034);continue;}if(typeof _0x5e9034==_0x56094d(0x1a6)){_0x5dd320+=_0x5e9034;continue;}_0x5e9034 instanceof Object&&(_0x3519f6=_0x5e9034);}return new YoFiElement({'tag':Y[_0x56094d(0x184)],'attrs':_0x3519f6,'cheldren':_0xfb98de?_0xfb98de[_0x56094d(0x181)](_0x2ede62=>typeof _0x2ede62!=_0x56094d(0x1a6)):undefined,'init':_0x3ee9b8,'textContent':_0x5dd320});},_blockquote=(..._0x5e0ee1)=>{var _0x5ac507=_0x239d5f,_0xb141ee,_0x4a35dc=[],_0x225142,_0x144341='';for(let _0x17cbf9 of _0x5e0ee1){if(typeof _0x17cbf9==_0x5ac507(0x178)){_0x225142=_0x17cbf9;continue;}if(_0x17cbf9 instanceof YoFiElement){_0x4a35dc[_0x5ac507(0x161)](_0x17cbf9);continue;}if(typeof _0x17cbf9==_0x5ac507(0x1a6)){_0x144341+=_0x17cbf9;continue;}_0x17cbf9 instanceof Object&&(_0xb141ee=_0x17cbf9);}return new YoFiElement({'tag':Y['blockquote'],'attrs':_0xb141ee,'cheldren':_0x4a35dc?_0x4a35dc[_0x5ac507(0x181)](_0xa3ce55=>typeof _0xa3ce55!='string'):undefined,'init':_0x225142,'textContent':_0x144341});},_body=(..._0x8d4052)=>{var _0x26bb20=_0x239d5f,_0x453b0d,_0x1b39e8=[],_0x1b1c8b,_0x3db726='';for(let _0x2c9283 of _0x8d4052){if(typeof _0x2c9283==_0x26bb20(0x178)){_0x1b1c8b=_0x2c9283;continue;}if(_0x2c9283 instanceof YoFiElement){_0x1b39e8['push'](_0x2c9283);continue;}if(typeof _0x2c9283==_0x26bb20(0x1a6)){_0x3db726+=_0x2c9283;continue;}_0x2c9283 instanceof Object&&(_0x453b0d=_0x2c9283);}return new YoFiElement({'tag':Y[_0x26bb20(0x1aa)],'attrs':_0x453b0d,'cheldren':_0x1b39e8?_0x1b39e8[_0x26bb20(0x181)](_0x188b98=>typeof _0x188b98!=_0x26bb20(0x1a6)):undefined,'init':_0x1b1c8b,'textContent':_0x3db726});},_br=(..._0x5c6309)=>{var _0x587f08=_0x239d5f,_0x57a4bf,_0x4db44c=[],_0x2e18fa,_0x4b6b2d='';for(let _0x198b00 of _0x5c6309){if(typeof _0x198b00=='function'){_0x2e18fa=_0x198b00;continue;}if(_0x198b00 instanceof YoFiElement){_0x4db44c[_0x587f08(0x161)](_0x198b00);continue;}if(typeof _0x198b00=='string'){_0x4b6b2d+=_0x198b00;continue;}_0x198b00 instanceof Object&&(_0x57a4bf=_0x198b00);}return new YoFiElement({'tag':Y['br'],'attrs':_0x57a4bf,'cheldren':_0x4db44c?_0x4db44c[_0x587f08(0x181)](_0x1dd920=>typeof _0x1dd920!=_0x587f08(0x1a6)):undefined,'init':_0x2e18fa,'textContent':_0x4b6b2d});},_button=(..._0x3c710e)=>{var _0x3cf1e6=_0x239d5f,_0x2d8fdf,_0x49e386=[],_0x2a63b9,_0x3a7d92='';for(let _0x4d8432 of _0x3c710e){if(typeof _0x4d8432==_0x3cf1e6(0x178)){_0x2a63b9=_0x4d8432;continue;}if(_0x4d8432 instanceof YoFiElement){_0x49e386[_0x3cf1e6(0x161)](_0x4d8432);continue;}if(typeof _0x4d8432=='string'){_0x3a7d92+=_0x4d8432;continue;}_0x4d8432 instanceof Object&&(_0x2d8fdf=_0x4d8432);}return new YoFiElement({'tag':Y[_0x3cf1e6(0x188)],'attrs':_0x2d8fdf,'cheldren':_0x49e386?_0x49e386[_0x3cf1e6(0x181)](_0x1cd387=>typeof _0x1cd387!=_0x3cf1e6(0x1a6)):undefined,'init':_0x2a63b9,'textContent':_0x3a7d92});},_canvas=(..._0x58ae7c)=>{var _0x24267a=_0x239d5f,_0x33f3ab,_0x2872ee=[],_0x53e80c,_0x5b4f08='';for(let _0x2237f0 of _0x58ae7c){if(typeof _0x2237f0=='function'){_0x53e80c=_0x2237f0;continue;}if(_0x2237f0 instanceof YoFiElement){_0x2872ee[_0x24267a(0x161)](_0x2237f0);continue;}if(typeof _0x2237f0==_0x24267a(0x1a6)){_0x5b4f08+=_0x2237f0;continue;}_0x2237f0 instanceof Object&&(_0x33f3ab=_0x2237f0);}return new YoFiElement({'tag':Y['canvas'],'attrs':_0x33f3ab,'cheldren':_0x2872ee?_0x2872ee[_0x24267a(0x181)](_0x387b3c=>typeof _0x387b3c!=_0x24267a(0x1a6)):undefined,'init':_0x53e80c,'textContent':_0x5b4f08});},_caption=(..._0x40e7cd)=>{var _0x2699a0=_0x239d5f,_0x21a15c,_0x5be10e=[],_0x24187e,_0x1c1fee='';for(let _0x4f4ac1 of _0x40e7cd){if(typeof _0x4f4ac1==_0x2699a0(0x178)){_0x24187e=_0x4f4ac1;continue;}if(_0x4f4ac1 instanceof YoFiElement){_0x5be10e[_0x2699a0(0x161)](_0x4f4ac1);continue;}if(typeof _0x4f4ac1=='string'){_0x1c1fee+=_0x4f4ac1;continue;}_0x4f4ac1 instanceof Object&&(_0x21a15c=_0x4f4ac1);}return new YoFiElement({'tag':Y[_0x2699a0(0x19f)],'attrs':_0x21a15c,'cheldren':_0x5be10e?_0x5be10e[_0x2699a0(0x181)](_0x303230=>typeof _0x303230!=_0x2699a0(0x1a6)):undefined,'init':_0x24187e,'textContent':_0x1c1fee});},_cite=(..._0x3ddd4b)=>{var _0x5e6fae=_0x239d5f,_0x3f8899,_0x37824c=[],_0x4c5978,_0x4f47bb='';for(let _0x11db40 of _0x3ddd4b){if(typeof _0x11db40==_0x5e6fae(0x178)){_0x4c5978=_0x11db40;continue;}if(_0x11db40 instanceof YoFiElement){_0x37824c[_0x5e6fae(0x161)](_0x11db40);continue;}if(typeof _0x11db40=='string'){_0x4f47bb+=_0x11db40;continue;}_0x11db40 instanceof Object&&(_0x3f8899=_0x11db40);}return new YoFiElement({'tag':Y[_0x5e6fae(0x187)],'attrs':_0x3f8899,'cheldren':_0x37824c?_0x37824c['filter'](_0xca36b7=>typeof _0xca36b7!=_0x5e6fae(0x1a6)):undefined,'init':_0x4c5978,'textContent':_0x4f47bb});},_co=(..._0x562d30)=>{var _0x47ea33=_0x239d5f,_0x781225,_0x202da9=[],_0x38d04c,_0x5f25f2='';for(let _0x50d39e of _0x562d30){if(typeof _0x50d39e==_0x47ea33(0x178)){_0x38d04c=_0x50d39e;continue;}if(_0x50d39e instanceof YoFiElement){_0x202da9[_0x47ea33(0x161)](_0x50d39e);continue;}if(typeof _0x50d39e==_0x47ea33(0x1a6)){_0x5f25f2+=_0x50d39e;continue;}_0x50d39e instanceof Object&&(_0x781225=_0x50d39e);}return new YoFiElement({'tag':Y['co'],'attrs':_0x781225,'cheldren':_0x202da9?_0x202da9[_0x47ea33(0x181)](_0x3fbc69=>typeof _0x3fbc69!=_0x47ea33(0x1a6)):undefined,'init':_0x38d04c,'textContent':_0x5f25f2});},_col=(..._0x4f6f6e)=>{var _0x752df0=_0x239d5f,_0x1ba021,_0x19e494=[],_0x241e61,_0x1b2ea3='';for(let _0x22a1cc of _0x4f6f6e){if(typeof _0x22a1cc=='function'){_0x241e61=_0x22a1cc;continue;}if(_0x22a1cc instanceof YoFiElement){_0x19e494['push'](_0x22a1cc);continue;}if(typeof _0x22a1cc==_0x752df0(0x1a6)){_0x1b2ea3+=_0x22a1cc;continue;}_0x22a1cc instanceof Object&&(_0x1ba021=_0x22a1cc);}return new YoFiElement({'tag':Y[_0x752df0(0x17b)],'attrs':_0x1ba021,'cheldren':_0x19e494?_0x19e494[_0x752df0(0x181)](_0x1249a9=>typeof _0x1249a9!=_0x752df0(0x1a6)):undefined,'init':_0x241e61,'textContent':_0x1b2ea3});},_colgroup=(..._0x1e239f)=>{var _0x44443c=_0x239d5f,_0x1095ef,_0x519a6e=[],_0x524e8c,_0x12f5e7='';for(let _0x10f070 of _0x1e239f){if(typeof _0x10f070==_0x44443c(0x178)){_0x524e8c=_0x10f070;continue;}if(_0x10f070 instanceof YoFiElement){_0x519a6e[_0x44443c(0x161)](_0x10f070);continue;}if(typeof _0x10f070=='string'){_0x12f5e7+=_0x10f070;continue;}_0x10f070 instanceof Object&&(_0x1095ef=_0x10f070);}return new YoFiElement({'tag':Y['colgroup'],'attrs':_0x1095ef,'cheldren':_0x519a6e?_0x519a6e[_0x44443c(0x181)](_0xa378b7=>typeof _0xa378b7!=_0x44443c(0x1a6)):undefined,'init':_0x524e8c,'textContent':_0x12f5e7});},_data=(..._0x371a5a)=>{var _0x24e677=_0x239d5f,_0x5ee2d7,_0x16738b=[],_0x2c6432,_0x18c020='';for(let _0x5e15d5 of _0x371a5a){if(typeof _0x5e15d5=='function'){_0x2c6432=_0x5e15d5;continue;}if(_0x5e15d5 instanceof YoFiElement){_0x16738b[_0x24e677(0x161)](_0x5e15d5);continue;}if(typeof _0x5e15d5=='string'){_0x18c020+=_0x5e15d5;continue;}_0x5e15d5 instanceof Object&&(_0x5ee2d7=_0x5e15d5);}return new YoFiElement({'tag':Y['data'],'attrs':_0x5ee2d7,'cheldren':_0x16738b?_0x16738b[_0x24e677(0x181)](_0x9fe0ee=>typeof _0x9fe0ee!='string'):undefined,'init':_0x2c6432,'textContent':_0x18c020});},_datalist=(..._0x2870e0)=>{var _0x18d142=_0x239d5f,_0x3a5a3f,_0x317560=[],_0x106aa2,_0x1d0a31='';for(let _0x3f0dad of _0x2870e0){if(typeof _0x3f0dad=='function'){_0x106aa2=_0x3f0dad;continue;}if(_0x3f0dad instanceof YoFiElement){_0x317560['push'](_0x3f0dad);continue;}if(typeof _0x3f0dad==_0x18d142(0x1a6)){_0x1d0a31+=_0x3f0dad;continue;}_0x3f0dad instanceof Object&&(_0x3a5a3f=_0x3f0dad);}return new YoFiElement({'tag':Y[_0x18d142(0x1ae)],'attrs':_0x3a5a3f,'cheldren':_0x317560?_0x317560['filter'](_0x592200=>typeof _0x592200!=_0x18d142(0x1a6)):undefined,'init':_0x106aa2,'textContent':_0x1d0a31});},_dd=(..._0x19688e)=>{var _0x14f00b=_0x239d5f,_0x269384,_0x3d958c=[],_0x13b50e,_0x34662a='';for(let _0x64141d of _0x19688e){if(typeof _0x64141d==_0x14f00b(0x178)){_0x13b50e=_0x64141d;continue;}if(_0x64141d instanceof YoFiElement){_0x3d958c[_0x14f00b(0x161)](_0x64141d);continue;}if(typeof _0x64141d==_0x14f00b(0x1a6)){_0x34662a+=_0x64141d;continue;}_0x64141d instanceof Object&&(_0x269384=_0x64141d);}return new YoFiElement({'tag':Y['dd'],'attrs':_0x269384,'cheldren':_0x3d958c?_0x3d958c[_0x14f00b(0x181)](_0xa74011=>typeof _0xa74011!=_0x14f00b(0x1a6)):undefined,'init':_0x13b50e,'textContent':_0x34662a});},_del=(..._0x4482a9)=>{var _0xcf29c6=_0x239d5f,_0x2c9a5b,_0x3faa9d=[],_0x3aa265,_0x43147c='';for(let _0x1686c0 of _0x4482a9){if(typeof _0x1686c0==_0xcf29c6(0x178)){_0x3aa265=_0x1686c0;continue;}if(_0x1686c0 instanceof YoFiElement){_0x3faa9d['push'](_0x1686c0);continue;}if(typeof _0x1686c0==_0xcf29c6(0x1a6)){_0x43147c+=_0x1686c0;continue;}_0x1686c0 instanceof Object&&(_0x2c9a5b=_0x1686c0);}return new YoFiElement({'tag':Y['del'],'attrs':_0x2c9a5b,'cheldren':_0x3faa9d?_0x3faa9d[_0xcf29c6(0x181)](_0x4e8cfe=>typeof _0x4e8cfe!=_0xcf29c6(0x1a6)):undefined,'init':_0x3aa265,'textContent':_0x43147c});},_details=(..._0x433c63)=>{var _0x26a152=_0x239d5f,_0x112583,_0x10637f=[],_0x5f1e3d,_0x3a633d='';for(let _0x482a36 of _0x433c63){if(typeof _0x482a36==_0x26a152(0x178)){_0x5f1e3d=_0x482a36;continue;}if(_0x482a36 instanceof YoFiElement){_0x10637f[_0x26a152(0x161)](_0x482a36);continue;}if(typeof _0x482a36==_0x26a152(0x1a6)){_0x3a633d+=_0x482a36;continue;}_0x482a36 instanceof Object&&(_0x112583=_0x482a36);}return new YoFiElement({'tag':Y[_0x26a152(0x14e)],'attrs':_0x112583,'cheldren':_0x10637f?_0x10637f[_0x26a152(0x181)](_0x5981be=>typeof _0x5981be!=_0x26a152(0x1a6)):undefined,'init':_0x5f1e3d,'textContent':_0x3a633d});},_dfn=(..._0x38962a)=>{var _0x52c78e=_0x239d5f,_0x30c49a,_0x4298d4=[],_0x2ec067,_0x358731='';for(let _0x3b1b1e of _0x38962a){if(typeof _0x3b1b1e==_0x52c78e(0x178)){_0x2ec067=_0x3b1b1e;continue;}if(_0x3b1b1e instanceof YoFiElement){_0x4298d4[_0x52c78e(0x161)](_0x3b1b1e);continue;}if(typeof _0x3b1b1e=='string'){_0x358731+=_0x3b1b1e;continue;}_0x3b1b1e instanceof Object&&(_0x30c49a=_0x3b1b1e);}return new YoFiElement({'tag':Y[_0x52c78e(0x162)],'attrs':_0x30c49a,'cheldren':_0x4298d4?_0x4298d4['filter'](_0x538133=>typeof _0x538133!=_0x52c78e(0x1a6)):undefined,'init':_0x2ec067,'textContent':_0x358731});},_dialog=(..._0xfbc4c0)=>{var _0x3cd9c7=_0x239d5f,_0x5afebf,_0x291fe4=[],_0x2d821c,_0x62c1e6='';for(let _0x52ff25 of _0xfbc4c0){if(typeof _0x52ff25==_0x3cd9c7(0x178)){_0x2d821c=_0x52ff25;continue;}if(_0x52ff25 instanceof YoFiElement){_0x291fe4['push'](_0x52ff25);continue;}if(typeof _0x52ff25=='string'){_0x62c1e6+=_0x52ff25;continue;}_0x52ff25 instanceof Object&&(_0x5afebf=_0x52ff25);}return new YoFiElement({'tag':Y[_0x3cd9c7(0x186)],'attrs':_0x5afebf,'cheldren':_0x291fe4?_0x291fe4[_0x3cd9c7(0x181)](_0x3459cc=>typeof _0x3459cc!='string'):undefined,'init':_0x2d821c,'textContent':_0x62c1e6});},_div=(..._0x487f83)=>{var _0x2b3bff=_0x239d5f,_0x31191b,_0x12dbcd=[],_0x5d816d,_0x4f076e='';for(let _0x413646 of _0x487f83){if(typeof _0x413646=='function'){_0x5d816d=_0x413646;continue;}if(_0x413646 instanceof YoFiElement){_0x12dbcd[_0x2b3bff(0x161)](_0x413646);continue;}if(typeof _0x413646==_0x2b3bff(0x1a6)){_0x4f076e+=_0x413646;continue;}_0x413646 instanceof Object&&(_0x31191b=_0x413646);}return new YoFiElement({'tag':Y[_0x2b3bff(0x18b)],'attrs':_0x31191b,'cheldren':_0x12dbcd?_0x12dbcd[_0x2b3bff(0x181)](_0x5c036f=>typeof _0x5c036f!=_0x2b3bff(0x1a6)):undefined,'init':_0x5d816d,'textContent':_0x4f076e});},_dl=(..._0x529520)=>{var _0x4c5ec2=_0x239d5f,_0x2de2ae,_0x163109=[],_0x30b85e,_0x26a54a='';for(let _0x1f5759 of _0x529520){if(typeof _0x1f5759==_0x4c5ec2(0x178)){_0x30b85e=_0x1f5759;continue;}if(_0x1f5759 instanceof YoFiElement){_0x163109[_0x4c5ec2(0x161)](_0x1f5759);continue;}if(typeof _0x1f5759==_0x4c5ec2(0x1a6)){_0x26a54a+=_0x1f5759;continue;}_0x1f5759 instanceof Object&&(_0x2de2ae=_0x1f5759);}return new YoFiElement({'tag':Y['dl'],'attrs':_0x2de2ae,'cheldren':_0x163109?_0x163109[_0x4c5ec2(0x181)](_0x57f205=>typeof _0x57f205!=_0x4c5ec2(0x1a6)):undefined,'init':_0x30b85e,'textContent':_0x26a54a});},_dt=(..._0x5e5b15)=>{var _0x240491=_0x239d5f,_0x4b65a0,_0x55072c=[],_0x1a3b9c,_0x52ec46='';for(let _0x3e1542 of _0x5e5b15){if(typeof _0x3e1542==_0x240491(0x178)){_0x1a3b9c=_0x3e1542;continue;}if(_0x3e1542 instanceof YoFiElement){_0x55072c[_0x240491(0x161)](_0x3e1542);continue;}if(typeof _0x3e1542=='string'){_0x52ec46+=_0x3e1542;continue;}_0x3e1542 instanceof Object&&(_0x4b65a0=_0x3e1542);}return new YoFiElement({'tag':Y['dt'],'attrs':_0x4b65a0,'cheldren':_0x55072c?_0x55072c[_0x240491(0x181)](_0x4d9217=>typeof _0x4d9217!='string'):undefined,'init':_0x1a3b9c,'textContent':_0x52ec46});},_em=(..._0x4011a9)=>{var _0x173fe1=_0x239d5f,_0x35d682,_0x253794=[],_0x264faf,_0x4edc26='';for(let _0x2c8e02 of _0x4011a9){if(typeof _0x2c8e02==_0x173fe1(0x178)){_0x264faf=_0x2c8e02;continue;}if(_0x2c8e02 instanceof YoFiElement){_0x253794['push'](_0x2c8e02);continue;}if(typeof _0x2c8e02=='string'){_0x4edc26+=_0x2c8e02;continue;}_0x2c8e02 instanceof Object&&(_0x35d682=_0x2c8e02);}return new YoFiElement({'tag':Y['em'],'attrs':_0x35d682,'cheldren':_0x253794?_0x253794[_0x173fe1(0x181)](_0x4d91fc=>typeof _0x4d91fc!=_0x173fe1(0x1a6)):undefined,'init':_0x264faf,'textContent':_0x4edc26});},_embed=(..._0x250b2e)=>{var _0x269d58=_0x239d5f,_0x16d1f4,_0x35cfb1=[],_0x121d70,_0x1d433f='';for(let _0x140b3f of _0x250b2e){if(typeof _0x140b3f==_0x269d58(0x178)){_0x121d70=_0x140b3f;continue;}if(_0x140b3f instanceof YoFiElement){_0x35cfb1['push'](_0x140b3f);continue;}if(typeof _0x140b3f==_0x269d58(0x1a6)){_0x1d433f+=_0x140b3f;continue;}_0x140b3f instanceof Object&&(_0x16d1f4=_0x140b3f);}return new YoFiElement({'tag':Y[_0x269d58(0x160)],'attrs':_0x16d1f4,'cheldren':_0x35cfb1?_0x35cfb1[_0x269d58(0x181)](_0x3b0d1b=>typeof _0x3b0d1b!=_0x269d58(0x1a6)):undefined,'init':_0x121d70,'textContent':_0x1d433f});},_fieldset=(..._0x5c23c1)=>{var _0x29e370=_0x239d5f,_0x4769be,_0x3cdcb0=[],_0x53ec29,_0x54b736='';for(let _0x312e28 of _0x5c23c1){if(typeof _0x312e28==_0x29e370(0x178)){_0x53ec29=_0x312e28;continue;}if(_0x312e28 instanceof YoFiElement){_0x3cdcb0[_0x29e370(0x161)](_0x312e28);continue;}if(typeof _0x312e28==_0x29e370(0x1a6)){_0x54b736+=_0x312e28;continue;}_0x312e28 instanceof Object&&(_0x4769be=_0x312e28);}return new YoFiElement({'tag':Y[_0x29e370(0x15b)],'attrs':_0x4769be,'cheldren':_0x3cdcb0?_0x3cdcb0[_0x29e370(0x181)](_0x35bc5f=>typeof _0x35bc5f!=_0x29e370(0x1a6)):undefined,'init':_0x53ec29,'textContent':_0x54b736});},_figcaption=(..._0x3ab6da)=>{var _0x880a=_0x239d5f,_0x36bac8,_0x1bf5b9=[],_0x2fa922,_0x55ae19='';for(let _0x4568a1 of _0x3ab6da){if(typeof _0x4568a1==_0x880a(0x178)){_0x2fa922=_0x4568a1;continue;}if(_0x4568a1 instanceof YoFiElement){_0x1bf5b9[_0x880a(0x161)](_0x4568a1);continue;}if(typeof _0x4568a1==_0x880a(0x1a6)){_0x55ae19+=_0x4568a1;continue;}_0x4568a1 instanceof Object&&(_0x36bac8=_0x4568a1);}return new YoFiElement({'tag':Y[_0x880a(0x16c)],'attrs':_0x36bac8,'cheldren':_0x1bf5b9?_0x1bf5b9['filter'](_0x36f514=>typeof _0x36f514!=_0x880a(0x1a6)):undefined,'init':_0x2fa922,'textContent':_0x55ae19});},_figure=(..._0x44362e)=>{var _0x500cc5=_0x239d5f,_0x367c3b,_0x2aa3b7=[],_0xdc0569,_0x335e1b='';for(let _0x12df33 of _0x44362e){if(typeof _0x12df33==_0x500cc5(0x178)){_0xdc0569=_0x12df33;continue;}if(_0x12df33 instanceof YoFiElement){_0x2aa3b7[_0x500cc5(0x161)](_0x12df33);continue;}if(typeof _0x12df33==_0x500cc5(0x1a6)){_0x335e1b+=_0x12df33;continue;}_0x12df33 instanceof Object&&(_0x367c3b=_0x12df33);}return new YoFiElement({'tag':Y[_0x500cc5(0x18f)],'attrs':_0x367c3b,'cheldren':_0x2aa3b7?_0x2aa3b7[_0x500cc5(0x181)](_0x4d241=>typeof _0x4d241!=_0x500cc5(0x1a6)):undefined,'init':_0xdc0569,'textContent':_0x335e1b});},_footer=(..._0x35d2a0)=>{var _0x6599a8=_0x239d5f,_0x58a2cb,_0x2c3ca8=[],_0x251da1,_0x18f502='';for(let _0x25d079 of _0x35d2a0){if(typeof _0x25d079==_0x6599a8(0x178)){_0x251da1=_0x25d079;continue;}if(_0x25d079 instanceof YoFiElement){_0x2c3ca8[_0x6599a8(0x161)](_0x25d079);continue;}if(typeof _0x25d079==_0x6599a8(0x1a6)){_0x18f502+=_0x25d079;continue;}_0x25d079 instanceof Object&&(_0x58a2cb=_0x25d079);}return new YoFiElement({'tag':Y['footer'],'attrs':_0x58a2cb,'cheldren':_0x2c3ca8?_0x2c3ca8['filter'](_0x528793=>typeof _0x528793!=_0x6599a8(0x1a6)):undefined,'init':_0x251da1,'textContent':_0x18f502});},_form=(..._0x4c3728)=>{var _0x508018=_0x239d5f,_0x2caa09,_0x39a348=[],_0x1d7e42,_0x2c0562='';for(let _0x46c218 of _0x4c3728){if(typeof _0x46c218==_0x508018(0x178)){_0x1d7e42=_0x46c218;continue;}if(_0x46c218 instanceof YoFiElement){_0x39a348[_0x508018(0x161)](_0x46c218);continue;}if(typeof _0x46c218==_0x508018(0x1a6)){_0x2c0562+=_0x46c218;continue;}_0x46c218 instanceof Object&&(_0x2caa09=_0x46c218);}return new YoFiElement({'tag':Y[_0x508018(0x19b)],'attrs':_0x2caa09,'cheldren':_0x39a348?_0x39a348[_0x508018(0x181)](_0x3fbf5c=>typeof _0x3fbf5c!=_0x508018(0x1a6)):undefined,'init':_0x1d7e42,'textContent':_0x2c0562});},_h1=(..._0x3632c1)=>{var _0x4fc8ca=_0x239d5f,_0x490012,_0x14361c=[],_0x54bfae,_0x51cd2a='';for(let _0x57985f of _0x3632c1){if(typeof _0x57985f==_0x4fc8ca(0x178)){_0x54bfae=_0x57985f;continue;}if(_0x57985f instanceof YoFiElement){_0x14361c['push'](_0x57985f);continue;}if(typeof _0x57985f==_0x4fc8ca(0x1a6)){_0x51cd2a+=_0x57985f;continue;}_0x57985f instanceof Object&&(_0x490012=_0x57985f);}return new YoFiElement({'tag':Y['h1'],'attrs':_0x490012,'cheldren':_0x14361c?_0x14361c[_0x4fc8ca(0x181)](_0x5efe8d=>typeof _0x5efe8d!=_0x4fc8ca(0x1a6)):undefined,'init':_0x54bfae,'textContent':_0x51cd2a});},_h2=(..._0x1741a5)=>{var _0x254e2b=_0x239d5f,_0x2cec7b,_0x1c667a=[],_0x39da97,_0x4d9f1a='';for(let _0x2bcb5a of _0x1741a5){if(typeof _0x2bcb5a==_0x254e2b(0x178)){_0x39da97=_0x2bcb5a;continue;}if(_0x2bcb5a instanceof YoFiElement){_0x1c667a[_0x254e2b(0x161)](_0x2bcb5a);continue;}if(typeof _0x2bcb5a==_0x254e2b(0x1a6)){_0x4d9f1a+=_0x2bcb5a;continue;}_0x2bcb5a instanceof Object&&(_0x2cec7b=_0x2bcb5a);}return new YoFiElement({'tag':Y['h2'],'attrs':_0x2cec7b,'cheldren':_0x1c667a?_0x1c667a[_0x254e2b(0x181)](_0x192c66=>typeof _0x192c66!=_0x254e2b(0x1a6)):undefined,'init':_0x39da97,'textContent':_0x4d9f1a});},_h3=(..._0x581bb0)=>{var _0x5af838=_0x239d5f,_0x254040,_0x2a1458=[],_0x34448c,_0x53ae78='';for(let _0x396228 of _0x581bb0){if(typeof _0x396228==_0x5af838(0x178)){_0x34448c=_0x396228;continue;}if(_0x396228 instanceof YoFiElement){_0x2a1458[_0x5af838(0x161)](_0x396228);continue;}if(typeof _0x396228=='string'){_0x53ae78+=_0x396228;continue;}_0x396228 instanceof Object&&(_0x254040=_0x396228);}return new YoFiElement({'tag':Y['h3'],'attrs':_0x254040,'cheldren':_0x2a1458?_0x2a1458[_0x5af838(0x181)](_0x2af4b2=>typeof _0x2af4b2!=_0x5af838(0x1a6)):undefined,'init':_0x34448c,'textContent':_0x53ae78});},_h4=(..._0x300231)=>{var _0x3e5960=_0x239d5f,_0x4aa551,_0x2f7336=[],_0x36f92f,_0x243456='';for(let _0x3ebe49 of _0x300231){if(typeof _0x3ebe49==_0x3e5960(0x178)){_0x36f92f=_0x3ebe49;continue;}if(_0x3ebe49 instanceof YoFiElement){_0x2f7336[_0x3e5960(0x161)](_0x3ebe49);continue;}if(typeof _0x3ebe49==_0x3e5960(0x1a6)){_0x243456+=_0x3ebe49;continue;}_0x3ebe49 instanceof Object&&(_0x4aa551=_0x3ebe49);}return new YoFiElement({'tag':Y['h4'],'attrs':_0x4aa551,'cheldren':_0x2f7336?_0x2f7336[_0x3e5960(0x181)](_0xdc7bb0=>typeof _0xdc7bb0!=_0x3e5960(0x1a6)):undefined,'init':_0x36f92f,'textContent':_0x243456});},_h5=(..._0x29c436)=>{var _0x3a6cfa=_0x239d5f,_0x312bec,_0x191a60=[],_0x175f16,_0x5e41ff='';for(let _0x350ffa of _0x29c436){if(typeof _0x350ffa==_0x3a6cfa(0x178)){_0x175f16=_0x350ffa;continue;}if(_0x350ffa instanceof YoFiElement){_0x191a60[_0x3a6cfa(0x161)](_0x350ffa);continue;}if(typeof _0x350ffa=='string'){_0x5e41ff+=_0x350ffa;continue;}_0x350ffa instanceof Object&&(_0x312bec=_0x350ffa);}return new YoFiElement({'tag':Y['h5'],'attrs':_0x312bec,'cheldren':_0x191a60?_0x191a60['filter'](_0x1b0a95=>typeof _0x1b0a95!=_0x3a6cfa(0x1a6)):undefined,'init':_0x175f16,'textContent':_0x5e41ff});},_h6=(..._0x3635b5)=>{var _0x30aa5b=_0x239d5f,_0x17beb9,_0x592c76=[],_0x4648c3,_0x2cf82a='';for(let _0x58b9c0 of _0x3635b5){if(typeof _0x58b9c0=='function'){_0x4648c3=_0x58b9c0;continue;}if(_0x58b9c0 instanceof YoFiElement){_0x592c76[_0x30aa5b(0x161)](_0x58b9c0);continue;}if(typeof _0x58b9c0==_0x30aa5b(0x1a6)){_0x2cf82a+=_0x58b9c0;continue;}_0x58b9c0 instanceof Object&&(_0x17beb9=_0x58b9c0);}return new YoFiElement({'tag':Y['h6'],'attrs':_0x17beb9,'cheldren':_0x592c76?_0x592c76['filter'](_0xc3b27e=>typeof _0xc3b27e!=_0x30aa5b(0x1a6)):undefined,'init':_0x4648c3,'textContent':_0x2cf82a});},_head=(..._0x13e5cc)=>{var _0x3ef2ac=_0x239d5f,_0x39d706,_0x25ac19=[],_0x3a2ae5,_0xf9f007='';for(let _0x2fd0db of _0x13e5cc){if(typeof _0x2fd0db=='function'){_0x3a2ae5=_0x2fd0db;continue;}if(_0x2fd0db instanceof YoFiElement){_0x25ac19[_0x3ef2ac(0x161)](_0x2fd0db);continue;}if(typeof _0x2fd0db==_0x3ef2ac(0x1a6)){_0xf9f007+=_0x2fd0db;continue;}_0x2fd0db instanceof Object&&(_0x39d706=_0x2fd0db);}return new YoFiElement({'tag':Y[_0x3ef2ac(0x17d)],'attrs':_0x39d706,'cheldren':_0x25ac19?_0x25ac19[_0x3ef2ac(0x181)](_0x25259e=>typeof _0x25259e!=_0x3ef2ac(0x1a6)):undefined,'init':_0x3a2ae5,'textContent':_0xf9f007});},_header=(..._0x15e836)=>{var _0x30901b=_0x239d5f,_0xd7462a,_0x5e6e28=[],_0x294b4b,_0x29fe9a='';for(let _0xdcf681 of _0x15e836){if(typeof _0xdcf681==_0x30901b(0x178)){_0x294b4b=_0xdcf681;continue;}if(_0xdcf681 instanceof YoFiElement){_0x5e6e28[_0x30901b(0x161)](_0xdcf681);continue;}if(typeof _0xdcf681=='string'){_0x29fe9a+=_0xdcf681;continue;}_0xdcf681 instanceof Object&&(_0xd7462a=_0xdcf681);}return new YoFiElement({'tag':Y[_0x30901b(0x16d)],'attrs':_0xd7462a,'cheldren':_0x5e6e28?_0x5e6e28['filter'](_0x1c0eee=>typeof _0x1c0eee!='string'):undefined,'init':_0x294b4b,'textContent':_0x29fe9a});},_hgroup=(..._0x5efdfa)=>{var _0x19a331=_0x239d5f,_0x4c22a1,_0x1f0042=[],_0x3b8dde,_0x3c841d='';for(let _0x3875cd of _0x5efdfa){if(typeof _0x3875cd=='function'){_0x3b8dde=_0x3875cd;continue;}if(_0x3875cd instanceof YoFiElement){_0x1f0042[_0x19a331(0x161)](_0x3875cd);continue;}if(typeof _0x3875cd==_0x19a331(0x1a6)){_0x3c841d+=_0x3875cd;continue;}_0x3875cd instanceof Object&&(_0x4c22a1=_0x3875cd);}return new YoFiElement({'tag':Y[_0x19a331(0x172)],'attrs':_0x4c22a1,'cheldren':_0x1f0042?_0x1f0042['filter'](_0x5c6e5f=>typeof _0x5c6e5f!=_0x19a331(0x1a6)):undefined,'init':_0x3b8dde,'textContent':_0x3c841d});},_hr=(..._0x431acf)=>{var _0xd5d324=_0x239d5f,_0x342dc3,_0x43795c=[],_0x276ef3,_0x33ba61='';for(let _0x3cbca5 of _0x431acf){if(typeof _0x3cbca5==_0xd5d324(0x178)){_0x276ef3=_0x3cbca5;continue;}if(_0x3cbca5 instanceof YoFiElement){_0x43795c['push'](_0x3cbca5);continue;}if(typeof _0x3cbca5==_0xd5d324(0x1a6)){_0x33ba61+=_0x3cbca5;continue;}_0x3cbca5 instanceof Object&&(_0x342dc3=_0x3cbca5);}return new YoFiElement({'tag':Y['hr'],'attrs':_0x342dc3,'cheldren':_0x43795c?_0x43795c[_0xd5d324(0x181)](_0x3bdefa=>typeof _0x3bdefa!=_0xd5d324(0x1a6)):undefined,'init':_0x276ef3,'textContent':_0x33ba61});},_html=(..._0x1d6600)=>{var _0x4c6a88=_0x239d5f,_0x804528,_0x1da66d=[],_0x34a5ae,_0x5ea0f6='';for(let _0xc749f3 of _0x1d6600){if(typeof _0xc749f3=='function'){_0x34a5ae=_0xc749f3;continue;}if(_0xc749f3 instanceof YoFiElement){_0x1da66d['push'](_0xc749f3);continue;}if(typeof _0xc749f3=='string'){_0x5ea0f6+=_0xc749f3;continue;}_0xc749f3 instanceof Object&&(_0x804528=_0xc749f3);}return new YoFiElement({'tag':Y[_0x4c6a88(0x171)],'attrs':_0x804528,'cheldren':_0x1da66d?_0x1da66d[_0x4c6a88(0x181)](_0x1baae1=>typeof _0x1baae1!=_0x4c6a88(0x1a6)):undefined,'init':_0x34a5ae,'textContent':_0x5ea0f6});},_i=(..._0x1d5a63)=>{var _0x2376b7=_0x239d5f,_0x4f0d84,_0x26f65c=[],_0x4fc6ac,_0x402708='';for(let _0x34235d of _0x1d5a63){if(typeof _0x34235d==_0x2376b7(0x178)){_0x4fc6ac=_0x34235d;continue;}if(_0x34235d instanceof YoFiElement){_0x26f65c[_0x2376b7(0x161)](_0x34235d);continue;}if(typeof _0x34235d==_0x2376b7(0x1a6)){_0x402708+=_0x34235d;continue;}_0x34235d instanceof Object&&(_0x4f0d84=_0x34235d);}return new YoFiElement({'tag':Y['i'],'attrs':_0x4f0d84,'cheldren':_0x26f65c?_0x26f65c[_0x2376b7(0x181)](_0x5f14d9=>typeof _0x5f14d9!=_0x2376b7(0x1a6)):undefined,'init':_0x4fc6ac,'textContent':_0x402708});},_iframe=(..._0x3862f5)=>{var _0x2fb2eb=_0x239d5f,_0x35091f,_0x2bd800=[],_0x43519a,_0x368175='';for(let _0x105c75 of _0x3862f5){if(typeof _0x105c75==_0x2fb2eb(0x178)){_0x43519a=_0x105c75;continue;}if(_0x105c75 instanceof YoFiElement){_0x2bd800[_0x2fb2eb(0x161)](_0x105c75);continue;}if(typeof _0x105c75=='string'){_0x368175+=_0x105c75;continue;}_0x105c75 instanceof Object&&(_0x35091f=_0x105c75);}return new YoFiElement({'tag':Y[_0x2fb2eb(0x19c)],'attrs':_0x35091f,'cheldren':_0x2bd800?_0x2bd800[_0x2fb2eb(0x181)](_0x16629=>typeof _0x16629!=_0x2fb2eb(0x1a6)):undefined,'init':_0x43519a,'textContent':_0x368175});},_img=(..._0xba94b7)=>{var _0x2d156f=_0x239d5f,_0x13b51f,_0x4c7d08=[],_0x268816,_0x3c68e1='';for(let _0x297d35 of _0xba94b7){if(typeof _0x297d35=='function'){_0x268816=_0x297d35;continue;}if(_0x297d35 instanceof YoFiElement){_0x4c7d08[_0x2d156f(0x161)](_0x297d35);continue;}if(typeof _0x297d35=='string'){_0x3c68e1+=_0x297d35;continue;}_0x297d35 instanceof Object&&(_0x13b51f=_0x297d35);}return new YoFiElement({'tag':Y[_0x2d156f(0x154)],'attrs':_0x13b51f,'cheldren':_0x4c7d08?_0x4c7d08['filter'](_0x118e31=>typeof _0x118e31!=_0x2d156f(0x1a6)):undefined,'init':_0x268816,'textContent':_0x3c68e1});},_input=(..._0x88cdcc)=>{var _0x3ee7d9=_0x239d5f,_0x62ef41,_0x5536d2=[],_0x4c5f9f,_0x1965c9='';for(let _0x3cb75a of _0x88cdcc){if(typeof _0x3cb75a=='function'){_0x4c5f9f=_0x3cb75a;continue;}if(_0x3cb75a instanceof YoFiElement){_0x5536d2['push'](_0x3cb75a);continue;}if(typeof _0x3cb75a=='string'){_0x1965c9+=_0x3cb75a;continue;}_0x3cb75a instanceof Object&&(_0x62ef41=_0x3cb75a);}return new YoFiElement({'tag':Y['input'],'attrs':_0x62ef41,'cheldren':_0x5536d2?_0x5536d2['filter'](_0x2d018c=>typeof _0x2d018c!=_0x3ee7d9(0x1a6)):undefined,'init':_0x4c5f9f,'textContent':_0x1965c9});},_ins=(..._0x3ab662)=>{var _0x41529b=_0x239d5f,_0x4cea7d,_0x313db1=[],_0x229c10,_0x59681='';for(let _0xf69d92 of _0x3ab662){if(typeof _0xf69d92=='function'){_0x229c10=_0xf69d92;continue;}if(_0xf69d92 instanceof YoFiElement){_0x313db1['push'](_0xf69d92);continue;}if(typeof _0xf69d92==_0x41529b(0x1a6)){_0x59681+=_0xf69d92;continue;}_0xf69d92 instanceof Object&&(_0x4cea7d=_0xf69d92);}return new YoFiElement({'tag':Y['ins'],'attrs':_0x4cea7d,'cheldren':_0x313db1?_0x313db1['filter'](_0x32d30b=>typeof _0x32d30b!='string'):undefined,'init':_0x229c10,'textContent':_0x59681});},_kbd=(..._0x233672)=>{var _0xd0e239=_0x239d5f,_0xfc0933,_0x41ecb5=[],_0xd1bd06,_0x1edfec='';for(let _0x1ea703 of _0x233672){if(typeof _0x1ea703==_0xd0e239(0x178)){_0xd1bd06=_0x1ea703;continue;}if(_0x1ea703 instanceof YoFiElement){_0x41ecb5[_0xd0e239(0x161)](_0x1ea703);continue;}if(typeof _0x1ea703==_0xd0e239(0x1a6)){_0x1edfec+=_0x1ea703;continue;}_0x1ea703 instanceof Object&&(_0xfc0933=_0x1ea703);}return new YoFiElement({'tag':Y[_0xd0e239(0x151)],'attrs':_0xfc0933,'cheldren':_0x41ecb5?_0x41ecb5[_0xd0e239(0x181)](_0x3c208d=>typeof _0x3c208d!=_0xd0e239(0x1a6)):undefined,'init':_0xd1bd06,'textContent':_0x1edfec});},_label=(..._0x3ff930)=>{var _0x2b32da=_0x239d5f,_0x4020f8,_0x4e040d=[],_0x3ce7bc,_0x430541='';for(let _0x5c1714 of _0x3ff930){if(typeof _0x5c1714=='function'){_0x3ce7bc=_0x5c1714;continue;}if(_0x5c1714 instanceof YoFiElement){_0x4e040d[_0x2b32da(0x161)](_0x5c1714);continue;}if(typeof _0x5c1714==_0x2b32da(0x1a6)){_0x430541+=_0x5c1714;continue;}_0x5c1714 instanceof Object&&(_0x4020f8=_0x5c1714);}return new YoFiElement({'tag':Y['label'],'attrs':_0x4020f8,'cheldren':_0x4e040d?_0x4e040d['filter'](_0x4b594a=>typeof _0x4b594a!=_0x2b32da(0x1a6)):undefined,'init':_0x3ce7bc,'textContent':_0x430541});},_legend=(..._0x5ac072)=>{var _0x5e6efa=_0x239d5f,_0x52895e,_0x5ccd40=[],_0xdde5b9,_0xec0557='';for(let _0x1f8061 of _0x5ac072){if(typeof _0x1f8061=='function'){_0xdde5b9=_0x1f8061;continue;}if(_0x1f8061 instanceof YoFiElement){_0x5ccd40[_0x5e6efa(0x161)](_0x1f8061);continue;}if(typeof _0x1f8061=='string'){_0xec0557+=_0x1f8061;continue;}_0x1f8061 instanceof Object&&(_0x52895e=_0x1f8061);}return new YoFiElement({'tag':Y[_0x5e6efa(0x16a)],'attrs':_0x52895e,'cheldren':_0x5ccd40?_0x5ccd40[_0x5e6efa(0x181)](_0x33edb5=>typeof _0x33edb5!=_0x5e6efa(0x1a6)):undefined,'init':_0xdde5b9,'textContent':_0xec0557});},_li=(..._0xd795d9)=>{var _0x3b2067=_0x239d5f,_0x50a394,_0x246190=[],_0x447478,_0x4ac6e1='';for(let _0x5a9eec of _0xd795d9){if(typeof _0x5a9eec==_0x3b2067(0x178)){_0x447478=_0x5a9eec;continue;}if(_0x5a9eec instanceof YoFiElement){_0x246190[_0x3b2067(0x161)](_0x5a9eec);continue;}if(typeof _0x5a9eec==_0x3b2067(0x1a6)){_0x4ac6e1+=_0x5a9eec;continue;}_0x5a9eec instanceof Object&&(_0x50a394=_0x5a9eec);}return new YoFiElement({'tag':Y['li'],'attrs':_0x50a394,'cheldren':_0x246190?_0x246190[_0x3b2067(0x181)](_0x49123c=>typeof _0x49123c!=_0x3b2067(0x1a6)):undefined,'init':_0x447478,'textContent':_0x4ac6e1});},_link=(..._0x473968)=>{var _0x540574=_0x239d5f,_0x4af94e,_0x552047=[],_0x529a2b,_0x2cf871='';for(let _0x5cdcf3 of _0x473968){if(typeof _0x5cdcf3==_0x540574(0x178)){_0x529a2b=_0x5cdcf3;continue;}if(_0x5cdcf3 instanceof YoFiElement){_0x552047[_0x540574(0x161)](_0x5cdcf3);continue;}if(typeof _0x5cdcf3==_0x540574(0x1a6)){_0x2cf871+=_0x5cdcf3;continue;}_0x5cdcf3 instanceof Object&&(_0x4af94e=_0x5cdcf3);}return new YoFiElement({'tag':Y[_0x540574(0x18a)],'attrs':_0x4af94e,'cheldren':_0x552047?_0x552047[_0x540574(0x181)](_0x2d02d0=>typeof _0x2d02d0!=_0x540574(0x1a6)):undefined,'init':_0x529a2b,'textContent':_0x2cf871});},_main=(..._0x41b41a)=>{var _0x35a2c8=_0x239d5f,_0x5cb8cc,_0x5f484e=[],_0x4ea316,_0x2f3114='';for(let _0x34e5ab of _0x41b41a){if(typeof _0x34e5ab==_0x35a2c8(0x178)){_0x4ea316=_0x34e5ab;continue;}if(_0x34e5ab instanceof YoFiElement){_0x5f484e[_0x35a2c8(0x161)](_0x34e5ab);continue;}if(typeof _0x34e5ab==_0x35a2c8(0x1a6)){_0x2f3114+=_0x34e5ab;continue;}_0x34e5ab instanceof Object&&(_0x5cb8cc=_0x34e5ab);}return new YoFiElement({'tag':Y['main'],'attrs':_0x5cb8cc,'cheldren':_0x5f484e?_0x5f484e[_0x35a2c8(0x181)](_0x3be63e=>typeof _0x3be63e!='string'):undefined,'init':_0x4ea316,'textContent':_0x2f3114});},_map=(..._0x4b1419)=>{var _0x371002=_0x239d5f,_0x4c9cd1,_0x4fd743=[],_0x30396e,_0x1fe75d='';for(let _0x2a01ee of _0x4b1419){if(typeof _0x2a01ee==_0x371002(0x178)){_0x30396e=_0x2a01ee;continue;}if(_0x2a01ee instanceof YoFiElement){_0x4fd743[_0x371002(0x161)](_0x2a01ee);continue;}if(typeof _0x2a01ee==_0x371002(0x1a6)){_0x1fe75d+=_0x2a01ee;continue;}_0x2a01ee instanceof Object&&(_0x4c9cd1=_0x2a01ee);}return new YoFiElement({'tag':Y[_0x371002(0x177)],'attrs':_0x4c9cd1,'cheldren':_0x4fd743?_0x4fd743[_0x371002(0x181)](_0x165765=>typeof _0x165765!=_0x371002(0x1a6)):undefined,'init':_0x30396e,'textContent':_0x1fe75d});},_mark=(..._0x544267)=>{var _0x1477df=_0x239d5f,_0x2176fb,_0x33017f=[],_0x1d9d5c,_0x5e3615='';for(let _0x181c83 of _0x544267){if(typeof _0x181c83=='function'){_0x1d9d5c=_0x181c83;continue;}if(_0x181c83 instanceof YoFiElement){_0x33017f['push'](_0x181c83);continue;}if(typeof _0x181c83==_0x1477df(0x1a6)){_0x5e3615+=_0x181c83;continue;}_0x181c83 instanceof Object&&(_0x2176fb=_0x181c83);}return new YoFiElement({'tag':Y[_0x1477df(0x192)],'attrs':_0x2176fb,'cheldren':_0x33017f?_0x33017f[_0x1477df(0x181)](_0x298ba8=>typeof _0x298ba8!='string'):undefined,'init':_0x1d9d5c,'textContent':_0x5e3615});},_menu=(..._0xd53c50)=>{var _0x2336a8=_0x239d5f,_0x156e63,_0x3e82fa=[],_0x3c3958,_0x4f91c3='';for(let _0xefebcd of _0xd53c50){if(typeof _0xefebcd==_0x2336a8(0x178)){_0x3c3958=_0xefebcd;continue;}if(_0xefebcd instanceof YoFiElement){_0x3e82fa['push'](_0xefebcd);continue;}if(typeof _0xefebcd==_0x2336a8(0x1a6)){_0x4f91c3+=_0xefebcd;continue;}_0xefebcd instanceof Object&&(_0x156e63=_0xefebcd);}return new YoFiElement({'tag':Y[_0x2336a8(0x16e)],'attrs':_0x156e63,'cheldren':_0x3e82fa?_0x3e82fa[_0x2336a8(0x181)](_0x411503=>typeof _0x411503!=_0x2336a8(0x1a6)):undefined,'init':_0x3c3958,'textContent':_0x4f91c3});},_meta=(..._0x260df3)=>{var _0x1d4512=_0x239d5f,_0x307be2,_0x209288=[],_0x181f26,_0x56241a='';for(let _0x5f44a2 of _0x260df3){if(typeof _0x5f44a2==_0x1d4512(0x178)){_0x181f26=_0x5f44a2;continue;}if(_0x5f44a2 instanceof YoFiElement){_0x209288['push'](_0x5f44a2);continue;}if(typeof _0x5f44a2=='string'){_0x56241a+=_0x5f44a2;continue;}_0x5f44a2 instanceof Object&&(_0x307be2=_0x5f44a2);}return new YoFiElement({'tag':Y[_0x1d4512(0x164)],'attrs':_0x307be2,'cheldren':_0x209288?_0x209288['filter'](_0x39e763=>typeof _0x39e763!=_0x1d4512(0x1a6)):undefined,'init':_0x181f26,'textContent':_0x56241a});},_meter=(..._0x14f419)=>{var _0x5311ca=_0x239d5f,_0x4e291e,_0x5e2ed1=[],_0x98dbf1,_0xb3b836='';for(let _0x57b9e0 of _0x14f419){if(typeof _0x57b9e0=='function'){_0x98dbf1=_0x57b9e0;continue;}if(_0x57b9e0 instanceof YoFiElement){_0x5e2ed1[_0x5311ca(0x161)](_0x57b9e0);continue;}if(typeof _0x57b9e0==_0x5311ca(0x1a6)){_0xb3b836+=_0x57b9e0;continue;}_0x57b9e0 instanceof Object&&(_0x4e291e=_0x57b9e0);}return new YoFiElement({'tag':Y[_0x5311ca(0x191)],'attrs':_0x4e291e,'cheldren':_0x5e2ed1?_0x5e2ed1[_0x5311ca(0x181)](_0x2e0eda=>typeof _0x2e0eda!=_0x5311ca(0x1a6)):undefined,'init':_0x98dbf1,'textContent':_0xb3b836});},_nav=(..._0xb78d2c)=>{var _0x25c719=_0x239d5f,_0x361184,_0x48d941=[],_0x3137d3,_0x5b29b0='';for(let _0x38b04c of _0xb78d2c){if(typeof _0x38b04c==_0x25c719(0x178)){_0x3137d3=_0x38b04c;continue;}if(_0x38b04c instanceof YoFiElement){_0x48d941['push'](_0x38b04c);continue;}if(typeof _0x38b04c==_0x25c719(0x1a6)){_0x5b29b0+=_0x38b04c;continue;}_0x38b04c instanceof Object&&(_0x361184=_0x38b04c);}return new YoFiElement({'tag':Y[_0x25c719(0x17e)],'attrs':_0x361184,'cheldren':_0x48d941?_0x48d941[_0x25c719(0x181)](_0x2f5111=>typeof _0x2f5111!=_0x25c719(0x1a6)):undefined,'init':_0x3137d3,'textContent':_0x5b29b0});},_noscript=(..._0x3bfe47)=>{var _0x327f3=_0x239d5f,_0x569327,_0x406a08=[],_0x2380ac,_0x454a73='';for(let _0x2a7c71 of _0x3bfe47){if(typeof _0x2a7c71=='function'){_0x2380ac=_0x2a7c71;continue;}if(_0x2a7c71 instanceof YoFiElement){_0x406a08[_0x327f3(0x161)](_0x2a7c71);continue;}if(typeof _0x2a7c71==_0x327f3(0x1a6)){_0x454a73+=_0x2a7c71;continue;}_0x2a7c71 instanceof Object&&(_0x569327=_0x2a7c71);}return new YoFiElement({'tag':Y['noscript'],'attrs':_0x569327,'cheldren':_0x406a08?_0x406a08[_0x327f3(0x181)](_0x1c9469=>typeof _0x1c9469!=_0x327f3(0x1a6)):undefined,'init':_0x2380ac,'textContent':_0x454a73});},_object=(..._0x1ce4ae)=>{var _0x471596=_0x239d5f,_0x23bcc9,_0x49608b=[],_0x297c79,_0x2a669c='';for(let _0x5a85e3 of _0x1ce4ae){if(typeof _0x5a85e3==_0x471596(0x178)){_0x297c79=_0x5a85e3;continue;}if(_0x5a85e3 instanceof YoFiElement){_0x49608b['push'](_0x5a85e3);continue;}if(typeof _0x5a85e3==_0x471596(0x1a6)){_0x2a669c+=_0x5a85e3;continue;}_0x5a85e3 instanceof Object&&(_0x23bcc9=_0x5a85e3);}return new YoFiElement({'tag':Y[_0x471596(0x198)],'attrs':_0x23bcc9,'cheldren':_0x49608b?_0x49608b['filter'](_0x41add3=>typeof _0x41add3!=_0x471596(0x1a6)):undefined,'init':_0x297c79,'textContent':_0x2a669c});},_ol=(..._0xc0b9c)=>{var _0x2c861b=_0x239d5f,_0x29ae17,_0x52b374=[],_0x1139bc,_0x527786='';for(let _0x3a3cb4 of _0xc0b9c){if(typeof _0x3a3cb4==_0x2c861b(0x178)){_0x1139bc=_0x3a3cb4;continue;}if(_0x3a3cb4 instanceof YoFiElement){_0x52b374['push'](_0x3a3cb4);continue;}if(typeof _0x3a3cb4==_0x2c861b(0x1a6)){_0x527786+=_0x3a3cb4;continue;}_0x3a3cb4 instanceof Object&&(_0x29ae17=_0x3a3cb4);}return new YoFiElement({'tag':Y['ol'],'attrs':_0x29ae17,'cheldren':_0x52b374?_0x52b374[_0x2c861b(0x181)](_0xc1dcd9=>typeof _0xc1dcd9!=_0x2c861b(0x1a6)):undefined,'init':_0x1139bc,'textContent':_0x527786});},_optgroup=(..._0x160a1f)=>{var _0x561c53=_0x239d5f,_0x36554c,_0xbfd37c=[],_0x1a5bb5,_0x3a770c='';for(let _0x4efd0d of _0x160a1f){if(typeof _0x4efd0d==_0x561c53(0x178)){_0x1a5bb5=_0x4efd0d;continue;}if(_0x4efd0d instanceof YoFiElement){_0xbfd37c[_0x561c53(0x161)](_0x4efd0d);continue;}if(typeof _0x4efd0d==_0x561c53(0x1a6)){_0x3a770c+=_0x4efd0d;continue;}_0x4efd0d instanceof Object&&(_0x36554c=_0x4efd0d);}return new YoFiElement({'tag':Y['optgroup'],'attrs':_0x36554c,'cheldren':_0xbfd37c?_0xbfd37c[_0x561c53(0x181)](_0x56c005=>typeof _0x56c005!=_0x561c53(0x1a6)):undefined,'init':_0x1a5bb5,'textContent':_0x3a770c});},_option=(..._0x55b0b7)=>{var _0x553b6a=_0x239d5f,_0x23ae90,_0x53920b=[],_0x41dc49,_0x22a2a1='';for(let _0x5a8dc1 of _0x55b0b7){if(typeof _0x5a8dc1=='function'){_0x41dc49=_0x5a8dc1;continue;}if(_0x5a8dc1 instanceof YoFiElement){_0x53920b['push'](_0x5a8dc1);continue;}if(typeof _0x5a8dc1=='string'){_0x22a2a1+=_0x5a8dc1;continue;}_0x5a8dc1 instanceof Object&&(_0x23ae90=_0x5a8dc1);}return new YoFiElement({'tag':Y[_0x553b6a(0x1a7)],'attrs':_0x23ae90,'cheldren':_0x53920b?_0x53920b['filter'](_0x5df42e=>typeof _0x5df42e!='string'):undefined,'init':_0x41dc49,'textContent':_0x22a2a1});},_output=(..._0x4824ee)=>{var _0x5e2b03=_0x239d5f,_0x5620e2,_0x1214f4=[],_0x192dcc,_0x1292e3='';for(let _0x1c4964 of _0x4824ee){if(typeof _0x1c4964==_0x5e2b03(0x178)){_0x192dcc=_0x1c4964;continue;}if(_0x1c4964 instanceof YoFiElement){_0x1214f4['push'](_0x1c4964);continue;}if(typeof _0x1c4964==_0x5e2b03(0x1a6)){_0x1292e3+=_0x1c4964;continue;}_0x1c4964 instanceof Object&&(_0x5620e2=_0x1c4964);}return new YoFiElement({'tag':Y[_0x5e2b03(0x176)],'attrs':_0x5620e2,'cheldren':_0x1214f4?_0x1214f4[_0x5e2b03(0x181)](_0x71c80a=>typeof _0x71c80a!='string'):undefined,'init':_0x192dcc,'textContent':_0x1292e3});},_p=(..._0x596269)=>{var _0x2f6a1a=_0x239d5f,_0x2a6cb5,_0x1b20e9=[],_0x72d28c,_0x94f3f='';for(let _0x1024a8 of _0x596269){if(typeof _0x1024a8=='function'){_0x72d28c=_0x1024a8;continue;}if(_0x1024a8 instanceof YoFiElement){_0x1b20e9[_0x2f6a1a(0x161)](_0x1024a8);continue;}if(typeof _0x1024a8==_0x2f6a1a(0x1a6)){_0x94f3f+=_0x1024a8;continue;}_0x1024a8 instanceof Object&&(_0x2a6cb5=_0x1024a8);}return new YoFiElement({'tag':Y['p'],'attrs':_0x2a6cb5,'cheldren':_0x1b20e9?_0x1b20e9[_0x2f6a1a(0x181)](_0x672039=>typeof _0x672039!=_0x2f6a1a(0x1a6)):undefined,'init':_0x72d28c,'textContent':_0x94f3f});},_picture=(..._0x49d494)=>{var _0x495408=_0x239d5f,_0x3652ae,_0x1b4e1f=[],_0x23b367,_0x3834ee='';for(let _0x56d49b of _0x49d494){if(typeof _0x56d49b==_0x495408(0x178)){_0x23b367=_0x56d49b;continue;}if(_0x56d49b instanceof YoFiElement){_0x1b4e1f['push'](_0x56d49b);continue;}if(typeof _0x56d49b=='string'){_0x3834ee+=_0x56d49b;continue;}_0x56d49b instanceof Object&&(_0x3652ae=_0x56d49b);}return new YoFiElement({'tag':Y['picture'],'attrs':_0x3652ae,'cheldren':_0x1b4e1f?_0x1b4e1f[_0x495408(0x181)](_0x2ef484=>typeof _0x2ef484!=_0x495408(0x1a6)):undefined,'init':_0x23b367,'textContent':_0x3834ee});},_pre=(..._0x3ec34e)=>{var _0x38a270=_0x239d5f,_0x2f6765,_0x37d1f9=[],_0x43d37e,_0x2bd537='';for(let _0x753f65 of _0x3ec34e){if(typeof _0x753f65=='function'){_0x43d37e=_0x753f65;continue;}if(_0x753f65 instanceof YoFiElement){_0x37d1f9[_0x38a270(0x161)](_0x753f65);continue;}if(typeof _0x753f65==_0x38a270(0x1a6)){_0x2bd537+=_0x753f65;continue;}_0x753f65 instanceof Object&&(_0x2f6765=_0x753f65);}return new YoFiElement({'tag':Y[_0x38a270(0x197)],'attrs':_0x2f6765,'cheldren':_0x37d1f9?_0x37d1f9['filter'](_0x49a830=>typeof _0x49a830!=_0x38a270(0x1a6)):undefined,'init':_0x43d37e,'textContent':_0x2bd537});},_progress=(..._0x56f0f9)=>{var _0x41ddc7=_0x239d5f,_0x4cdc17,_0x3422c4=[],_0x1f4d71,_0x3fddee='';for(let _0x2a0056 of _0x56f0f9){if(typeof _0x2a0056==_0x41ddc7(0x178)){_0x1f4d71=_0x2a0056;continue;}if(_0x2a0056 instanceof YoFiElement){_0x3422c4[_0x41ddc7(0x161)](_0x2a0056);continue;}if(typeof _0x2a0056==_0x41ddc7(0x1a6)){_0x3fddee+=_0x2a0056;continue;}_0x2a0056 instanceof Object&&(_0x4cdc17=_0x2a0056);}return new YoFiElement({'tag':Y[_0x41ddc7(0x194)],'attrs':_0x4cdc17,'cheldren':_0x3422c4?_0x3422c4[_0x41ddc7(0x181)](_0x1403c9=>typeof _0x1403c9!='string'):undefined,'init':_0x1f4d71,'textContent':_0x3fddee});},_q=(..._0x48a25a)=>{var _0x5da5b8=_0x239d5f,_0x4b67e0,_0x351f83=[],_0x597cf3,_0x29bbdf='';for(let _0x144e19 of _0x48a25a){if(typeof _0x144e19==_0x5da5b8(0x178)){_0x597cf3=_0x144e19;continue;}if(_0x144e19 instanceof YoFiElement){_0x351f83[_0x5da5b8(0x161)](_0x144e19);continue;}if(typeof _0x144e19==_0x5da5b8(0x1a6)){_0x29bbdf+=_0x144e19;continue;}_0x144e19 instanceof Object&&(_0x4b67e0=_0x144e19);}return new YoFiElement({'tag':Y['q'],'attrs':_0x4b67e0,'cheldren':_0x351f83?_0x351f83[_0x5da5b8(0x181)](_0x10ccd0=>typeof _0x10ccd0!=_0x5da5b8(0x1a6)):undefined,'init':_0x597cf3,'textContent':_0x29bbdf});},_rp=(..._0x2ab3c2)=>{var _0x45a80c=_0x239d5f,_0x481f18,_0x1dc2cb=[],_0x47224a,_0x16a4bb='';for(let _0x453f52 of _0x2ab3c2){if(typeof _0x453f52=='function'){_0x47224a=_0x453f52;continue;}if(_0x453f52 instanceof YoFiElement){_0x1dc2cb[_0x45a80c(0x161)](_0x453f52);continue;}if(typeof _0x453f52==_0x45a80c(0x1a6)){_0x16a4bb+=_0x453f52;continue;}_0x453f52 instanceof Object&&(_0x481f18=_0x453f52);}return new YoFiElement({'tag':Y['rp'],'attrs':_0x481f18,'cheldren':_0x1dc2cb?_0x1dc2cb[_0x45a80c(0x181)](_0x39e436=>typeof _0x39e436!=_0x45a80c(0x1a6)):undefined,'init':_0x47224a,'textContent':_0x16a4bb});},_rt=(..._0x26858e)=>{var _0xa04efe=_0x239d5f,_0x1be27c,_0x60c721=[],_0x41169f,_0x1338e6='';for(let _0x8eb3f0 of _0x26858e){if(typeof _0x8eb3f0==_0xa04efe(0x178)){_0x41169f=_0x8eb3f0;continue;}if(_0x8eb3f0 instanceof YoFiElement){_0x60c721[_0xa04efe(0x161)](_0x8eb3f0);continue;}if(typeof _0x8eb3f0==_0xa04efe(0x1a6)){_0x1338e6+=_0x8eb3f0;continue;}_0x8eb3f0 instanceof Object&&(_0x1be27c=_0x8eb3f0);}return new YoFiElement({'tag':Y['rt'],'attrs':_0x1be27c,'cheldren':_0x60c721?_0x60c721['filter'](_0x3606d6=>typeof _0x3606d6!='string'):undefined,'init':_0x41169f,'textContent':_0x1338e6});},_ruby=(..._0x1318c3)=>{var _0x5f4bda=_0x239d5f,_0x3e1eaa,_0x545462=[],_0x430806,_0x42707c='';for(let _0x21c1d7 of _0x1318c3){if(typeof _0x21c1d7==_0x5f4bda(0x178)){_0x430806=_0x21c1d7;continue;}if(_0x21c1d7 instanceof YoFiElement){_0x545462[_0x5f4bda(0x161)](_0x21c1d7);continue;}if(typeof _0x21c1d7==_0x5f4bda(0x1a6)){_0x42707c+=_0x21c1d7;continue;}_0x21c1d7 instanceof Object&&(_0x3e1eaa=_0x21c1d7);}return new YoFiElement({'tag':Y['ruby'],'attrs':_0x3e1eaa,'cheldren':_0x545462?_0x545462[_0x5f4bda(0x181)](_0x3a1f4b=>typeof _0x3a1f4b!=_0x5f4bda(0x1a6)):undefined,'init':_0x430806,'textContent':_0x42707c});},_s=(..._0x5070cb)=>{var _0x3348a4=_0x239d5f,_0x3b0ce5,_0x3ee8c6=[],_0x1f8462,_0x31013a='';for(let _0x438615 of _0x5070cb){if(typeof _0x438615==_0x3348a4(0x178)){_0x1f8462=_0x438615;continue;}if(_0x438615 instanceof YoFiElement){_0x3ee8c6[_0x3348a4(0x161)](_0x438615);continue;}if(typeof _0x438615==_0x3348a4(0x1a6)){_0x31013a+=_0x438615;continue;}_0x438615 instanceof Object&&(_0x3b0ce5=_0x438615);}return new YoFiElement({'tag':Y['s'],'attrs':_0x3b0ce5,'cheldren':_0x3ee8c6?_0x3ee8c6[_0x3348a4(0x181)](_0x4129ec=>typeof _0x4129ec!=_0x3348a4(0x1a6)):undefined,'init':_0x1f8462,'textContent':_0x31013a});},_samp=(..._0x233afc)=>{var _0x1b0f3f=_0x239d5f,_0x5e452f,_0x485953=[],_0x548ffe,_0xdf6a6='';for(let _0x89d81b of _0x233afc){if(typeof _0x89d81b==_0x1b0f3f(0x178)){_0x548ffe=_0x89d81b;continue;}if(_0x89d81b instanceof YoFiElement){_0x485953[_0x1b0f3f(0x161)](_0x89d81b);continue;}if(typeof _0x89d81b=='string'){_0xdf6a6+=_0x89d81b;continue;}_0x89d81b instanceof Object&&(_0x5e452f=_0x89d81b);}return new YoFiElement({'tag':Y[_0x1b0f3f(0x166)],'attrs':_0x5e452f,'cheldren':_0x485953?_0x485953[_0x1b0f3f(0x181)](_0x3ccd9a=>typeof _0x3ccd9a!='string'):undefined,'init':_0x548ffe,'textContent':_0xdf6a6});},_script=(..._0x50330a)=>{var _0x129618=_0x239d5f,_0xba2507,_0x3afa9b=[],_0xa9c5f1,_0x1e0eec='';for(let _0x26e185 of _0x50330a){if(typeof _0x26e185==_0x129618(0x178)){_0xa9c5f1=_0x26e185;continue;}if(_0x26e185 instanceof YoFiElement){_0x3afa9b[_0x129618(0x161)](_0x26e185);continue;}if(typeof _0x26e185==_0x129618(0x1a6)){_0x1e0eec+=_0x26e185;continue;}_0x26e185 instanceof Object&&(_0xba2507=_0x26e185);}return new YoFiElement({'tag':Y[_0x129618(0x182)],'attrs':_0xba2507,'cheldren':_0x3afa9b?_0x3afa9b[_0x129618(0x181)](_0x3373b4=>typeof _0x3373b4!=_0x129618(0x1a6)):undefined,'init':_0xa9c5f1,'textContent':_0x1e0eec});},_section=(..._0xbbc2c5)=>{var _0x3dba5a=_0x239d5f,_0x78d541,_0x26e130=[],_0x1d0f6b,_0x1889ce='';for(let _0x2140ec of _0xbbc2c5){if(typeof _0x2140ec==_0x3dba5a(0x178)){_0x1d0f6b=_0x2140ec;continue;}if(_0x2140ec instanceof YoFiElement){_0x26e130['push'](_0x2140ec);continue;}if(typeof _0x2140ec==_0x3dba5a(0x1a6)){_0x1889ce+=_0x2140ec;continue;}_0x2140ec instanceof Object&&(_0x78d541=_0x2140ec);}return new YoFiElement({'tag':Y[_0x3dba5a(0x1ac)],'attrs':_0x78d541,'cheldren':_0x26e130?_0x26e130[_0x3dba5a(0x181)](_0x311425=>typeof _0x311425!=_0x3dba5a(0x1a6)):undefined,'init':_0x1d0f6b,'textContent':_0x1889ce});},_select=(..._0x29b0a5)=>{var _0x58ba3d=_0x239d5f,_0x52fd53,_0xffeb83=[],_0x3b8df8,_0x5319ce='';for(let _0x58f13d of _0x29b0a5){if(typeof _0x58f13d==_0x58ba3d(0x178)){_0x3b8df8=_0x58f13d;continue;}if(_0x58f13d instanceof YoFiElement){_0xffeb83['push'](_0x58f13d);continue;}if(typeof _0x58f13d==_0x58ba3d(0x1a6)){_0x5319ce+=_0x58f13d;continue;}_0x58f13d instanceof Object&&(_0x52fd53=_0x58f13d);}return new YoFiElement({'tag':Y[_0x58ba3d(0x199)],'attrs':_0x52fd53,'cheldren':_0xffeb83?_0xffeb83['filter'](_0x26700f=>typeof _0x26700f!='string'):undefined,'init':_0x3b8df8,'textContent':_0x5319ce});},_slot=(..._0x2017b4)=>{var _0x4fd84c=_0x239d5f,_0x1e2110,_0x5f201a=[],_0x10dd07,_0x1baf78='';for(let _0x4b2f48 of _0x2017b4){if(typeof _0x4b2f48==_0x4fd84c(0x178)){_0x10dd07=_0x4b2f48;continue;}if(_0x4b2f48 instanceof YoFiElement){_0x5f201a[_0x4fd84c(0x161)](_0x4b2f48);continue;}if(typeof _0x4b2f48==_0x4fd84c(0x1a6)){_0x1baf78+=_0x4b2f48;continue;}_0x4b2f48 instanceof Object&&(_0x1e2110=_0x4b2f48);}return new YoFiElement({'tag':Y[_0x4fd84c(0x1a3)],'attrs':_0x1e2110,'cheldren':_0x5f201a?_0x5f201a['filter'](_0x432b28=>typeof _0x432b28!=_0x4fd84c(0x1a6)):undefined,'init':_0x10dd07,'textContent':_0x1baf78});},_small=(..._0x233379)=>{var _0x3d0cf8=_0x239d5f,_0x27f25f,_0x14dbba=[],_0x2513b5,_0x5c7545='';for(let _0x9d36d6 of _0x233379){if(typeof _0x9d36d6==_0x3d0cf8(0x178)){_0x2513b5=_0x9d36d6;continue;}if(_0x9d36d6 instanceof YoFiElement){_0x14dbba[_0x3d0cf8(0x161)](_0x9d36d6);continue;}if(typeof _0x9d36d6==_0x3d0cf8(0x1a6)){_0x5c7545+=_0x9d36d6;continue;}_0x9d36d6 instanceof Object&&(_0x27f25f=_0x9d36d6);}return new YoFiElement({'tag':Y['small'],'attrs':_0x27f25f,'cheldren':_0x14dbba?_0x14dbba[_0x3d0cf8(0x181)](_0x24ea2f=>typeof _0x24ea2f!=_0x3d0cf8(0x1a6)):undefined,'init':_0x2513b5,'textContent':_0x5c7545});},_source=(..._0x233c31)=>{var _0x2d263f=_0x239d5f,_0x3fda71,_0x14a509=[],_0x459ea3,_0x3195dd='';for(let _0x21502c of _0x233c31){if(typeof _0x21502c==_0x2d263f(0x178)){_0x459ea3=_0x21502c;continue;}if(_0x21502c instanceof YoFiElement){_0x14a509['push'](_0x21502c);continue;}if(typeof _0x21502c==_0x2d263f(0x1a6)){_0x3195dd+=_0x21502c;continue;}_0x21502c instanceof Object&&(_0x3fda71=_0x21502c);}return new YoFiElement({'tag':Y[_0x2d263f(0x190)],'attrs':_0x3fda71,'cheldren':_0x14a509?_0x14a509['filter'](_0x3c54c8=>typeof _0x3c54c8!=_0x2d263f(0x1a6)):undefined,'init':_0x459ea3,'textContent':_0x3195dd});},_span=(..._0x158dde)=>{var _0x167acf=_0x239d5f,_0x3cfbc4,_0x506168=[],_0x414fbd,_0x56cee5='';for(let _0x225e8e of _0x158dde){if(typeof _0x225e8e==_0x167acf(0x178)){_0x414fbd=_0x225e8e;continue;}if(_0x225e8e instanceof YoFiElement){_0x506168['push'](_0x225e8e);continue;}if(typeof _0x225e8e==_0x167acf(0x1a6)){_0x56cee5+=_0x225e8e;continue;}_0x225e8e instanceof Object&&(_0x3cfbc4=_0x225e8e);}return new YoFiElement({'tag':Y[_0x167acf(0x1a1)],'attrs':_0x3cfbc4,'cheldren':_0x506168?_0x506168[_0x167acf(0x181)](_0x29c4ef=>typeof _0x29c4ef!=_0x167acf(0x1a6)):undefined,'init':_0x414fbd,'textContent':_0x56cee5});},_strong=(..._0x40a200)=>{var _0x6c932f=_0x239d5f,_0x3646c9,_0x2e6c82=[],_0x3203ba,_0xa7fd2e='';for(let _0x242b7f of _0x40a200){if(typeof _0x242b7f==_0x6c932f(0x178)){_0x3203ba=_0x242b7f;continue;}if(_0x242b7f instanceof YoFiElement){_0x2e6c82[_0x6c932f(0x161)](_0x242b7f);continue;}if(typeof _0x242b7f==_0x6c932f(0x1a6)){_0xa7fd2e+=_0x242b7f;continue;}_0x242b7f instanceof Object&&(_0x3646c9=_0x242b7f);}return new YoFiElement({'tag':Y['strong'],'attrs':_0x3646c9,'cheldren':_0x2e6c82?_0x2e6c82[_0x6c932f(0x181)](_0x16d231=>typeof _0x16d231!=_0x6c932f(0x1a6)):undefined,'init':_0x3203ba,'textContent':_0xa7fd2e});},_style=(..._0x23bcd4)=>{var _0x36e85b=_0x239d5f,_0x57ec9e,_0x52e366=[],_0x369ac9,_0x26467b='';for(let _0x442f29 of _0x23bcd4){if(typeof _0x442f29=='function'){_0x369ac9=_0x442f29;continue;}if(_0x442f29 instanceof YoFiElement){_0x52e366[_0x36e85b(0x161)](_0x442f29);continue;}if(typeof _0x442f29=='string'){_0x26467b+=_0x442f29;continue;}_0x442f29 instanceof Object&&(_0x57ec9e=_0x442f29);}return new YoFiElement({'tag':Y[_0x36e85b(0x159)],'attrs':_0x57ec9e,'cheldren':_0x52e366?_0x52e366['filter'](_0x32a6d3=>typeof _0x32a6d3!=_0x36e85b(0x1a6)):undefined,'init':_0x369ac9,'textContent':_0x26467b});},_sub=(..._0x5bb5c0)=>{var _0x21c075=_0x239d5f,_0x27d931,_0x17384e=[],_0x32deca,_0x45f7bb='';for(let _0x3ba3d6 of _0x5bb5c0){if(typeof _0x3ba3d6==_0x21c075(0x178)){_0x32deca=_0x3ba3d6;continue;}if(_0x3ba3d6 instanceof YoFiElement){_0x17384e['push'](_0x3ba3d6);continue;}if(typeof _0x3ba3d6==_0x21c075(0x1a6)){_0x45f7bb+=_0x3ba3d6;continue;}_0x3ba3d6 instanceof Object&&(_0x27d931=_0x3ba3d6);}return new YoFiElement({'tag':Y[_0x21c075(0x1ad)],'attrs':_0x27d931,'cheldren':_0x17384e?_0x17384e[_0x21c075(0x181)](_0x595798=>typeof _0x595798!=_0x21c075(0x1a6)):undefined,'init':_0x32deca,'textContent':_0x45f7bb});},_summary=(..._0x28604c)=>{var _0x10dde8=_0x239d5f,_0x3b0ed7,_0x6e2135=[],_0x2a9cb5,_0x2ff895='';for(let _0xf2499c of _0x28604c){if(typeof _0xf2499c==_0x10dde8(0x178)){_0x2a9cb5=_0xf2499c;continue;}if(_0xf2499c instanceof YoFiElement){_0x6e2135[_0x10dde8(0x161)](_0xf2499c);continue;}if(typeof _0xf2499c==_0x10dde8(0x1a6)){_0x2ff895+=_0xf2499c;continue;}_0xf2499c instanceof Object&&(_0x3b0ed7=_0xf2499c);}return new YoFiElement({'tag':Y[_0x10dde8(0x152)],'attrs':_0x3b0ed7,'cheldren':_0x6e2135?_0x6e2135[_0x10dde8(0x181)](_0x5667fd=>typeof _0x5667fd!='string'):undefined,'init':_0x2a9cb5,'textContent':_0x2ff895});},_sup=(..._0x457535)=>{var _0x103468=_0x239d5f,_0x1cc6b6,_0x441cee=[],_0x497293,_0x468369='';for(let _0x23fedc of _0x457535){if(typeof _0x23fedc==_0x103468(0x178)){_0x497293=_0x23fedc;continue;}if(_0x23fedc instanceof YoFiElement){_0x441cee[_0x103468(0x161)](_0x23fedc);continue;}if(typeof _0x23fedc==_0x103468(0x1a6)){_0x468369+=_0x23fedc;continue;}_0x23fedc instanceof Object&&(_0x1cc6b6=_0x23fedc);}return new YoFiElement({'tag':Y[_0x103468(0x15a)],'attrs':_0x1cc6b6,'cheldren':_0x441cee?_0x441cee['filter'](_0x3dbe3a=>typeof _0x3dbe3a!='string'):undefined,'init':_0x497293,'textContent':_0x468369});},_table=(..._0x68aafd)=>{var _0xc7c185=_0x239d5f,_0x1e06b0,_0x1fc2ea=[],_0x15f0b7,_0x1538c0='';for(let _0x3c860e of _0x68aafd){if(typeof _0x3c860e=='function'){_0x15f0b7=_0x3c860e;continue;}if(_0x3c860e instanceof YoFiElement){_0x1fc2ea[_0xc7c185(0x161)](_0x3c860e);continue;}if(typeof _0x3c860e==_0xc7c185(0x1a6)){_0x1538c0+=_0x3c860e;continue;}_0x3c860e instanceof Object&&(_0x1e06b0=_0x3c860e);}return new YoFiElement({'tag':Y['table'],'attrs':_0x1e06b0,'cheldren':_0x1fc2ea?_0x1fc2ea[_0xc7c185(0x181)](_0x137ed4=>typeof _0x137ed4!=_0xc7c185(0x1a6)):undefined,'init':_0x15f0b7,'textContent':_0x1538c0});},_tbody=(..._0x5e639b)=>{var _0x3731f3=_0x239d5f,_0x16c2c1,_0x31c281=[],_0x428330,_0x594c0c='';for(let _0x5793e0 of _0x5e639b){if(typeof _0x5793e0==_0x3731f3(0x178)){_0x428330=_0x5793e0;continue;}if(_0x5793e0 instanceof YoFiElement){_0x31c281['push'](_0x5793e0);continue;}if(typeof _0x5793e0==_0x3731f3(0x1a6)){_0x594c0c+=_0x5793e0;continue;}_0x5793e0 instanceof Object&&(_0x16c2c1=_0x5793e0);}return new YoFiElement({'tag':Y[_0x3731f3(0x1ab)],'attrs':_0x16c2c1,'cheldren':_0x31c281?_0x31c281[_0x3731f3(0x181)](_0x417648=>typeof _0x417648!=_0x3731f3(0x1a6)):undefined,'init':_0x428330,'textContent':_0x594c0c});},_td=(..._0x50392e)=>{var _0x48cac2=_0x239d5f,_0x3a6f19,_0x37f768=[],_0x3efb7a,_0x54c168='';for(let _0x22f0b7 of _0x50392e){if(typeof _0x22f0b7==_0x48cac2(0x178)){_0x3efb7a=_0x22f0b7;continue;}if(_0x22f0b7 instanceof YoFiElement){_0x37f768['push'](_0x22f0b7);continue;}if(typeof _0x22f0b7==_0x48cac2(0x1a6)){_0x54c168+=_0x22f0b7;continue;}_0x22f0b7 instanceof Object&&(_0x3a6f19=_0x22f0b7);}return new YoFiElement({'tag':Y['td'],'attrs':_0x3a6f19,'cheldren':_0x37f768?_0x37f768[_0x48cac2(0x181)](_0x140ea6=>typeof _0x140ea6!='string'):undefined,'init':_0x3efb7a,'textContent':_0x54c168});},_template=(..._0x1be3b1)=>{var _0x39df13=_0x239d5f,_0x219045,_0x17b0a9=[],_0x5d8cf1,_0x8bd140='';for(let _0x5048ca of _0x1be3b1){if(typeof _0x5048ca==_0x39df13(0x178)){_0x5d8cf1=_0x5048ca;continue;}if(_0x5048ca instanceof YoFiElement){_0x17b0a9[_0x39df13(0x161)](_0x5048ca);continue;}if(typeof _0x5048ca==_0x39df13(0x1a6)){_0x8bd140+=_0x5048ca;continue;}_0x5048ca instanceof Object&&(_0x219045=_0x5048ca);}return new YoFiElement({'tag':Y['template'],'attrs':_0x219045,'cheldren':_0x17b0a9?_0x17b0a9[_0x39df13(0x181)](_0x1e7647=>typeof _0x1e7647!=_0x39df13(0x1a6)):undefined,'init':_0x5d8cf1,'textContent':_0x8bd140});},_textarea=(..._0x33e5a8)=>{var _0x1909f2=_0x239d5f,_0x2f872b,_0x1351af=[],_0xec4bcc,_0x20a02d='';for(let _0x5b1f07 of _0x33e5a8){if(typeof _0x5b1f07==_0x1909f2(0x178)){_0xec4bcc=_0x5b1f07;continue;}if(_0x5b1f07 instanceof YoFiElement){_0x1351af[_0x1909f2(0x161)](_0x5b1f07);continue;}if(typeof _0x5b1f07==_0x1909f2(0x1a6)){_0x20a02d+=_0x5b1f07;continue;}_0x5b1f07 instanceof Object&&(_0x2f872b=_0x5b1f07);}return new YoFiElement({'tag':Y[_0x1909f2(0x165)],'attrs':_0x2f872b,'cheldren':_0x1351af?_0x1351af[_0x1909f2(0x181)](_0x53591a=>typeof _0x53591a!=_0x1909f2(0x1a6)):undefined,'init':_0xec4bcc,'textContent':_0x20a02d});},_tfoot=(..._0x3a9dc0)=>{var _0x17d89a=_0x239d5f,_0x1c2868,_0x538f9a=[],_0x267544,_0x453134='';for(let _0x5f4cb0 of _0x3a9dc0){if(typeof _0x5f4cb0==_0x17d89a(0x178)){_0x267544=_0x5f4cb0;continue;}if(_0x5f4cb0 instanceof YoFiElement){_0x538f9a['push'](_0x5f4cb0);continue;}if(typeof _0x5f4cb0==_0x17d89a(0x1a6)){_0x453134+=_0x5f4cb0;continue;}_0x5f4cb0 instanceof Object&&(_0x1c2868=_0x5f4cb0);}return new YoFiElement({'tag':Y['tfoot'],'attrs':_0x1c2868,'cheldren':_0x538f9a?_0x538f9a[_0x17d89a(0x181)](_0x430d80=>typeof _0x430d80!=_0x17d89a(0x1a6)):undefined,'init':_0x267544,'textContent':_0x453134});},_th=(..._0x21a0ab)=>{var _0xd833d0=_0x239d5f,_0x437d60,_0xf275ae=[],_0x437c31,_0x260d25='';for(let _0x5d9dd5 of _0x21a0ab){if(typeof _0x5d9dd5==_0xd833d0(0x178)){_0x437c31=_0x5d9dd5;continue;}if(_0x5d9dd5 instanceof YoFiElement){_0xf275ae['push'](_0x5d9dd5);continue;}if(typeof _0x5d9dd5==_0xd833d0(0x1a6)){_0x260d25+=_0x5d9dd5;continue;}_0x5d9dd5 instanceof Object&&(_0x437d60=_0x5d9dd5);}return new YoFiElement({'tag':Y['th'],'attrs':_0x437d60,'cheldren':_0xf275ae?_0xf275ae[_0xd833d0(0x181)](_0x117744=>typeof _0x117744!=_0xd833d0(0x1a6)):undefined,'init':_0x437c31,'textContent':_0x260d25});},_thead=(..._0x4549d1)=>{var _0xa0954b=_0x239d5f,_0x55dca5,_0x25f978=[],_0x323fbe,_0xae1fa1='';for(let _0x1b0bef of _0x4549d1){if(typeof _0x1b0bef==_0xa0954b(0x178)){_0x323fbe=_0x1b0bef;continue;}if(_0x1b0bef instanceof YoFiElement){_0x25f978[_0xa0954b(0x161)](_0x1b0bef);continue;}if(typeof _0x1b0bef=='string'){_0xae1fa1+=_0x1b0bef;continue;}_0x1b0bef instanceof Object&&(_0x55dca5=_0x1b0bef);}return new YoFiElement({'tag':Y['thead'],'attrs':_0x55dca5,'cheldren':_0x25f978?_0x25f978[_0xa0954b(0x181)](_0x124f99=>typeof _0x124f99!=_0xa0954b(0x1a6)):undefined,'init':_0x323fbe,'textContent':_0xae1fa1});},_time=(..._0x5bc3d6)=>{var _0x47894a=_0x239d5f,_0x41f5d2,_0x555d39=[],_0x317525,_0x54b240='';for(let _0x10a9dc of _0x5bc3d6){if(typeof _0x10a9dc==_0x47894a(0x178)){_0x317525=_0x10a9dc;continue;}if(_0x10a9dc instanceof YoFiElement){_0x555d39[_0x47894a(0x161)](_0x10a9dc);continue;}if(typeof _0x10a9dc==_0x47894a(0x1a6)){_0x54b240+=_0x10a9dc;continue;}_0x10a9dc instanceof Object&&(_0x41f5d2=_0x10a9dc);}return new YoFiElement({'tag':Y[_0x47894a(0x173)],'attrs':_0x41f5d2,'cheldren':_0x555d39?_0x555d39[_0x47894a(0x181)](_0x1fc50c=>typeof _0x1fc50c!=_0x47894a(0x1a6)):undefined,'init':_0x317525,'textContent':_0x54b240});},_title=(..._0x3edaa2)=>{var _0x5bf4a3=_0x239d5f,_0x2c836b,_0x403101=[],_0x11ba1c,_0x219a49='';for(let _0xe98ff2 of _0x3edaa2){if(typeof _0xe98ff2==_0x5bf4a3(0x178)){_0x11ba1c=_0xe98ff2;continue;}if(_0xe98ff2 instanceof YoFiElement){_0x403101[_0x5bf4a3(0x161)](_0xe98ff2);continue;}if(typeof _0xe98ff2==_0x5bf4a3(0x1a6)){_0x219a49+=_0xe98ff2;continue;}_0xe98ff2 instanceof Object&&(_0x2c836b=_0xe98ff2);}return new YoFiElement({'tag':Y[_0x5bf4a3(0x18c)],'attrs':_0x2c836b,'cheldren':_0x403101?_0x403101[_0x5bf4a3(0x181)](_0x2e2a52=>typeof _0x2e2a52!=_0x5bf4a3(0x1a6)):undefined,'init':_0x11ba1c,'textContent':_0x219a49});},_tr=(..._0x571531)=>{var _0x5f353d=_0x239d5f,_0x7c89d1,_0x3ab0fb=[],_0x5bb737,_0x463539='';for(let _0x57328e of _0x571531){if(typeof _0x57328e=='function'){_0x5bb737=_0x57328e;continue;}if(_0x57328e instanceof YoFiElement){_0x3ab0fb[_0x5f353d(0x161)](_0x57328e);continue;}if(typeof _0x57328e=='string'){_0x463539+=_0x57328e;continue;}_0x57328e instanceof Object&&(_0x7c89d1=_0x57328e);}return new YoFiElement({'tag':Y['tr'],'attrs':_0x7c89d1,'cheldren':_0x3ab0fb?_0x3ab0fb[_0x5f353d(0x181)](_0x4c532a=>typeof _0x4c532a!=_0x5f353d(0x1a6)):undefined,'init':_0x5bb737,'textContent':_0x463539});},_track=(..._0x13a616)=>{var _0x1bc374=_0x239d5f,_0x5b7967,_0x2b6389=[],_0x31b505,_0x4873b9='';for(let _0xd338a2 of _0x13a616){if(typeof _0xd338a2=='function'){_0x31b505=_0xd338a2;continue;}if(_0xd338a2 instanceof YoFiElement){_0x2b6389[_0x1bc374(0x161)](_0xd338a2);continue;}if(typeof _0xd338a2=='string'){_0x4873b9+=_0xd338a2;continue;}_0xd338a2 instanceof Object&&(_0x5b7967=_0xd338a2);}return new YoFiElement({'tag':Y['track'],'attrs':_0x5b7967,'cheldren':_0x2b6389?_0x2b6389[_0x1bc374(0x181)](_0x3e4d55=>typeof _0x3e4d55!=_0x1bc374(0x1a6)):undefined,'init':_0x31b505,'textContent':_0x4873b9});},_u=(..._0x31e3c2)=>{var _0x1c3d12=_0x239d5f,_0x4896a7,_0x5763da=[],_0x1704b3,_0x1dd4b5='';for(let _0x3744a9 of _0x31e3c2){if(typeof _0x3744a9==_0x1c3d12(0x178)){_0x1704b3=_0x3744a9;continue;}if(_0x3744a9 instanceof YoFiElement){_0x5763da[_0x1c3d12(0x161)](_0x3744a9);continue;}if(typeof _0x3744a9==_0x1c3d12(0x1a6)){_0x1dd4b5+=_0x3744a9;continue;}_0x3744a9 instanceof Object&&(_0x4896a7=_0x3744a9);}return new YoFiElement({'tag':Y['u'],'attrs':_0x4896a7,'cheldren':_0x5763da?_0x5763da[_0x1c3d12(0x181)](_0x37c198=>typeof _0x37c198!=_0x1c3d12(0x1a6)):undefined,'init':_0x1704b3,'textContent':_0x1dd4b5});},_ul=(..._0x509008)=>{var _0x376c0d=_0x239d5f,_0x4f877b,_0x501410=[],_0x3e241d,_0x95113='';for(let _0xea8651 of _0x509008){if(typeof _0xea8651==_0x376c0d(0x178)){_0x3e241d=_0xea8651;continue;}if(_0xea8651 instanceof YoFiElement){_0x501410[_0x376c0d(0x161)](_0xea8651);continue;}if(typeof _0xea8651==_0x376c0d(0x1a6)){_0x95113+=_0xea8651;continue;}_0xea8651 instanceof Object&&(_0x4f877b=_0xea8651);}return new YoFiElement({'tag':Y['ul'],'attrs':_0x4f877b,'cheldren':_0x501410?_0x501410[_0x376c0d(0x181)](_0x4ce8ce=>typeof _0x4ce8ce!=_0x376c0d(0x1a6)):undefined,'init':_0x3e241d,'textContent':_0x95113});},_var=(..._0x11808a)=>{var _0x45cf7d=_0x239d5f,_0x2ddedd,_0x4bece5=[],_0x35d610,_0x3f19a6='';for(let _0x514381 of _0x11808a){if(typeof _0x514381==_0x45cf7d(0x178)){_0x35d610=_0x514381;continue;}if(_0x514381 instanceof YoFiElement){_0x4bece5[_0x45cf7d(0x161)](_0x514381);continue;}if(typeof _0x514381=='string'){_0x3f19a6+=_0x514381;continue;}_0x514381 instanceof Object&&(_0x2ddedd=_0x514381);}return new YoFiElement({'tag':Y[_0x45cf7d(0x15c)],'attrs':_0x2ddedd,'cheldren':_0x4bece5?_0x4bece5[_0x45cf7d(0x181)](_0x882885=>typeof _0x882885!='string'):undefined,'init':_0x35d610,'textContent':_0x3f19a6});},_video=(..._0x49c220)=>{var _0x2cbf68=_0x239d5f,_0x3f5fb5,_0x23dde2=[],_0x371658,_0x4426d7='';for(let _0x806536 of _0x49c220){if(typeof _0x806536==_0x2cbf68(0x178)){_0x371658=_0x806536;continue;}if(_0x806536 instanceof YoFiElement){_0x23dde2[_0x2cbf68(0x161)](_0x806536);continue;}if(typeof _0x806536==_0x2cbf68(0x1a6)){_0x4426d7+=_0x806536;continue;}_0x806536 instanceof Object&&(_0x3f5fb5=_0x806536);}return new YoFiElement({'tag':Y[_0x2cbf68(0x1a5)],'attrs':_0x3f5fb5,'cheldren':_0x23dde2?_0x23dde2[_0x2cbf68(0x181)](_0x3daf79=>typeof _0x3daf79!=_0x2cbf68(0x1a6)):undefined,'init':_0x371658,'textContent':_0x4426d7});},_wbr=(..._0x462aef)=>{var _0x14c90e=_0x239d5f,_0x5c8801,_0x413fa6=[],_0x4ddf38,_0x4d2bc2='';for(let _0x562914 of _0x462aef){if(typeof _0x562914==_0x14c90e(0x178)){_0x4ddf38=_0x562914;continue;}if(_0x562914 instanceof YoFiElement){_0x413fa6['push'](_0x562914);continue;}if(typeof _0x562914==_0x14c90e(0x1a6)){_0x4d2bc2+=_0x562914;continue;}_0x562914 instanceof Object&&(_0x5c8801=_0x562914);}return new YoFiElement({'tag':Y[_0x14c90e(0x1a8)],'attrs':_0x5c8801,'cheldren':_0x413fa6?_0x413fa6['filter'](_0x121589=>typeof _0x121589!=_0x14c90e(0x1a6)):undefined,'init':_0x4ddf38,'textContent':_0x4d2bc2});};
+"use strict";
+class Yprops {
+    a = "a";
+    abbr = "abbr";
+    address = "address";
+    area = "area";
+    article = "article";
+    aside = "aside";
+    audio = "audio";
+    b = "b";
+    base = "base";
+    bdi = "bdi";
+    bdo = "bdo";
+    blockquote = "blockquote";
+    body = "body";
+    br = "br";
+    button = "button";
+    canvas = "canvas";
+    caption = "caption";
+    cite = "cite";
+    co = "co";
+    col = "col";
+    colgroup = "colgroup";
+    data = "data";
+    datalist = "datalist";
+    dd = "dd";
+    del = "del";
+    details = "details";
+    dfn = "dfn";
+    dialog = "dialog";
+    div = "div";
+    dl = "dl";
+    dt = "dt";
+    em = "em";
+    embed = "embed";
+    fieldset = "fieldset";
+    figcaption = "figcaption";
+    figure = "figure";
+    footer = "footer";
+    form = "form";
+    h1 = "h1";
+    h2 = "h2";
+    h3 = "h3";
+    h4 = "h4";
+    h5 = "h5";
+    h6 = "h6";
+    head = "head";
+    header = "header";
+    hgroup = "hgroup";
+    hr = "hr";
+    html = "html";
+    i = "i";
+    iframe = "iframe";
+    img = "img";
+    input = "input";
+    ins = "ins";
+    kbd = "kbd";
+    label = "label";
+    legend = "legend";
+    li = "li";
+    link = "link";
+    main = "main";
+    map = "map";
+    mark = "mark";
+    menu = "menu";
+    meta = "meta";
+    meter = "meter";
+    nav = "nav";
+    noscript = "noscript";
+    object = "object";
+    ol = "ol";
+    optgroup = "optgroup";
+    option = "option";
+    output = "output";
+    p = "p";
+    picture = "picture";
+    pre = "pre";
+    progress = "progress";
+    q = "q";
+    rp = "rp";
+    rt = "rt";
+    ruby = "ruby";
+    s = "s";
+    samp = "samp";
+    script = "script";
+    section = "section";
+    select = "select";
+    slot = "slot";
+    small = "small";
+    source = "source";
+    span = "span";
+    strong = "strong";
+    style = "style";
+    sub = "sub";
+    summary = "summary";
+    sup = "sup";
+    table = "table";
+    tbody = "tbody";
+    td = "td";
+    template = "template";
+    textarea = "textarea";
+    tfoot = "tfoot";
+    th = "th";
+    thead = "thead";
+    time = "time";
+    title = "title";
+    tr = "tr";
+    track = "track";
+    u = "u";
+    ul = "ul";
+    var = "var";
+    video = "video";
+    wbr = "wbr";
+}
+class Y {
+    static a = "a";
+    static abbr = "abbr";
+    static address = "address";
+    static area = "area";
+    static article = "article";
+    static aside = "aside";
+    static audio = "audio";
+    static b = "b";
+    static base = "base";
+    static bdi = "bdi";
+    static bdo = "bdo";
+    static blockquote = "blockquote";
+    static body = "body";
+    static br = "br";
+    static button = "button";
+    static canvas = "canvas";
+    static caption = "caption";
+    static cite = "cite";
+    static co = "co";
+    static col = "col";
+    static colgroup = "colgroup";
+    static data = "data";
+    static datalist = "datalist";
+    static dd = "dd";
+    static del = "del";
+    static details = "details";
+    static dfn = "dfn";
+    static dialog = "dialog";
+    static div = "div";
+    static dl = "dl";
+    static dt = "dt";
+    static em = "em";
+    static embed = "embed";
+    static fieldset = "fieldset";
+    static figcaption = "figcaption";
+    static figure = "figure";
+    static footer = "footer";
+    static form = "form";
+    static h1 = "h1";
+    static h2 = "h2";
+    static h3 = "h3";
+    static h4 = "h4";
+    static h5 = "h5";
+    static h6 = "h6";
+    static head = "head";
+    static header = "header";
+    static hgroup = "hgroup";
+    static hr = "hr";
+    static html = "html";
+    static i = "i";
+    static iframe = "iframe";
+    static img = "img";
+    static input = "input";
+    static ins = "ins";
+    static kbd = "kbd";
+    static label = "label";
+    static legend = "legend";
+    static li = "li";
+    static link = "link";
+    static main = "main";
+    static map = "map";
+    static mark = "mark";
+    static menu = "menu";
+    static meta = "meta";
+    static meter = "meter";
+    static nav = "nav";
+    static noscript = "noscript";
+    static object = "object";
+    static ol = "ol";
+    static optgroup = "optgroup";
+    static option = "option";
+    static output = "output";
+    static p = "p";
+    static picture = "picture";
+    static pre = "pre";
+    static progress = "progress";
+    static q = "q";
+    static rp = "rp";
+    static rt = "rt";
+    static ruby = "ruby";
+    static s = "s";
+    static samp = "samp";
+    static script = "script";
+    static section = "section";
+    static select = "select";
+    static slot = "slot";
+    static small = "small";
+    static source = "source";
+    static span = "span";
+    static strong = "strong";
+    static style = "style";
+    static sub = "sub";
+    static summary = "summary";
+    static sup = "sup";
+    static table = "table";
+    static tbody = "tbody";
+    static td = "td";
+    static template = "template";
+    static textarea = "textarea";
+    static tfoot = "tfoot";
+    static th = "th";
+    static thead = "thead";
+    static time = "time";
+    static title = "title";
+    static tr = "tr";
+    static track = "track";
+    static u = "u";
+    static ul = "ul";
+    static var = "var";
+    static video = "video";
+    static wbr = "wbr";
+}
+const _a = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.a,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _abbr = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.abbr,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _address = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.address,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _area = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.area,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _article = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.article,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _aside = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.aside,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _audio = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.audio,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _b = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.b,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _base = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.base,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _bdi = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.bdi,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _bdo = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.bdo,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _blockquote = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.blockquote,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _body = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.body,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _br = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.br,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _button = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.button,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _canvas = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.canvas,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _caption = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.caption,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _cite = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.cite,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _co = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.co,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _col = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.col,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _colgroup = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.colgroup,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _data = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.data,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _datalist = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.datalist,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _dd = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.dd,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _del = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.del,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _details = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.details,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _dfn = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.dfn,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _dialog = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.dialog,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _div = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.div,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _dl = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.dl,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _dt = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.dt,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _em = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.em,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _embed = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.embed,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _fieldset = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.fieldset,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _figcaption = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.figcaption,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _figure = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.figure,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _footer = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.footer,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _form = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.form,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _h1 = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.h1,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _h2 = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.h2,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _h3 = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.h3,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _h4 = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.h4,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _h5 = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.h5,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _h6 = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.h6,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _head = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.head,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _header = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.header,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _hgroup = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.hgroup,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _hr = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.hr,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _html = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.html,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _i = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.i,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _iframe = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.iframe,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _img = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.img,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _input = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.input,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _ins = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.ins,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _kbd = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.kbd,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _label = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.label,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _legend = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.legend,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _li = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.li,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _link = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.link,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _main = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.main,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _map = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.map,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _mark = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.mark,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _menu = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.menu,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _meta = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.meta,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _meter = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.meter,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _nav = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.nav,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _noscript = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.noscript,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _object = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.object,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _ol = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.ol,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _optgroup = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.optgroup,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _option = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.option,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _output = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.output,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _p = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.p,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _picture = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.picture,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _pre = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.pre,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _progress = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.progress,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _q = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.q,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _rp = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.rp,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _rt = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.rt,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _ruby = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.ruby,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _s = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.s,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _samp = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.samp,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _script = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.script,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _section = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.section,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _select = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.select,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _slot = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.slot,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _small = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.small,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _source = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.source,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _span = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.span,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _strong = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.strong,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _style = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.style,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _sub = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.sub,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _summary = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.summary,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _sup = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.sup,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _table = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.table,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _tbody = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.tbody,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _td = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.td,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _template = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.template,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _textarea = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.textarea,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _tfoot = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.tfoot,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _th = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.th,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _thead = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.thead,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _time = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.time,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _title = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.title,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _tr = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.tr,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _track = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.track,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _u = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.u,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _ul = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.ul,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _var = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.var,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _video = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.video,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};
+const _wbr = (...args) => {
+    var attrs;
+    var cheldren = [];
+    var init;
+    var textContent = "";
+    for (let arg of args) {
+        if (typeof arg == "function") {
+            init = arg;
+            continue;
+        }
+        if (arg instanceof YoFiElement) {
+            cheldren.push(arg);
+            continue;
+        }
+        if (typeof arg == "string") {
+            textContent += arg;
+            continue;
+        }
+        if (arg instanceof Object) {
+            attrs = arg;
+        }
+    }
+    return new YoFiElement({
+        tag: Y.wbr,
+        attrs: attrs,
+        cheldren: cheldren ? cheldren.filter((value) => typeof value != "string") : undefined,
+        init: init,
+        textContent: textContent
+    });
+};

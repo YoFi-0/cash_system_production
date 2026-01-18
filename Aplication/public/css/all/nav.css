@@ -155,7 +155,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  font-size: max(1rem, 2vw);
 }
 .cards .user_info h1 span {
   color: #666;

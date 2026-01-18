@@ -1,1 +1,172 @@
-'use strict';(function(_0x25ba82,_0x4876be){const _0x1c8b30=_0x4ae0,_0x434f1d=_0x25ba82();while(!![]){try{const _0xf7026b=-parseInt(_0x1c8b30(0xcc))/0x1+-parseInt(_0x1c8b30(0xd1))/0x2*(-parseInt(_0x1c8b30(0xb3))/0x3)+-parseInt(_0x1c8b30(0x99))/0x4+-parseInt(_0x1c8b30(0xb1))/0x5+-parseInt(_0x1c8b30(0xb0))/0x6+parseInt(_0x1c8b30(0xad))/0x7*(parseInt(_0x1c8b30(0xbe))/0x8)+-parseInt(_0x1c8b30(0xc2))/0x9*(-parseInt(_0x1c8b30(0xca))/0xa);if(_0xf7026b===_0x4876be)break;else _0x434f1d['push'](_0x434f1d['shift']());}catch(_0x43629e){_0x434f1d['push'](_0x434f1d['shift']());}}}(_0x282e,0x9b75e));function _0x4ae0(_0x5e9734,_0x43bbeb){const _0x282e04=_0x282e();return _0x4ae0=function(_0x4ae0ee,_0x41db2f){_0x4ae0ee=_0x4ae0ee-0x72;let _0x14f4a5=_0x282e04[_0x4ae0ee];return _0x14f4a5;},_0x4ae0(_0x5e9734,_0x43bbeb);}var div;function _0x282e(){const _0x159baf=['startsWith','target_server_id','target_logs_channel_id','target_lang','/null','invalid\x20server\x20id','config_form','tag','image','please\x20add\x20the\x20bot\x20in\x20your\x20server\x20and\x20come\x20back\x20to\x20create\x20your\x20own\x20digital\x20store','disc','logs','1806mfspyr','server\x20error','pay_pal_email','2182860owtiuo','1262485LOZgKj','Add\x20The\x20Bot\x20','3eMjDOn','server_payments','stringify','no_bot','#crad_info_2\x20.target_text','parse','target_discrption','server_data','Basket\x20Image','Store\x20Mangers\x20Users\x20ID','setItem','37464oloFxQ','element','text','POST','4210236QtOHdr','img','The\x20bot\x20is\x20not\x20in\x20your\x20server','server_name','no\x20configaration\x20yet','value','server_donations','red','40zRkBHX','.input_lable','1103877OEboxV','configaration\x20added','is_bot_added','files','The\x20Cash\x20System\x20Bot\x20Must\x20Be\x20On\x20Your\x20Server','315450HCeRPh','user_data','basket_embed_description','server\x20config','select','number','This\x20Store\x20Payments','cards','inint_page','pay_pal','trim','config\x20created','map','setText','/api/v1/dashbord/server/create_config','config\x20updated','target_basket_embed_description','server_img','/api/v1/dashbord/server/render_log?server_id=','English','user_user','/api/v1/dashbord/all/get_user_data','missing\x20fields','server_id','children','Server\x20Invite\x20Link','Somthing\x20Is\x20Wrong','Basket\x20Description','append','querySelectorAll','split','target_invite_link','Donations','getItem','user_image','rate','forEach','location','multy\x20number','/images/store.jpg','3520820DzdBBS','lang','Logs\x20channel\x20ID','products_mangers','paypal\x20Email','/images/bascket.svg','get','json'];_0x282e=function(){return _0x159baf;};return _0x282e();}const renderServerConfig=async()=>{const _0x452cbc=_0x4ae0;var _0x5a6b52,_0x50d815=![];if(localStorage[_0x452cbc(0x92)](_0x452cbc(0x72)))_0x5a6b52=JSON[_0x452cbc(0xb8)](localStorage['getItem'](_0x452cbc(0x72)));else{const _0x3f5e23=await fetch(_0x452cbc(0x86),{'method':'get'});_0x5a6b52=await _0x3f5e23['json'](),is_respons_error(_0x5a6b52)&&(_0x50d815=!![]),localStorage[_0x452cbc(0xbd)](_0x452cbc(0x72),JSON[_0x452cbc(0xb5)](_0x5a6b52));}var _0x1e8c1a='';window[_0x452cbc(0x96)]['href'][_0x452cbc(0x8f)]('?')[0x1]['split']('&')[_0x452cbc(0x95)](_0x41f38b=>{const _0x470f1a=_0x452cbc;_0x41f38b[_0x470f1a(0xa1)](_0x470f1a(0x88))&&(_0x1e8c1a=_0x41f38b[_0x470f1a(0x8f)]('=')[0x1]);});const _0x278b8b=await fetch(_0x452cbc(0x83)+_0x1e8c1a,{'method':_0x452cbc(0x9f)}),_0x2a5722=await _0x278b8b[_0x452cbc(0xa0)]();is_respons_error(_0x2a5722)&&(_0x50d815=!![]),user_user=_0x2a5722['try'],_page(_0x50d815?_div({'classes':'inint_page'}):_div({'classes':_0x452cbc(0x79)},_thisStore_filtter_PaymentsPupp_input(),_donations_filtter_Pubb_input(),_paypalInput(),_div({'classes':_0x452cbc(0x78)},UserSide(_0x5a6b52['username'],_0x5a6b52[_0x452cbc(0x93)],_0x5a6b52[_0x452cbc(0xa8)],_0x5a6b52['pay_pal_email']?!![]:![]),pagePathSide(_0x2a5722[_0x452cbc(0xba)][_0x452cbc(0xc5)],_0x2a5722[_0x452cbc(0xba)][_0x452cbc(0x82)]['endsWith'](_0x452cbc(0xa5))?_0x452cbc(0x98):_0x2a5722[_0x452cbc(0xba)]['server_img'],_0x2a5722[_0x452cbc(0xba)]['id']?'configaration\x20added':_0x452cbc(0xc6),_0x2a5722[_0x452cbc(0xba)]['id']?'greeen':_0x452cbc(0xc9),_0x2a5722['server_data'][_0x452cbc(0x94)]?''+_0x2a5722['server_data']['rate']:''),_0x5a6b52['pay_pal_email']?PayPalSide(_0x5a6b52[_0x452cbc(0xaf)]):PayPalSide()),!_0x2a5722[_0x452cbc(0xce)]?_div({'classes':_0x452cbc(0xb6)},_h1(_0x452cbc(0xc4)),_p(_0x452cbc(0xaa)),_a(_0x452cbc(0xb2),{'href':'https://discord.com/api/oauth2/authorize?client_id=1097245926453690389&permissions=2048&scope=bot%20applications.commands'})):_div({'classes':_0x452cbc(0xac)},_div({'classes':'server_config'},_inputsHolder({'args':[_input_with_label(_0x2a5722[_0x452cbc(0xba)][_0x452cbc(0xaf)],'text',_0x452cbc(0x9d),!![]),_input_with_label(_0x2a5722[_0x452cbc(0xba)][_0x452cbc(0x9a)],_0x452cbc(0x75),'language',!![],[{'name':_0x452cbc(0x84),'value':'English'},{'name':'Arabic','value':'Arabic'}]),_input_with_label(_0x2a5722[_0x452cbc(0xba)]['logs_channel'],_0x452cbc(0x76),_0x452cbc(0x9b),!![]),_input_with_label(_0x2a5722['server_data']['basket_embed_imageURL']||_0x452cbc(0x9e),_0x452cbc(0xa9),_0x452cbc(0xbb),!![]),_input_with_label(_0x2a5722['server_data'][_0x452cbc(0x73)],'textarea',_0x452cbc(0x8c),![]),_input_with_label(_0x2a5722['server_data']['invite_link'],_0x452cbc(0xc0),_0x452cbc(0x8a),![]),_input_with_label(_0x2a5722[_0x452cbc(0xba)][_0x452cbc(0xab)],'textarea','Server\x20Description',![]),_input_with_label(_0x2a5722[_0x452cbc(0xba)][_0x452cbc(0x9c)]?JSON[_0x452cbc(0xb8)](_0x2a5722[_0x452cbc(0xba)]['products_mangers']):[],_0x452cbc(0x97),_0x452cbc(0xbc),![])],'title':_0x452cbc(0x74),'onSbmit':async _0x581bd4=>{const _0x22bfe3=_0x452cbc;_0x581bd4[_0x22bfe3(0xbf)]['id']=_0x22bfe3(0xa7);const _0x254c43=_0x581bd4[_0x22bfe3(0xbf)][_0x22bfe3(0x89)][0x0][_0x22bfe3(0x8e)](_0x22bfe3(0xcb)),_0x4a0e17=new FormData();_0x4a0e17[_0x22bfe3(0x8d)](_0x22bfe3(0x85),user_user),_0x4a0e17['append'](_0x22bfe3(0x7a),_0x254c43[0x0][_0x22bfe3(0x89)][0x1]['value'][_0x22bfe3(0x7b)]()),_0x4a0e17['append'](_0x22bfe3(0xa4),_0x254c43[0x1][_0x22bfe3(0x89)][0x1]['value'][_0x22bfe3(0x7b)]()),_0x4a0e17['append'](_0x22bfe3(0xa3),_0x254c43[0x2]['children'][0x1][_0x22bfe3(0xc7)][_0x22bfe3(0x7b)]());_0x254c43[0x3][_0x22bfe3(0x89)][0x1][_0x22bfe3(0x89)][0x2]?.[_0x22bfe3(0xcf)]&&_0x4a0e17[_0x22bfe3(0x8d)](_0x22bfe3(0xc3),_0x254c43[0x3][_0x22bfe3(0x89)][0x1][_0x22bfe3(0x89)][0x2][_0x22bfe3(0xcf)][0x0]);_0x4a0e17[_0x22bfe3(0x8d)](_0x22bfe3(0x81),_0x254c43[0x4][_0x22bfe3(0x89)][0x1][_0x22bfe3(0xc7)][_0x22bfe3(0x7b)]()),_0x4a0e17[_0x22bfe3(0x8d)](_0x22bfe3(0x90),_0x254c43[0x5][_0x22bfe3(0x89)][0x1]['value'][_0x22bfe3(0x7b)]()),_0x4a0e17[_0x22bfe3(0x8d)](_0x22bfe3(0xb9),_0x254c43[0x6][_0x22bfe3(0x89)][0x1][_0x22bfe3(0xc7)][_0x22bfe3(0x7b)]()),_0x4a0e17[_0x22bfe3(0x8d)]('target_products_mangers',JSON[_0x22bfe3(0xb5)](Array['from'](_0x254c43[0x7][_0x22bfe3(0x89)][0x1][_0x22bfe3(0x89)][0x0][_0x22bfe3(0x89)])[_0x22bfe3(0x7d)](_0xffcb45=>_0xffcb45['value'][_0x22bfe3(0x7b)]()))),_0x4a0e17[_0x22bfe3(0x8d)](_0x22bfe3(0xa2),_0x1e8c1a);let _0x520a28=()=>{const _0x394866=_0x22bfe3;return{'is_error':!![],'mag':_0x394866(0x8b)};};try{await $['ajax']({'url':_0x22bfe3(0x7f),'type':_0x22bfe3(0xc1),'data':_0x4a0e17,'success':function(_0x4e010b){const _0x5534f9=_0x22bfe3;if(_0x4e010b==_0x5534f9(0x87))_0x520a28=()=>{return{'is_error':!![],'mag':'You\x20Need\x20To\x20Fill\x20The\x20Required\x20Inputs'};};else{if(_0x4e010b==_0x5534f9(0x80)||_0x4e010b==_0x5534f9(0x7c))_0x520a28=()=>{const _0x4eca4a=_0x5534f9;return _(_0x4eca4a(0xb7))[_0x4eca4a(0x7e)](_0x4eca4a(0xcd))['addStyles']({'color':'#05FF00'}),{'is_error':![],'mag':'Your\x20Store\x20Configration\x20Has\x20Been\x20Updated'};};else{if(_0x4e010b==_0x5534f9(0xae)||_0x4e010b=='server\x20err')_0x520a28=()=>{return{'is_error':!![],'mag':'server\x20Error\x20Somthin\x20Is\x20Worng'};};else _0x4e010b==_0x5534f9(0xa6)?_0x520a28=()=>{const _0x517126=_0x5534f9;return{'is_error':!![],'mag':_0x517126(0xd0)};}:_0x520a28=()=>{return{'is_error':!![],'mag':_0x4e010b};};}}},'cache':![],'contentType':![],'processData':![]});}catch(_0x30ddd0){_0x520a28=()=>{const _0x3fc9e5=_0x22bfe3;return{'is_error':!![],'mag':_0x3fc9e5(0xae)};};}return{'on_done':_0x520a28};}})),_donation_logs({'title':_0x452cbc(0x77),'logs_cards':Render_Log['This_Store_Payments'](_0x2a5722[_0x452cbc(0xb4)])}),_donation_logs({'title':_0x452cbc(0x91),'logs_cards':Render_Log[_0x452cbc(0x91)](_0x2a5722[_0x452cbc(0xc8)])}))));};renderServerConfig();
+"use strict";
+var div;
+// var connectPaypalButton:YoFiElement
+// var connectOkButton:YoFiElement
+// var connectNoButton:YoFiElement
+const renderServerConfig = async () => {
+    // var paypal_puppElm:YoFiElement
+    var renderData;
+    var is_api_render_error = false;
+    if (localStorage.getItem("user_data")) {
+        renderData = JSON.parse(atob(localStorage.getItem("user_data")));
+    }
+    else {
+        const get_render_data = await fetch("/api/v1/dashbord/all/get_user_data", {
+            method: "get"
+        });
+        renderData = await get_render_data.json();
+        if (is_respons_error(renderData)) {
+            is_api_render_error = true;
+        }
+        localStorage.setItem("user_data", btoa(JSON.stringify(renderData)));
+    }
+    var target_server_id = "";
+    window.location.href.split("?")[1].split("&").forEach(value => {
+        if (value.startsWith("server_id")) {
+            target_server_id = value.split("=")[1];
+        }
+    });
+    const get_serverData = await fetch(`/api/v1/dashbord/server/render_log?server_id=${target_server_id}`, {
+        method: "get"
+    });
+    const server_data = await get_serverData.json();
+    if (is_respons_error(server_data)) {
+        is_api_render_error = true;
+    }
+    user_user = server_data.try;
+    _page(is_api_render_error ? _div({ classes: "inint_page" }) :
+        _div({
+            classes: "inint_page"
+        }, _thisStore_filtter_PaymentsPupp_input(), _donations_filtter_Pubb_input(), _paypalInput(), _div({
+            classes: "cards"
+        }, UserSide(renderData.username, renderData.user_image, renderData.tag, renderData.pay_pal_email ? true : false), pagePathSide(server_data.server_data.server_name, server_data.server_data.server_img.endsWith("/null") ? "/images/store.jpg" : server_data.server_data.server_img, server_data.server_data.id ? "configaration added" : "no configaration yet", server_data.server_data.id ? "greeen" : 'red', server_data.server_data.rate ? `${server_data.server_data.rate}` : ""), renderData.pay_pal_email ? PayPalSide(renderData.pay_pal_email) : PayPalSide()), !server_data.is_bot_added ?
+            _div({
+                classes: "no_bot"
+            }, _h1("The bot is not in your server"), _p("please add the bot in your server and come back to create your own digital store"), _a("Add The Bot ", {
+                href: "https://discord.com/api/oauth2/authorize?client_id=1097245926453690389&permissions=2048&scope=bot%20applications.commands",
+                target: "_blank"
+            }))
+            :
+                _div({
+                    classes: "logs"
+                }, _div({
+                    classes: "server_config"
+                }, _inputsHolder({
+                    args: [
+                        _input_with_label(server_data.server_data.pay_pal_email, "text", "paypal Email", true),
+                        _input_with_label(server_data.server_data.lang, "select", "language", true, [
+                            {
+                                name: "English",
+                                value: "English"
+                            },
+                            {
+                                name: "Arabic",
+                                value: "Arabic"
+                            },
+                        ]),
+                        _input_with_label(server_data.server_data.logs_channel, "number", "Logs channel ID", true),
+                        _input_with_label(server_data.server_data.basket_embed_imageURL || "/images/bascket.svg", "image", "Basket Image", true),
+                        _input_with_label(server_data.server_data.basket_embed_description, "textarea", "Basket Description", false),
+                        _input_with_label(server_data.server_data.invite_link, "text", "Server Invite Link", false),
+                        _input_with_label(server_data.server_data.disc, "textarea", "Server Description", false),
+                        _input_with_label(server_data.server_data.products_mangers ? JSON.parse(server_data.server_data.products_mangers) : [], "multy number", "Store Mangers Users ID", false),
+                    ],
+                    title: "server config",
+                    onSbmit: async (elm) => {
+                        elm.element.id = "config_form";
+                        const input_holder = elm.element.children[0].querySelectorAll(".input_lable");
+                        const formData = new FormData();
+                        formData.append("user_user", user_user);
+                        formData.append("pay_pal", input_holder[0].children[1].value.trim());
+                        formData.append("target_lang", input_holder[1].children[1].value.trim());
+                        formData.append("target_logs_channel_id", input_holder[2].children[1].value.trim());
+                        if (input_holder[3].children[1].children[2]?.files) {
+                            formData.append("img", input_holder[3].children[1].children[2].files[0]);
+                        }
+                        formData.append("target_basket_embed_description", input_holder[4].children[1].value.trim());
+                        formData.append("target_invite_link", input_holder[5].children[1].value.trim());
+                        formData.append("target_discrption", input_holder[6].children[1].value.trim());
+                        formData.append("target_products_mangers", JSON.stringify(Array.from(input_holder[7].children[1].children[0].children).map(input => input.value.trim())));
+                        formData.append("target_server_id", target_server_id);
+                        let on_done = () => {
+                            return {
+                                is_error: true,
+                                mag: "Somthing Is Wrong"
+                            };
+                        };
+                        try {
+                            await $.ajax({
+                                url: "/api/v1/dashbord/server/create_config",
+                                type: 'POST',
+                                data: formData,
+                                success: function (data) {
+                                    if (data == "missing fields") {
+                                        on_done = () => {
+                                            return {
+                                                is_error: true,
+                                                mag: "You Need To Fill The Required Inputs"
+                                            };
+                                        };
+                                    }
+                                    else if (data == "config updated" || data == "config created") {
+                                        on_done = () => {
+                                            _("#crad_info_2 .target_text").setText("configaration added").addStyles({
+                                                color: "#05FF00"
+                                            });
+                                            return {
+                                                is_error: false,
+                                                mag: "Your Store Configration Has Been Updated"
+                                            };
+                                        };
+                                    }
+                                    else if (data == "server error" || data == "server err") {
+                                        on_done = () => {
+                                            return {
+                                                is_error: true,
+                                                mag: "server Error Somthin Is Worng"
+                                            };
+                                        };
+                                    }
+                                    else if (data == "invalid server id") {
+                                        on_done = () => {
+                                            return {
+                                                is_error: true,
+                                                mag: "The Cash System Bot Must Be On Your Server"
+                                            };
+                                        };
+                                    }
+                                    else {
+                                        on_done = () => {
+                                            return {
+                                                is_error: true,
+                                                mag: data
+                                            };
+                                        };
+                                    }
+                                },
+                                cache: false,
+                                contentType: false,
+                                processData: false
+                            });
+                        }
+                        catch (err) {
+                            on_done = () => {
+                                return {
+                                    is_error: true,
+                                    mag: "server error"
+                                };
+                            };
+                        }
+                        return {
+                            on_done: on_done
+                        };
+                    }
+                })), _donation_logs({
+                    title: "This Store Payments",
+                    logs_cards: Render_Log.This_Store_Payments(server_data.server_payments)
+                }), _donation_logs({
+                    title: "Donations",
+                    logs_cards: Render_Log.Donations(server_data.server_donations)
+                }))));
+};
+renderServerConfig();

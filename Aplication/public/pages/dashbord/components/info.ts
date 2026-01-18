@@ -26,8 +26,11 @@ const cardInfo = ({
     titleName:string
 }) => {
     crad_info_id++
-    const title = () => isHaveSpan ? _h1(titleName, _span(` #${isHaveSpan.tag}`)) : _h1(titleName)
-    const isStras = () => isHaveStars ? _img({classes:"stars_image",src:`/images/stars/${isHaveStars.includes(".") ? `${isHaveStars.split(".")[0]}h.svg` : `${isHaveStars}.svg`}`}) : undefined
+    const title = () => isHaveSpan ? _h1(titleName) : _h1(titleName)
+    const isStras = () => isHaveStars ? _img({classes:"stars_image", style:{
+        border:"none",
+        boxShadow:"none"
+    } ,src:`/images/stars/${isHaveStars.includes(".") ? `${isHaveStars.split(".")[0]}h.svg` : `${isHaveStars}.svg`}`}) : undefined
     return _div(
         {
             classes:"user_info",
@@ -45,7 +48,7 @@ const cardInfo = ({
             _p(text, {
                 classes:"target_text",
                 style:{
-                    color:textColr == "greeen" ? "#05FF00" : textColr == "red" ? "#E31010" :"#FFF"
+                    color:textColr == "greeen" ? "#55b150" : textColr == "red" ? "#870808" :"#000"
                 }
             }),
             isStras()!
@@ -85,7 +88,7 @@ const PayPalSide = (email?:string) => {
             classes:"privte_paypal user_info"
         },
         email ? _p(`Paypal:${email} `, {"style":  {
-            color:  "#FFF",
+            color:  "#000",
             display:"inline-block",
             width:  "max(10vw, 10rem)",
             textOverflow:  "ellipsis",
@@ -93,7 +96,7 @@ const PayPalSide = (email?:string) => {
         }, id:"paypel_user_email"}) : _p("Paypal: ", {id:"paypel_user_email"} , _span(email ? email : " Embty",  
             {
                 "style":  {
-                    color:"#E31010",
+                    color:"#000",
                 },
             }
         ), (elm) =>{
